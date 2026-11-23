@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 64 64" aria-label="BotOffice logo">
+  <polygon points="32,6 58,19 32,32 6,19" fill="#FF5B1F" stroke="#16130F" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="6,19 32,32 32,60 6,47" fill="#16130F" stroke="#16130F" stroke-width="3.5" stroke-linejoin="round"/>
+  <polygon points="32,32 58,19 58,47 32,60" fill="#fff" stroke="#16130F" stroke-width="3.5" stroke-linejoin="round"/>
+  <g transform="translate(36,39) skewY(-26.6)"><text x="0" y="8" font-family="JetBrains Mono,monospace" font-weight="700" font-size="13" fill="#16130F">&gt;_</text></g>
+</svg>
