@@ -5,12 +5,26 @@
   <p>把 Grok Bot 机器人团队装进一间 3D 办公室：谁在线、谁找你、哪个群在聊，抬头就看见。</p>
   <p>
     <a href="https://www.botoffice.ai">官网</a> ·
-    <a href="https://github.com/PandoraReads/botoffice/releases">安装包</a> ·
+    <a href="https://github.com/PandoraReads/botoffice/releases/latest">下载安装包</a> ·
     <a href="https://www.botoffice.ai/#pricing">会员与定价</a>
   </p>
 </div>
 
 ---
+
+<p align="center">
+  <img src="docs/screens/office-starter.png" width="100%" alt="BotOffice 默认办公室">
+</p>
+<p align="center">
+  <sub>军议大帐 · 星际舰桥</sub><br><br>
+  <img src="docs/screens/style-junyi.png" width="49%" alt="军议大帐主题">
+  <img src="docs/screens/style-xingji.png" width="49%" alt="星际舰桥主题">
+</p>
+<p align="center">
+  <sub>霓虹夜市 · 圣诞小屋</sub><br><br>
+  <img src="docs/screens/style-nihong.png" width="49%" alt="霓虹夜市主题">
+  <img src="docs/screens/style-xmas.png" width="49%" alt="圣诞小屋主题">
+</p>
 
 ## 这是什么
 
@@ -24,28 +38,24 @@ BotOffice 是一个桌面应用。它在本机跑一个你的专属办公室网�
 - 🪑 **家具与主题收藏**：官网会员中心买的主题家具、收藏的季节限定，登录后自动摆进办公室
 - 📣 **公告推送**：新 Bot 员工上架、新主题、新商机，应用联网自动弹给你
 - 🔄 **一键更新**：设置里点一下，自动下载安装最新版
-- 🪟 **Windows / macOS**：开机自启，平时点桌面图标就能进办公室
+- 🪟 **Windows / macOS**：开机自启，双击桌面图标直接进办公室，不用先开浏览器
 
 ## 安装
 
-| 平台 | 状态 | 安装包 |
+从 [Releases](https://github.com/PandoraReads/botoffice/releases/latest) 下载最新安装包：
+
+| 平台 | 文件 | 说明 |
 | --- | --- | --- |
-| macOS | 即将发布 | [Releases](https://github.com/PandoraReads/botoffice/releases) |
-| Windows | 即将发布 | [Releases](https://github.com/PandoraReads/botoffice/releases) |
+| macOS（Apple Silicon） | `BotOffice-<版本>-mac-arm64.dmg` | 打开 dmg，把 BotOffice 拖进「应用程序」 |
+| macOS（zip 备选） | `BotOffice-<版本>-mac-arm64.zip` | 解压即用 |
+| Windows | `BotOffice-<版本>-win-x64-setup.exe` | 安装向导，装完桌面有图标 |
+| Windows（免安装） | `BotOffice-<版本>-win-x64.zip` | 解压后双击 `BotOffice.exe` |
 
-> 应用安装后也可在浏览器里打开本机办公室网页，支持「安装为应用」（PWA），像原生应用一样从 Dock / 开始菜单启动。
-
-### 想先跑起来看看？
-
-需要 Node.js 22.5+ 和一个 Grok Bot 账号：
-
-```bash
-git clone https://github.com/PandoraReads/botoffice.git
-cd botoffice
-node src/init.mjs        # 安装向导：端口、开机自启、打开办公室
-```
-
-> 注意：公开仓库暂不放源码，上面的方式将在首个版本发布后提供。也可以先到 [官网](https://www.botoffice.ai) 逛逛。
+> **macOS 首次打开**：安装包目前未签名公证，第一次要右键点 BotOffice →「打开」（或在「系统设置 → 隐私与安全性」点「仍要打开」），之后就能正常双击。
+>
+> **第一次启动**：双击图标后自动打开欢迎页，三步带你进办公室；办公室网页只有你能访问（本机访问口令，在办公室「设置」里可改）。
+>
+> 应用本体也可以在浏览器里「安装为应用」（PWA），像原生应用一样从 Dock / 开始菜单启动。
 
 ## 用起来
 
@@ -53,18 +63,24 @@ node src/init.mjs        # 安装向导：端口、开机自启、打开办公�
 2. 打开 BotOffice → 右上角齿轮 → 设置 → 办公室 → **一键导入**，机器人自动入座
 3. 左上角「招募 Bot」去官网人才库挑新员工，复制提示词或一键上岗
 
+<p align="center">
+  <sub>第一次打开的欢迎页</sub><br><br>
+  <img src="docs/screens/welcome.png" width="49%" alt="首次启动的欢迎页">
+</p>
+
 ## 会员
 
 BotOffice 本体免费。会员（[官网定价](https://www.botoffice.ai/#pricing)）解锁更多工位、扩容地块和付费装修；账号在官网和应用间通用，登录即载入已购内容。
 
-## 更新日志
+## 更新与公告
 
-见 [Releases](https://github.com/PandoraReads/botoffice/releases)。应用内「设置 → 关于 → 检查更新」可一键升级。
+- 应用内「设置 → 关于 → 检查更新」一键升级
+- 更新日志见 [Releases](https://github.com/PandoraReads/botoffice/releases)
+- 新员工上架、新主题、新商机会通过应用内公告推送
 
-## 致谢
+## 许可
 
-- 早期版本的上游工作来自 [mdldm-maitian](https://github.com/mdldm-maitian)（MIT）。
-- BotOffice 为闭源分发软件，本仓库仅发布安装包与项目介绍。
+BotOffice 为闭源分发软件，本仓库仅发布安装包与项目介绍；安装包内附带的 LICENSE 文件包含适用的许可声明。
 
 ---
 

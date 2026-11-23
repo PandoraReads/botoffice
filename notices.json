@@ -1,3 +1,12 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "v1.1.0-release",
+      "kind": "news",
+      "title": "BotOffice 1.1.0 发布",
+      "text": "欢迎页、桌面应用窗口、双平台安装包都在这一版：去 Releases 页下载安装包，装完双击桌面图标就进办公室。",
+      "url": "https://github.com/PandoraReads/botoffice/releases/tag/v1.1.0",
+      "at": "2026-11-24"
+    }
+  ]
 }
