@@ -9,12 +9,6 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talentos-573_Bots-16130F?style=for-the-badge" alt="Talentos"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/Descargar-Releases-2FA884?style=for-the-badge" alt="Descargar"></a>
   </p>
-  <p>
-    <img src="https://img.shields.io/badge/macOS-Apple_Silicon_|_Intel-1c1a16?logo=apple" alt="macOS">
-    <img src="https://img.shields.io/badge/Windows-10+-1c1a16?logo=windows" alt="Windows">
-    <img src="https://img.shields.io/badge/app-gratis-2FA884" alt="Gratis">
-    <img src="https://img.shields.io/badge/datos-solo_en_tu_equipo-3D63DD" alt="Datos locales">
-  </p>
   <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <b>Español</b></p>
 </div>
 
@@ -26,7 +20,7 @@
 
 ---
 
-## ¿Trabajar para otro? Ni hablar. La jefa soy yo.
+## ¿Trabajar para otro? Ni hablar. Quiero ser quien manda.
 
 Tienes una docena de Bots: uno escribe, otro diseña, otro vigila los números y varios están reunidos en un grupo. Y de repente tu día se convirtió en esto:
 
@@ -41,7 +35,7 @@ Tienes una docena de Bots: uno escribe, otro diseña, otro vigila los números y
   <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="Mapa de funciones de BotOffice: sala de grupo, panel de cuota, burbujas de mensajes, avisos en directo, ficha de bot y más">
 </p>
 
-## Por qué te va a encantar
+## ¿Por qué darles una oficina a tus Bots?
 
 ### 👀 Todo a la vista: quién está ocupado y quién te espera
 
@@ -88,7 +82,7 @@ El panel LED de la pared del fondo va mostrando cuánto has usado de tu cuota se
 
 ## 🎨 Diez estilos, un clic para cambiar
 
-La distribución y las funciones no cambian; cambian el ambiente de la oficina y la ropa de tus Bots. El estilo **Oficina** por defecto es gratis; los otros nueve son temas de pago, **y no dejan de llegar nuevos**: hay ediciones de temporada y cada tema nuevo se anuncia dentro de la app.
+La distribución y las funciones no cambian; cambian el ambiente de la oficina y la ropa de tus Bots. Una instalación nueva empieza con el estilo **Oficina**; los otros nueve temas se consiguen en la web de BotOffice, **y no dejan de llegar nuevos**: hay ediciones de temporada y cada tema nuevo se anuncia dentro de la app.
 
 
 <table>
@@ -111,8 +105,6 @@ La distribución y las funciones no cambian; cambian el ambiente de la oficina y
 
 > 🆕 **Más temas en camino**: en cuanto sale un tema nuevo, la app te avisa; las ediciones de temporada solo se pueden conseguir durante su temporada.
 
-Los temas se compran con monedas en la página [Decorar la oficina](https://botoffice.ai/deploy) de la web. Al iniciar sesión se descargan solos en tu oficina, y si cambias de ordenador los recuperas iniciando sesión de nuevo.
-
 ## 🌐 La web: contrata para tu oficina
 
 BotOffice es una experiencia en dos partes: en la app de escritorio **supervisas**, y en [botoffice.ai](https://botoffice.ai) **contratas y decoras**. Ambas usan la misma cuenta.
@@ -121,14 +113,12 @@ BotOffice es una experiencia en dos partes: en la app de escritorio **supervisas
   <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="Talentos de BotOffice: elige Bots por su credencial"></a>
 </p>
 
-- 🧑‍💼 **573 Bots listos para trabajar**: redacción, diseño, vídeo, datos, correo, comercio electrónico… Cada uno tiene su credencial con su puesto, su horario y cuántas veces lo han contratado. ¿Te gusta uno? Copia su prompt en Grok Bot y empieza al momento.
+- 🧑‍💼 **Ya hay 573 Bots listos para trabajar**: redacción, diseño, vídeo, datos, correo, comercio electrónico… Cada uno tiene su credencial con su puesto, su horario y cuántas veces lo han contratado. ¿Te gusta uno? Copia su prompt en Grok Bot y empieza al momento.
 - 🔍 **Los mejores Skills y Bots de la red, cada día**: buscamos a diario en toda la web los Skills, Bots y flujos de trabajo más útiles, los convertimos en empleados y los vamos sumando a Talentos, para que tú no tengas que buscarlos.
 - 🧩 **Contrata un equipo entero por flujo de trabajo**: un estudio de Xiaohongshu, una redacción de boletines, un equipo de lanzamientos… un clic contrata a todo el equipo, con roles y relevos ya configurados.
 - 🥇 **Bots Dorados**: empleados estrella destilados de los flujos de trabajo de profesionales del sector.
 - 💰 **Economía de monedas**: haz check-in a diario para conseguir monedas; alquila tus propios Bots entrenados y gana monedas cada vez que alguien los contrata.
 - 💡 **Oportunidades**: guías de proyectos paralelos con IA, herramientas de código abierto y vídeos, cada uno con los Bots que pueden hacer el trabajo.
-
-**Contratar Bots**, arriba a la izquierda de tu oficina, te lleva a Talentos. La app es gratis; los planes Socio y Accionista incluyen monedas, Bots Dorados y ampliaciones de oficina. Consulta los [planes](https://botoffice.ai/pricing).
 
 ## 🔒 Tus datos se quedan en tu ordenador
 
@@ -176,7 +166,7 @@ Por favor, instala BotOffice (una app de escritorio de oficina 3D para Grok Bot)
 
 1. Abre BotOffice y pulsa «Entrar en la oficina» en la pantalla de bienvenida
 2. Engranaje arriba a la derecha → Ajustes → Oficina → **Importar**; tus Bots ocupan sus puestos
-3. ¿Quieres tus temas comprados y las ventajas de miembro? Inicia sesión con tu cuenta de la web en Ajustes y los temas se descargarán solos
+3. ¿Quieres desbloquear más temas y ventajas de miembro? Inicia sesión con tu cuenta de la web en Ajustes y los temas se descargarán solos
 
 - Se abre al encender el ordenador; doble clic en el icono del escritorio y estás en tu oficina, sin navegador
 - Ajustes → Acerca de → Buscar actualizaciones; los nuevos Bots, temas y eventos llegan como avisos dentro de la app

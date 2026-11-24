@@ -2,18 +2,12 @@
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
   <p><b>당신의 Bot에게 자리 하나를.</b><br><b>Give every Bot a desk.</b></p>
-  <p>Grok Bot 팀을 3D 사무실로. 누가 일하는지, 누가 당신의 결정을 기다리는지, 어느 그룹이 대화 중인지 고개만 들면 보입니다.<br>
+  <p>Grok Bot 팀을 3D 사무실로. 누가 일하는지, 누가 당신의 결정을 기다리는지, 어느 그룹이 대화 중인지 한눈에 보입니다.<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/공식_사이트-botoffice.ai-E63946?style=for-the-badge" alt="공식 사이트"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/인재풀-573_Bots-16130F?style=for-the-badge" alt="인재풀"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/다운로드-Releases-2FA884?style=for-the-badge" alt="다운로드"></a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/macOS-Apple_실리콘_|_Intel-1c1a16?logo=apple" alt="macOS">
-    <img src="https://img.shields.io/badge/Windows-10_이상-1c1a16?logo=windows" alt="Windows">
-    <img src="https://img.shields.io/badge/앱-무료-2FA884" alt="무료">
-    <img src="https://img.shields.io/badge/데이터-내_컴퓨터에만-3D63DD" alt="로컬 데이터">
   </p>
   <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <b>한국어</b> · <a href="README.es.md">Español</a></p>
 </div>
@@ -26,7 +20,7 @@
 
 ---
 
-## 남 밑에서 일하라고? 사양합니다. 내가 사장이니까.
+## 남 밑에서 일하라고? 사양합니다. 사장은 내가 할 거니까.
 
 Bot이 열 명 남짓. 글 쓰는 Bot, 그림 그리는 Bot, 숫자 지켜보는 Bot, 그룹에서 회의 중인 Bot들. 그런데 어느새 내 하루는 이렇게 변했죠 —
 
@@ -41,7 +35,7 @@ Bot이 열 명 남짓. 글 쓰는 Bot, 그림 그리는 Bot, 숫자 지켜보는
   <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="BotOffice 기능 설명도: 그룹 채팅방, 사용량 전광판, 메시지 말풍선, 실시간 피드, 직원 카드 등">
 </p>
 
-## 빠져들 수밖에 없는 이유
+## 왜 Bot들에게 사무실을 줘야 할까요?
 
 ### 👀 한눈에 전부: 누가 바쁘고, 누가 나를 기다리는지
 
@@ -88,7 +82,7 @@ Grok Bot 그룹을 방에 연결하면 멤버들이 한 테이블에 둘러앉�
 
 ## 🎨 열 가지 인테리어, 클릭 한 번으로 변신
 
-배치와 기능은 그대로, 사무실 분위기와 직원 복장만 바뀝니다. 기본 「사무실」은 무료, 나머지 아홉 가지는 유료 테마이고, **새 테마가 계속 나옵니다**. 시즌 한정판도 있고, 새 테마가 나오면 앱 안의 공지로 바로 알려 드립니다.
+배치와 기능은 그대로, 사무실 분위기와 직원 복장만 바뀝니다. 처음 설치하면 「사무실」 테마로 시작하고, 나머지 아홉 가지 테마는 BotOffice 공식 사이트에서 마련할 수 있으며, **새 테마가 계속 나옵니다**. 시즌 한정판도 있고, 새 테마가 나오면 앱 안의 공지로 바로 알려 드립니다.
 
 
 <table>
@@ -111,8 +105,6 @@ Grok Bot 그룹을 방에 연결하면 멤버들이 한 테이블에 둘러앉�
 
 > 🆕 **더 많은 테마가 계속 출시됩니다**: 새 테마가 나오면 앱에서 바로 알려 드리고, 시즌 한정판은 그 시즌에만 소장할 수 있습니다.
 
-테마는 공식 사이트의 [사무실 꾸미기](https://botoffice.ai/deploy)에서 코인으로 구매합니다. 로그인하면 사무실로 자동 다운로드되고, 컴퓨터를 바꿔도 다시 로그인하면 복원됩니다.
-
 ## 🌐 공식 사이트: 내 사무실에 사람 뽑기
 
 BotOffice는 두 부분이 하나로 이어진 경험입니다. 데스크톱 앱에서는 **지켜보고**, [botoffice.ai](https://botoffice.ai)에서는 **채용하고 꾸밉니다**. 계정은 하나로 통합니다.
@@ -121,14 +113,12 @@ BotOffice는 두 부분이 하나로 이어진 경험입니다. 데스크톱 앱
   <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="BotOffice 인재풀: 사원증을 보고 Bot 고르기"></a>
 </p>
 
-- 🧑‍💼 **바로 쓸 수 있는 Bot 직원 573명**: 글쓰기, 디자인, 영상, 데이터, 메일, 이커머스… 모두 자기 사원증이 있어 직무, 근무 시간, 채용 횟수가 한눈에 보입니다. 마음에 들면 프롬프트를 복사해 Grok Bot에 붙여 넣기만 하면 바로 출근.
+- 🧑‍💼 **이미 573명의 Bot 직원이 입사 완료**: 글쓰기, 디자인, 영상, 데이터, 메일, 이커머스… 모두 자기 사원증이 있어 직무, 근무 시간, 채용 횟수가 한눈에 보입니다. 마음에 들면 프롬프트를 복사해 Grok Bot에 붙여 넣기만 하면 바로 출근.
 - 🔍 **매일 웹 전체에서 가장 강력한 Skill과 Bot을 발굴**: 매일 웹을 뒤져 가장 쓸모 있는 Skill, Bot, 워크플로를 찾아 직원으로 만들고 인재풀에 계속 추가합니다. 직접 찾아다닐 필요가 없습니다.
 - 🧩 **워크플로 단위로 팀 채용**: 샤오훙수 콘텐츠팀, 공식 계정 편집팀, 이커머스 신상품팀… 버튼 하나로 팀 전체를 채용하고, 역할 분담과 인수인계도 이미 설정되어 있습니다.
 - 🥇 **골드 직원**: 업계 고수의 워크플로에서 뽑아낸 에이스 직원.
 - 💰 **코인 경제**: 매일 출석 체크로 코인을 받고, 직접 길들인 Bot을 임대로 올려 누군가 채용할 때마다 코인을 받습니다.
 - 💡 **비즈니스 기회**: 부업 + AI 가이드, 오픈소스 도구, 영상 튜토리얼. 각각에 도와줄 Bot이 짝지어져 있습니다.
-
-사무실 왼쪽 위 「Bot 채용」에서 바로 인재풀로 갑니다. 앱은 무료이고, 파트너와 주주 플랜에는 코인, 골드 직원, 사무실 증축이 포함됩니다. 자세한 내용은 [멤버십](https://botoffice.ai/pricing)에서.
 
 ## 🔒 데이터는 내 컴퓨터에만
 
@@ -176,7 +166,7 @@ BotOffice는 내 컴퓨터에서 실행되며, 사무실을 그리기 위해 컴
 
 1. BotOffice를 열고 환영 화면에서 「사무실 입장」을 누릅니다
 2. 오른쪽 위 톱니바퀴 → 설정 → 사무실 → **가져오기**. Bot들이 자동으로 착석합니다
-3. 구매한 테마와 멤버십 혜택을 쓰려면 설정에서 공식 사이트 계정으로 로그인하세요. 테마가 자동으로 내려받아집니다
+3. 더 많은 테마와 멤버십 혜택을 열려면 설정에서 공식 사이트 계정으로 로그인하세요. 테마가 자동으로 내려받아집니다
 
 - 컴퓨터를 켜면 자동 실행, 바탕화면 아이콘을 더블클릭하면 바로 사무실로
 - 설정 → 정보 → 업데이트 확인. 새 Bot, 테마, 이벤트는 앱 내 공지로 알려 드립니다

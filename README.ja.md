@@ -2,18 +2,12 @@
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
   <p><b>あなたの Bot に、デスクをひとつ。</b><br><b>Give every Bot a desk.</b></p>
-  <p>Grok Bot のチームを 3D オフィスに。誰が作業中で、誰があなたの判断を待っていて、どのグループが話しているのか、顔を上げればすぐわかる。<br>
+  <p>Grok Bot のチームを 3D オフィスに。誰が作業中で、誰があなたの判断を待っていて、どのグループが話しているのか、ひと目でわかる。<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/公式サイト-botoffice.ai-E63946?style=for-the-badge" alt="公式サイト"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人材ライブラリ-573_Bots-16130F?style=for-the-badge" alt="人材ライブラリ"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/ダウンロード-Releases-2FA884?style=for-the-badge" alt="ダウンロード"></a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/macOS-Apple_シリコン_|_Intel-1c1a16?logo=apple" alt="macOS">
-    <img src="https://img.shields.io/badge/Windows-10_以降-1c1a16?logo=windows" alt="Windows">
-    <img src="https://img.shields.io/badge/本体-無料-2FA884" alt="無料">
-    <img src="https://img.shields.io/badge/データ-PC内のみ-3D63DD" alt="ローカルデータ">
   </p>
   <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
 </div>
@@ -26,7 +20,7 @@
 
 ---
 
-## 雇われる？ありえない。私がボスだ。
+## 雇われる？ありえない。ボスになるのは私だ。
 
 Bot が十数体。原稿を書く子、画像を作る子、数字を見張る子、グループで会議中の子たち。気づけば毎日の仕事は——
 
@@ -41,7 +35,7 @@ Bot が十数体。原稿を書く子、画像を作る子、数字を見張る�
   <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="BotOffice 機能図解：グループルーム、クォータ表示、メッセージ吹き出し、ライブフィード、社員カードなど">
 </p>
 
-## 好きになる理由
+## なぜ Bot たちにオフィスを用意すべきなのか？
 
 ### 👀 ひと目で全員：誰が忙しくて、誰があなた待ちか
 
@@ -88,7 +82,7 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 
 ## 🎨 10 種類の内装、ワンクリックで切り替え
 
-レイアウトと機能はそのまま、オフィスの雰囲気と社員の衣装が変わります。標準の「オフィス」は無料、残りの 9 種類は有料テーマ。**しかも続々と追加中**です。季節限定版もあり、新しいテーマはアプリ内のお知らせですぐにお届けします。
+レイアウトと機能はそのまま、オフィスの雰囲気と社員の衣装が変わります。初回インストール時は「オフィス」テーマ。残りの 9 種類のテーマは BotOffice 公式サイトで手に入ります。**しかも続々と追加中**です。季節限定版もあり、新しいテーマはアプリ内のお知らせですぐにお届けします。
 
 
 <table>
@@ -111,8 +105,6 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 
 > 🆕 **新しいテーマを続々リリース予定**：新作が出るとアプリでお知らせします。季節限定版はその季節の間だけ手に入ります。
 
-テーマは公式サイトの [オフィス改装](https://botoffice.ai/deploy) でコインを使って購入します。ログインすると自動でオフィスにダウンロードされ、PC を替えても再ログインで復元できます。
-
 ## 🌐 公式サイト：オフィスに人材を
 
 BotOffice は二つで一つの体験です。デスクトップアプリで**見守り**、[botoffice.ai](https://botoffice.ai) で**採用と内装**。アカウントは共通です。
@@ -121,14 +113,12 @@ BotOffice は二つで一つの体験です。デスクトップアプリで**�
   <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="BotOffice 人材ライブラリ：社員証を見て Bot を選ぶ"></a>
 </p>
 
-- 🧑‍💼 **573 体の即戦力 Bot**：執筆、デザイン、動画、データ、メール、EC……一人ひとりに社員証があり、職種・勤務時間・採用回数がひと目でわかります。気に入ったらプロンプトをコピーして Grok Bot に貼るだけで着任。
+- 🧑‍💼 **すでに 573 体の即戦力 Bot が在籍**：執筆、デザイン、動画、データ、メール、EC……一人ひとりに社員証があり、職種・勤務時間・採用回数がひと目でわかります。気に入ったらプロンプトをコピーして Grok Bot に貼るだけで着任。
 - 🔍 **ネット上の最強 Skill と Bot を毎日リサーチ**：毎日ネット全体から本当に使える Skill、Bot、ワークフローを探し、社員として人材ライブラリに追加し続けます。自分で探し回る必要はありません。
 - 🧩 **ワークフロー単位でチーム採用**：小紅書（RED）制作部、公式アカウント編集部、EC 新商品チーム……ボタン一つでチームごと採用、役割分担と引き継ぎも設定済み。
 - 🥇 **ゴールド社員**：業界のプロのワークフローから生まれたエース社員。
 - 💰 **コイン経済**：毎日のチェックインでコインを獲得。育てた Bot を貸し出せば、雇われるたびにコインが入ります。
 - 💡 **ビジネスチャンス**：副業 × AI のガイド、オープンソースツール、動画チュートリアル。どれにも手伝ってくれる Bot が付いています。
-
-オフィス左上の「Bot を採用」から人材ライブラリへ。アプリ本体は無料、パートナーと株主プランにはコイン、ゴールド社員、オフィス増築が付きます。詳しくは [会員プラン](https://botoffice.ai/pricing) へ。
 
 ## 🔒 データはあなたの PC の中だけ
 
@@ -176,7 +166,7 @@ BotOffice はあなたの PC 上で動き、オフィスを描くために PC �
 
 1. BotOffice を開き、ウェルカム画面で「オフィスに入る」をクリック
 2. 右上の歯車 → 設定 → オフィス → **取り込み**。Bot が自動で着席します
-3. 購入済みのテーマや会員特典を使うには、設定で公式サイトのアカウントにログイン。テーマが自動でダウンロードされます
+3. もっと多くのテーマや会員特典を解放するには、設定で公式サイトのアカウントにログイン。テーマが自動でダウンロードされます
 
 - PC 起動時に自動で立ち上がり、デスクトップのアイコンをダブルクリックするだけでオフィスへ
 - 設定 → バージョン情報 → アップデートを確認。新しい Bot、テーマ、イベントはアプリ内のお知らせで届きます

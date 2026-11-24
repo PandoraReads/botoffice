@@ -2,18 +2,12 @@
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
   <p><b>給你的 Bot 一個工位。</b><br><b>Give every Bot a desk.</b></p>
-  <p>把你的 Grok Bot 機器人團隊裝進一間 3D 辦公室：誰在幹活、誰在等你拍板、哪個群在聊，抬頭就看見。<br>
+  <p>把你的 Grok Bot 機器人團隊裝進一間 3D 辦公室：誰在幹活、誰在等你拍板、哪個群在聊，一目瞭然。<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/官網-botoffice.ai-E63946?style=for-the-badge" alt="官網 botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人才庫-573_位_Bot-16130F?style=for-the-badge" alt="人才庫"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/下載-Releases-2FA884?style=for-the-badge" alt="下載"></a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/macOS-Apple_晶片_|_Intel-1c1a16?logo=apple" alt="macOS">
-    <img src="https://img.shields.io/badge/Windows-10_及以上-1c1a16?logo=windows" alt="Windows">
-    <img src="https://img.shields.io/badge/本體-免費-2FA884" alt="免費">
-    <img src="https://img.shields.io/badge/資料-只留在本機-3D63DD" alt="本機資料">
   </p>
   <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <b>繁體中文</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
 </div>
@@ -24,7 +18,7 @@
 
 ---
 
-## 打工？不可能。我是老闆。
+## 打工？不可能。我要當老闆。
 
 你養了十幾個 Bot：有的寫稿，有的做圖，有的盯資料，還有幾個在群裡開會。然後你發現，自己每天的工作變成了——
 
@@ -39,7 +33,7 @@
   <img src="docs/screens/office-annotated.jpg" width="100%" alt="BotOffice 功能圖解：群聊室、額度屏、訊息氣泡、實時訊息流、員工卡片等 11 處功能">
 </p>
 
-## 為什麼你會愛上它
+## 為什麼你應該給Bot們一間辦公室？
 
 ### 👀 一眼看全：誰在忙，誰在等你
 
@@ -86,7 +80,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 
 ## 🎨 十種裝修，一鍵換風格
 
-佈局和功能完全一樣，變的是整間辦公室的氛圍和員工的打扮。預設的「辦公室」免費，另外九套是付費裝修，**而且還在持續上新**：每個季節都有限定款，新主題會透過應用內公告第一時間通知你。
+佈局和功能完全一樣，變的是整間辦公室的氛圍和員工的打扮。第一次安裝使用「辦公室」主題，另外九套辦公室主題在BotOffice官網置辦。**而且還在持續上新**：每個季節都有限定款，新主題會透過應用內公告第一時間通知你。
 
 <table>
   <tr>
@@ -108,7 +102,6 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 
 > 🆕 **更多主題風格持續推出中**：新主題一上架，應用裡就會彈公告通知你；季節限定款只在當季開放收藏。
 
-裝修在官網 [「裝修辦公室」](https://botoffice.ai/deploy) 用金幣購買，買下永久保留；登入後自動下載到你的辦公室，換電腦重新登入就能恢復。
 
 ## 🌐 官網：給你的辦公室招人
 
@@ -118,14 +111,12 @@ BotOffice 是一整套體驗：桌面應用負責「看」，[botoffice.ai](http
   <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="BotOffice 人才庫：看工牌挑 Bot"></a>
 </p>
 
-- 🧑‍💼 **573 位現成的 Bot 員工**：寫稿、做圖、剪影片、盯資料、管郵箱、跑電商……每一位都有自己的工牌：職位、上班時間、被僱傭次數一目瞭然。挑中了，複製提示詞貼上進 Grok Bot，馬上上崗。
+- 🧑‍💼 **已入駐573 位現成的 Bot 員工**：寫稿、做圖、剪影片、盯資料、管郵箱、跑電商……每一位都有自己的工牌：職位、上班時間、被僱傭次數一目瞭然。挑中了，複製提示詞貼上進 Grok Bot，馬上上崗。
 - 🔍 **每天蒐羅全網最強的 Skill 和 Bot**：我們每天在全網找最好用的 Skill、Bot 和工作流，整理成員工，持續上新到人才庫，你不用自己到處找。
 - 🧩 **按工作流整組招**：小紅書圖文部、公眾號編輯部、電商上新組……一個按鈕招來一整組，分工和交接都已經配好。
 - 🥇 **黃金僱員**：行業高手的工作流提煉出來的王牌員工。
 - 💰 **金幣經濟**：每天打卡領金幣；把你調教好的 Bot 掛到工牌牆上出租，別人每僱一次，你就分到金幣。
 - 💡 **發掘商機**：副業 + AI 的學習手冊、開源工具和影片教程，每份都配好了能幫你幹活的 Bot。
-
-辦公室左上角的「招募 Bot」直達人才庫。BotOffice 本體免費；合夥人和股東會員送金幣，解鎖黃金僱員和辦公室擴容，詳見 [會員方案](https://botoffice.ai/pricing)。
 
 ## 🔒 你的資料，只留在你的電腦上
 
@@ -173,7 +164,7 @@ BotOffice 在你本機執行，只**讀取**你電腦上 Grok Bot 的資料來�
 
 1. 開啟 BotOffice，歡迎頁點「進入辦公室」
 2. 右上角齒輪 → 設定 → 辦公室 → **一鍵匯入**，你的 Bot 自動入座
-3. 想用已購的裝修和會員權益？在設定裡登入官網賬號，裝修會自動下載
+3. 想解鎖更多裝修主題和會員權益？在設定裡登入官網賬號，裝修會自動下載
 
 - 開機自動啟動，雙擊桌面圖示直接進辦公室，不用先開瀏覽器
 - 設定 → 關於 → 檢查更新，一鍵升級；新員工上架、新裝修、新活動會透過應用內公告推送

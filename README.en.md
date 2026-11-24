@@ -9,12 +9,6 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talent_Wall-573_Bots-16130F?style=for-the-badge" alt="Talent wall"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/Download-Releases-2FA884?style=for-the-badge" alt="Download"></a>
   </p>
-  <p>
-    <img src="https://img.shields.io/badge/macOS-Apple_Silicon_|_Intel-1c1a16?logo=apple" alt="macOS">
-    <img src="https://img.shields.io/badge/Windows-10+-1c1a16?logo=windows" alt="Windows">
-    <img src="https://img.shields.io/badge/app-free-2FA884" alt="Free">
-    <img src="https://img.shields.io/badge/data-stays_on_your_computer-3D63DD" alt="Local data">
-  </p>
   <p><a href="README.md">简体中文</a> · <b>English</b> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
 </div>
 
@@ -26,7 +20,7 @@
 
 ---
 
-## Work for someone? Nah. I'm the boss.
+## Work for someone? Nah. I want to be the boss.
 
 You've got a dozen Bots: one writes, one designs, one watches the numbers, and a few are chatting in a group. And somehow your day turned into this —
 
@@ -41,7 +35,7 @@ You've got a dozen Bots: one writes, one designs, one watches the numbers, and a
   <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="BotOffice feature map: group room, quota board, message bubbles, live feed, bot card and more">
 </p>
 
-## Why you'll love it
+## Why give your Bots an office?
 
 ### 👀 See everything at once: who's busy, who's waiting on you
 
@@ -88,7 +82,7 @@ The LED board on the back wall cycles through how much of this week's Grok Bot q
 
 ## 🎨 Ten looks, one click to switch
 
-The layout and features stay the same; the whole mood of the office and your Bots' outfits change. The default **Office** look is free; the other nine are paid themes, **and new ones keep coming**: there are seasonal limited editions, and every new theme is announced right inside the app.
+The layout and features stay the same; the whole mood of the office and your Bots' outfits change. A fresh install comes with the **Office** look; the other nine themes are available on the BotOffice website, **and new ones keep coming**: there are seasonal limited editions, and every new theme is announced right inside the app.
 
 
 <table>
@@ -111,8 +105,6 @@ The layout and features stay the same; the whole mood of the office and your Bot
 
 > 🆕 **More themes on the way**: as soon as a new theme launches, the app lets you know; seasonal editions can only be collected during their season.
 
-Themes are bought with coins on the website's [Office Makeover](https://botoffice.ai/deploy) page. Sign in and they download to your office automatically; sign in on a new computer to get them back.
-
 ## 🌐 The website: hire for your office
 
 BotOffice is one experience in two parts: the desktop app is where you **watch**, and [botoffice.ai](https://botoffice.ai) is where you **hire and decorate**. Both use the same account.
@@ -121,14 +113,12 @@ BotOffice is one experience in two parts: the desktop app is where you **watch**
   <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="BotOffice talent wall: pick Bots by their badges"></a>
 </p>
 
-- 🧑‍💼 **573 ready-made Bot employees**: writing, design, video, data, email, e-commerce… Each has its own badge showing its role, schedule, and how many times it's been hired. Found one you like? Copy its prompt into Grok Bot and it starts right away.
+- 🧑‍💼 **573 ready-made Bot employees already on board**: writing, design, video, data, email, e-commerce… Each has its own badge showing its role, schedule, and how many times it's been hired. Found one you like? Copy its prompt into Grok Bot and it starts right away.
 - 🔍 **The best Skills and Bots on the web, scouted every day**: we search the whole web daily for the most useful Skills, Bots, and workflows, turn them into employees, and keep adding them to the talent wall, so you don't have to hunt.
 - 🧩 **Hire a whole workflow team**: a Xiaohongshu studio, a newsletter desk, a product-launch crew… one click hires the whole team, with roles and hand-offs already set up.
 - 🥇 **Gold Hires**: star employees distilled from the workflows of industry pros.
 - 💰 **A coin economy**: check in daily for coins; list your own tuned Bots on the wall for rent and earn coins every time someone hires them.
 - 💡 **Opportunities**: side-hustle + AI guides, open-source tools, and video tutorials, each paired with Bots that can do the work.
-
-**Hire Bots** at the top left of your office takes you to the talent wall. The app is free; Partner and Shareholder plans come with coins, Gold Hires, and office expansions. See [plans](https://botoffice.ai/pricing).
 
 ## 🔒 Your data stays on your computer
 
@@ -176,7 +166,7 @@ Please install BotOffice (a 3D office desktop app for Grok Bot) on this computer
 
 1. Open BotOffice and click "Enter the office" on the welcome screen
 2. Gear icon at the top right → Settings → Office → **Import**; your Bots take their seats
-3. Want your purchased themes and membership perks? Sign in to your website account in Settings and your themes download automatically
+3. Want to unlock more themes and membership perks? Sign in to your website account in Settings and your themes download automatically
 
 - Starts with your computer; double-click the desktop icon to open your office, no browser needed
 - Settings → About → Check for updates; new Bots, themes, and events arrive as in-app announcements
