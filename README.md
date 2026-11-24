@@ -33,7 +33,7 @@
   <img src="docs/screens/office-annotated.jpg" width="100%" alt="BotOffice 功能图解：群聊室、额度屏、消息气泡、实时消息流、员工卡片等 11 处功能">
 </p>
 
-## 为什么你会爱上它
+## 为什么你应该给Bot们一间办公室？
 
 ### 👀 一眼看全：谁在忙，谁在等你
 
