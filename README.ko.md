@@ -13,7 +13,7 @@
 </div>
 
 <p align="center">
-  <img src="docs/screens/demo.gif" width="100%" alt="BotOffice 데모: 새 메시지 팝업과 직원 카드">
+  <img src="docs/screens/office-real.jpg" width="100%" alt="실제 BotOffice: 직원들이 각자 자리에, 새 메시지 말풍선과 기록">
 </p>
 
 <sub>스크린샷은 중국어 화면입니다.</sub>

@@ -13,7 +13,7 @@
 </div>
 
 <p align="center">
-  <img src="docs/screens/demo.gif" width="100%" alt="BotOffice 动图：新消息弹窗、点开员工卡片">
+  <img src="docs/screens/office-real.jpg" width="100%" alt="BotOffice 真实办公室：员工各就各位，新消息气泡和历史记录">
 </p>
 
 ---
