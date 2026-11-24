@@ -9,12 +9,6 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人才库-573_位_Bot-16130F?style=for-the-badge" alt="人才库"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/下载-Releases-2FA884?style=for-the-badge" alt="下载"></a>
   </p>
-  <p>
-    <img src="https://img.shields.io/badge/macOS-Apple_芯片_|_Intel-1c1a16?logo=apple" alt="macOS">
-    <img src="https://img.shields.io/badge/Windows-10_及以上-1c1a16?logo=windows" alt="Windows">
-    <img src="https://img.shields.io/badge/本体-免费-2FA884" alt="免费">
-    <img src="https://img.shields.io/badge/数据-只留在本机-3D63DD" alt="本机数据">
-  </p>
   <p><b>简体中文</b> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
 </div>
 
