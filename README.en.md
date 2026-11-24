@@ -1,9 +1,8 @@
 <div align="center">
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p><b>Give every Bot a desk.</b><br><b>给你的 Bot 一个工位。</b></p>
   <p>Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.<br>
-  把你的 Grok Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，抬头就看见。</p>
+  把你的 Grok Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/Website-botoffice.ai-E63946?style=for-the-badge" alt="Website botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talent_Wall-573_Bots-16130F?style=for-the-badge" alt="Talent wall"></a>
@@ -22,14 +21,14 @@
 
 ## Work for someone? Nah. I want to be the boss.
 
-You've got a dozen Bots: one writes, one designs, one watches the numbers, and a few are chatting in a group. And somehow your day turned into this —
+You've got dozens of Bots: one writes, one designs, one watches the numbers, and a few are chatting in a group. So why are you getting busier and more worn out by the day? —
 
-- 😵 **Clicking through every chat** to see who replied, who's stuck, and who's waiting on you
-- 🙈 **Missing reviews**: a Bot finishes its work and waits half a day for your OK
-- 🔔 **Group chats flooding in**, and you scroll forever to find the one line that's for you
-- 📉 **No idea how much quota is left** until it runs out
+- 😵 **Clicking through every chat** to see who replied, who's stuck, and who's waiting on you. Exhausting 😩
+- 🙈 **Missing reviews**: a Bot finishes its work and waits half a day for your OK. Oh well ╮(╯▽╰)╭
+- 🔔 **Group chats flooding in**, and you scroll forever to find what actually matters. Ugh 😡
+- 📉 **No idea how much quota is left** until it hits zero and there's nothing left to run on ｡°(°¯᷄◠¯᷅°)°｡
 
-**BotOffice turns all of that into an office you can read in one glance.** Every Bot has its own desk and name tag, and a status light tells you whether it's busy, waiting, or stuck. When someone needs you, the message pops up right in front of you. You just look up, like a boss, and decide.
+**BotOffice turns all that daily grind into a cozy office full of good vibes, one you can read at a glance.** Every Bot has its own desk and name tag, and a status light tells you whether it's busy, waiting, or stuck. When someone needs you, the message pops up right in front of you. You just look up, like a boss, and decide.
 
 <p align="center">
   <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="BotOffice feature map: group room, quota board, message bubbles, live feed, bot card and more">
@@ -73,14 +72,14 @@ The LED board on the back wall cycles through how much of this week's Grok Bot q
   <img src="docs/screens/led-board.jpg" width="70%" alt="The back-wall LED board cycling quota, balance, and reset date">
 </p>
 
-### 🧱 Arrange it your way, and keep growing
+### 🧱 Arrange it your way, and grow it big
 
 - **One-click import**: Settings → Office → Import, and your most active Bots take their seats
 - **Drag into rooms**: drop a Bot into any room; seats, facing, and name tags arrange themselves
 - **Expand with new plots**: out of seats? Add a meeting room, server room, or lounge and drag it next to your office
 - **Undo for layouts**: your last 5 saved layouts are kept, one click to restore
 
-## 🎨 Ten looks, one click to switch
+## 🎨 Plenty of themes, one click to redecorate
 
 The layout and features stay the same; the whole mood of the office and your Bots' outfits change. A fresh install comes with the **Office** look; the other nine themes are available on the BotOffice website, **and new ones keep coming**: there are seasonal limited editions, and every new theme is announced right inside the app.
 

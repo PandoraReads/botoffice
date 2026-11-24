@@ -1,7 +1,6 @@
 <div align="center">
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p><b>Dale a cada Bot su escritorio.</b><br><b>Give every Bot a desk.</b></p>
   <p>Convierte tu equipo de Grok Bot en una oficina 3D viva: quién está trabajando, quién espera tu decisión y qué grupo está conversando, de un vistazo.<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
@@ -22,14 +21,14 @@
 
 ## ¿Trabajar para otro? Ni hablar. Quiero ser quien manda.
 
-Tienes una docena de Bots: uno escribe, otro diseña, otro vigila los números y varios están reunidos en un grupo. Y de repente tu día se convirtió en esto:
+Tienes decenas de Bots: uno escribe, otro diseña, otro vigila los números y varios están reunidos en un grupo. Entonces, ¿por qué cada día estás más ocupado y más agotado?
 
-- 😵 **Abrir cada chat uno por uno** para ver quién respondió, quién se atascó y quién te espera
-- 🙈 **Se te pasan las revisiones**: un Bot termina su trabajo y espera medio día tu visto bueno
-- 🔔 **Los grupos no paran de sonar** y tardas siglos en encontrar la frase que era para ti
-- 📉 **No sabes cuánta cuota te queda** hasta que se acaba
+- 😵 **Abrir cada chat uno por uno** para ver quién respondió, quién se atascó y quién te espera. Agotador 😩
+- 🙈 **Se te pasan las revisiones**: un Bot termina su trabajo y espera medio día tu visto bueno. Qué se le va a hacer ╮(╯▽╰)╭
+- 🔔 **Los grupos no paran de sonar** y tardas siglos en encontrar lo importante. Qué rabia 😡
+- 📉 **No sabes cuánta cuota te queda** hasta que se agota y ya no hay con qué seguir ｡°(°¯᷄◠¯᷅°)°｡
 
-**BotOffice convierte todo eso en una oficina que entiendes de un vistazo.** Cada Bot tiene su escritorio y su nombre, y una luz de estado te dice si está ocupado, esperando o atascado. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista, como buena jefa, y decides.
+**BotOffice convierte toda esa rutina pesada en una oficina acogedora y llena de buen rollo, que entiendes de un vistazo.** Cada Bot tiene su escritorio y su nombre, y una luz de estado te dice si está ocupado, esperando o atascado. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista, como buena jefa, y decides.
 
 <p align="center">
   <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="Mapa de funciones de BotOffice: sala de grupo, panel de cuota, burbujas de mensajes, avisos en directo, ficha de bot y más">
@@ -73,14 +72,14 @@ El panel LED de la pared del fondo va mostrando cuánto has usado de tu cuota se
   <img src="docs/screens/led-board.jpg" width="70%" alt="El panel LED de la pared del fondo: cuota, saldo y fecha de reinicio">
 </p>
 
-### 🧱 Organízala a tu manera y hazla crecer
+### 🧱 Organízala a tu manera y hazla a lo grande
 
 - **Importar con un clic**: Ajustes → Oficina → Importar, y tus Bots más activos ocupan sus puestos
 - **Arrastrar a las salas**: suelta un Bot en cualquier sala; asientos, orientación y placas se colocan solos
 - **Ampliar con nuevas parcelas**: ¿faltan sitios? Añade una sala de reuniones, de servidores o de descanso y arrástrala junto a tu oficina
 - **Deshacer la distribución**: se guardan tus últimas 5 distribuciones; un clic para recuperarlas
 
-## 🎨 Diez estilos, un clic para cambiar
+## 🎨 Muchos temas, un clic para cambiar la decoración
 
 La distribución y las funciones no cambian; cambian el ambiente de la oficina y la ropa de tus Bots. Una instalación nueva empieza con el estilo **Oficina**; los otros nueve temas se consiguen en la web de BotOffice, **y no dejan de llegar nuevos**: hay ediciones de temporada y cada tema nuevo se anuncia dentro de la app.
 
