@@ -42,20 +42,8 @@ BotOffice 是一个桌面应用。它在本机跑一个你的专属办公室网�
 
 ## 安装
 
-从 [Releases](https://github.com/PandoraReads/botoffice/releases/latest) 下载最新安装包：
+安装包暂未开放下载（内测中）。主题装修正在改为登录后按账号下发，新的安装包会在 [Releases](https://github.com/PandoraReads/botoffice/releases) 发布，届时 macOS / Windows 双平台都有；已装内测版的应用会在「设置 → 关于 → 检查更新」里自动提示。
 
-| 平台 | 文件 | 说明 |
-| --- | --- | --- |
-| macOS（Apple Silicon） | `BotOffice-<版本>-mac-arm64.dmg` | 打开 dmg，把 BotOffice 拖进「应用程序」 |
-| macOS（zip 备选） | `BotOffice-<版本>-mac-arm64.zip` | 解压即用 |
-| Windows | `BotOffice-<版本>-win-x64-setup.exe` | 安装向导，装完桌面有图标 |
-| Windows（免安装） | `BotOffice-<版本>-win-x64.zip` | 解压后双击 `BotOffice.exe` |
-
-> **macOS 首次打开**：安装包目前未签名公证，第一次要右键点 BotOffice →「打开」（或在「系统设置 → 隐私与安全性」点「仍要打开」），之后就能正常双击。
->
-> **第一次启动**：双击图标后自动打开欢迎页，三步带你进办公室；办公室网页只有你能访问（本机访问口令，在办公室「设置」里可改）。
->
-> 应用本体也可以在浏览器里「安装为应用」（PWA），像原生应用一样从 Dock / 开始菜单启动。
 
 ## 用起来
 
