@@ -1,7 +1,6 @@
 <div align="center">
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p><b>给你的 Bot 一个工位。</b><br><b>Give every Bot a desk.</b></p>
   <p>把你的 Grok Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
