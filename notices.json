@@ -1,12 +1,3 @@
 {
-  "items": [
-    {
-      "id": "v1.2.0-release",
-      "kind": "news",
-      "title": "BotOffice 1.2.0 发布",
-      "text": "这一版加入会员登录（应用里直接登录官网账号，金币和已购装修自动同步）、五款消息提示音自选、家具背包贴纸图，并修了一批交互细节：点面板外直接收起、自由视角右键拖动平移、手机端按钮不再挡群聊关闭键。",
-      "url": "https://github.com/PandoraReads/botoffice/releases/tag/v1.2.0",
-      "at": "2026-11-24"
-    }
-  ]
+  "items": []
 }
