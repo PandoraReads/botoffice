@@ -8,7 +8,7 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人才库-573_位_Bot-16130F?style=for-the-badge" alt="人才库"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/下载-Releases-2FA884?style=for-the-badge" alt="下载"></a>
   </p>
-  <p><b>简体中文</b> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
+  <p><b>简体中文</b> · <a href="docs/README.en.md">English</a> · <a href="docs/README.zh-TW.md">繁體中文</a> · <a href="docs/README.ja.md">日本語</a> · <a href="docs/README.ko.md">한국어</a> · <a href="docs/README.es.md">Español</a></p>
 </div>
 
 <p align="center">

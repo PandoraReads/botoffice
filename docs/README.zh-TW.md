@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.svg" width="96" alt="BotOffice logo">
+  <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
   <p>把你的 Grok Bot 機器人團隊裝進一間 3D 辦公室：誰在幹活、誰在等你拍板、哪個群在聊，一目瞭然。<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
@@ -8,11 +8,11 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人才庫-573_位_Bot-16130F?style=for-the-badge" alt="人才庫"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/下載-Releases-2FA884?style=for-the-badge" alt="下載"></a>
   </p>
-  <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <b>繁體中文</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
+  <p><a href="../README.md">简体中文</a> · <a href="README.en.md">English</a> · <b>繁體中文</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
 </div>
 
 <p align="center">
-  <img src="docs/screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
+  <img src="screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
 </p>
 
 ---
@@ -29,7 +29,7 @@
 **BotOffice 把這一切繁瑣日常變成一間充滿情緒價值的你一眼就能看懂的溫馨辦公室。** 每個 Bot 有自己的工位和名字，狀態燈告訴你它在忙、在等、還是卡住了；有人找你，訊息直接彈到你面前。你只需要像老闆一樣，抬頭看一眼，然後做決定。
 
 <p align="center">
-  <img src="docs/screens/office-annotated.jpg" width="100%" alt="BotOffice 功能圖解：群聊室、額度屏、訊息氣泡、實時訊息流、員工卡片等 11 處功能">
+  <img src="screens/office-annotated.jpg" width="100%" alt="BotOffice 功能圖解：群聊室、額度屏、訊息氣泡、實時訊息流、員工卡片等 11 處功能">
 </p>
 
 ## 為什麼你應該給Bot們一間辦公室？
@@ -43,7 +43,7 @@
 Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡的那段對話。不用切視窗、不用翻記錄，看完點一下就能回覆。
 
 <p align="center">
-  <img src="docs/screens/message-popup.jpg" width="80%" alt="新訊息彈窗：全文可見，一鍵跳回 Grok Bot">
+  <img src="screens/message-popup.jpg" width="80%" alt="新訊息彈窗：全文可見，一鍵跳回 Grok Bot">
 </p>
 
 ### 🪪 點一下，就是它的工作檔案
@@ -51,7 +51,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 點任何一位員工，彈出它的工作卡：在哪個房間、現在什麼狀態、最新一條訊息、幾條未讀、手上的任務，一鍵開啟原對話。
 
 <p align="center">
-  <img src="docs/screens/bot-card.jpg" width="80%" alt="員工工作卡：狀態、最新訊息、任務">
+  <img src="screens/bot-card.jpg" width="80%" alt="員工工作卡：狀態、最新訊息、任務">
 </p>
 
 ### 👥 一個群 = 一間會議室
@@ -59,7 +59,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 把 Grok Bot 的群繫結到一個房間，群成員自動圍桌而坐，左邊的「群聊室」實時顯示對話。同一個 Bot 在好幾個群裡？它會在每個群的房間裡各坐一個「分身」。
 
 <p align="center">
-  <img src="docs/screens/group-room.jpg" width="85%" alt="群聊室：群成員圍坐，對話實時顯示">
+  <img src="screens/group-room.jpg" width="85%" alt="群聊室：群成員圍坐，對話實時顯示">
 </p>
 
 ### 📟 額度不再靠猜
@@ -67,7 +67,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 後牆那塊 LED 點陣屏輪播你這周 Grok Bot 額度用了多少、套餐、預付餘額和重置日期。抬頭就知道還能放開用多少。
 
 <p align="center">
-  <img src="docs/screens/led-board.jpg" width="70%" alt="後牆 LED 屏輪播額度、餘額和重置日期">
+  <img src="screens/led-board.jpg" width="70%" alt="後牆 LED 屏輪播額度、餘額和重置日期">
 </p>
 
 ### 🧱 自己佈置，做大做強
@@ -83,19 +83,19 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="docs/screens/themes/junyi.jpg" alt="軍議大帳"><br><b>軍議大帳</b><br><sub>竹簡大屏、令旗戰鼓，開會像點將</sub></td>
-    <td align="center" width="33%"><img src="docs/screens/themes/mengshou.jpg" alt="萌獸都市"><br><b>萌獸都市</b><br><sub>斑馬線、紅綠燈，員工戴動物玩偶帽</sub></td>
-    <td align="center" width="33%"><img src="docs/screens/themes/xingji.jpg" alt="星際艦橋"><br><b>星際艦橋</b><br><sub>舷窗外是行星，把 KPI 送上軌道</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/junyi.jpg" alt="軍議大帳"><br><b>軍議大帳</b><br><sub>竹簡大屏、令旗戰鼓，開會像點將</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/mengshou.jpg" alt="萌獸都市"><br><b>萌獸都市</b><br><sub>斑馬線、紅綠燈，員工戴動物玩偶帽</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/xingji.jpg" alt="星際艦橋"><br><b>星際艦橋</b><br><sub>舷窗外是行星，把 KPI 送上軌道</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screens/themes/nihong.jpg" alt="霓虹夜市"><br><b>霓虹夜市</b><br><sub>霓虹燈和烤串攤，陪你改完最後一版</sub></td>
-    <td align="center"><img src="docs/screens/themes/senlin.jpg" alt="森林樹屋"><br><b>森林樹屋</b><br><sub>木頭牆、螢火蟲，會議區有篝火</sub></td>
-    <td align="center"><img src="docs/screens/themes/shenhai.jpg" alt="深海基地"><br><b>深海基地</b><br><sub>小魚遊過舷窗，員工戴黃銅潛水盔</sub></td>
+    <td align="center"><img src="screens/themes/nihong.jpg" alt="霓虹夜市"><br><b>霓虹夜市</b><br><sub>霓虹燈和烤串攤，陪你改完最後一版</sub></td>
+    <td align="center"><img src="screens/themes/senlin.jpg" alt="森林樹屋"><br><b>森林樹屋</b><br><sub>木頭牆、螢火蟲，會議區有篝火</sub></td>
+    <td align="center"><img src="screens/themes/shenhai.jpg" alt="深海基地"><br><b>深海基地</b><br><sub>小魚遊過舷窗，員工戴黃銅潛水盔</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screens/themes/chashi.jpg" alt="禪意茶室"><br><b>禪意茶室</b><br><sub>草蓆竹影，事情再多也先喝口茶</sub></td>
-    <td align="center"><img src="docs/screens/themes/tianpin.jpg" alt="甜品工坊"><br><b>甜品工坊</b><br><sub>粉白格子地板，隨時準備慶祝</sub></td>
-    <td align="center"><img src="docs/screens/themes/xmas.jpg" alt="聖誕小屋"><br><b>聖誕小屋</b><br><sub>季節限定：壁爐、雪人、聖誕帽</sub></td>
+    <td align="center"><img src="screens/themes/chashi.jpg" alt="禪意茶室"><br><b>禪意茶室</b><br><sub>草蓆竹影，事情再多也先喝口茶</sub></td>
+    <td align="center"><img src="screens/themes/tianpin.jpg" alt="甜品工坊"><br><b>甜品工坊</b><br><sub>粉白格子地板，隨時準備慶祝</sub></td>
+    <td align="center"><img src="screens/themes/xmas.jpg" alt="聖誕小屋"><br><b>聖誕小屋</b><br><sub>季節限定：壁爐、雪人、聖誕帽</sub></td>
   </tr>
 </table>
 
@@ -107,7 +107,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 裡
 BotOffice 是一整套體驗：桌面應用負責「看」，[botoffice.ai](https://botoffice.ai) 負責「招人和裝修」，兩邊用同一個賬號。
 
 <p align="center">
-  <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="BotOffice 人才庫：看工牌挑 Bot"></a>
+  <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="BotOffice 人才庫：看工牌挑 Bot"></a>
 </p>
 
 - 🧑‍💼 **已入駐573 位現成的 Bot 員工**：寫稿、做圖、剪影片、盯資料、管郵箱、跑電商……每一位都有自己的工牌：職位、上班時間、被僱傭次數一目瞭然。挑中了，複製提示詞貼上進 Grok Bot，馬上上崗。
@@ -170,8 +170,8 @@ BotOffice 在你本機執行，只**讀取**你電腦上 Grok Bot 的資料來�
 - 想核對安裝包是否完整：每個版本都附帶 `SHA256.txt`
 
 <p align="center">
-  <img src="docs/screens/welcome.png" width="58%" alt="第一次開啟的歡迎頁">
-  <img src="docs/screens/settings-member.jpg" width="30%" alt="設定：會員卡、辦公室風格與擴容">
+  <img src="screens/welcome.png" width="58%" alt="第一次開啟的歡迎頁">
+  <img src="screens/settings-member.jpg" width="30%" alt="設定：會員卡、辦公室風格與擴容">
 </p>
 
 ## 常見問題
@@ -188,7 +188,7 @@ BotOffice 是免費下載的閉源軟體。本倉庫只發布安裝包、更新�
 ---
 
 <p align="center">
-  <a href="https://botoffice.ai"><img src="docs/logo.svg" width="40" alt="BotOffice"></a><br>
+  <a href="https://botoffice.ai"><img src="logo.svg" width="40" alt="BotOffice"></a><br>
   <b>BotOffice · 給你的 Bot 一個工位</b><br>
   <sub><a href="https://botoffice.ai">botoffice.ai</a> · <a href="https://botoffice.ai/talent">人才庫</a> · <a href="https://botoffice.ai/deploy">裝修辦公室</a> · <a href="https://botoffice.ai/pricing">會員方案</a></sub><br>
   <sub>© 成都哆元文化传播有限公司</sub>

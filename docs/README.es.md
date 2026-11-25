@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.svg" width="96" alt="BotOffice logo">
+  <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
   <p>Convierte tu equipo de Grok Bot en una oficina 3D viva: quién está trabajando, quién espera tu decisión y qué grupo está conversando, de un vistazo.<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
@@ -8,11 +8,11 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talentos-573_Bots-16130F?style=for-the-badge" alt="Talentos"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/Descargar-Releases-2FA884?style=for-the-badge" alt="Descargar"></a>
   </p>
-  <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <b>Español</b></p>
+  <p><a href="../README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <b>Español</b></p>
 </div>
 
 <p align="center">
-  <img src="docs/screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
+  <img src="screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
 </p>
 
 <sub>Las capturas muestran la interfaz en chino.</sub>
@@ -31,7 +31,7 @@ Tienes decenas de Bots: uno escribe, otro diseña, otro vigila los números y va
 **BotOffice convierte toda esa rutina pesada en una oficina acogedora y llena de buen rollo, que entiendes de un vistazo.** Cada Bot tiene su escritorio y su nombre, y una luz de estado te dice si está ocupado, esperando o atascado. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista, como buena jefa, y decides.
 
 <p align="center">
-  <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="Mapa de funciones de BotOffice: sala de grupo, panel de cuota, burbujas de mensajes, avisos en directo, ficha de bot y más">
+  <img src="screens/office-annotated-en.jpg" width="100%" alt="Mapa de funciones de BotOffice: sala de grupo, panel de cuota, burbujas de mensajes, avisos en directo, ficha de bot y más">
 </p>
 
 ## ¿Por qué darles una oficina a tus Bots?
@@ -45,7 +45,7 @@ Cada Bot tiene una luz junto a su nombre: 🟢 trabajando · 🔴 esperando tu r
 Los mensajes nuevos aparecen completos arriba a la derecha, con un botón que te lleva directo a esa conversación en Grok Bot. Sin cambiar de ventana ni rebuscar en el historial.
 
 <p align="center">
-  <img src="docs/screens/message-popup.jpg" width="80%" alt="Aviso de mensaje nuevo">
+  <img src="screens/message-popup.jpg" width="80%" alt="Aviso de mensaje nuevo">
 </p>
 
 ### 🪪 Un clic abre su ficha de trabajo
@@ -53,7 +53,7 @@ Los mensajes nuevos aparecen completos arriba a la derecha, con un botón que te
 Haz clic en cualquier Bot para ver su ficha: en qué sala está, su estado, su último mensaje, los no leídos y sus tareas, además de un botón para abrir el chat original.
 
 <p align="center">
-  <img src="docs/screens/bot-card.jpg" width="80%" alt="Ficha de trabajo de un bot">
+  <img src="screens/bot-card.jpg" width="80%" alt="Ficha de trabajo de un bot">
 </p>
 
 ### 👥 Un chat de grupo = una sala de reuniones
@@ -61,7 +61,7 @@ Haz clic en cualquier Bot para ver su ficha: en qué sala está, su estado, su �
 Vincula un grupo de Grok Bot a una sala y sus miembros se sientan alrededor de la misma mesa, con la conversación en directo en el panel **Sala de grupo**. ¿Un Bot está en varios grupos? Tendrá un "clon" sentado en la sala de cada grupo.
 
 <p align="center">
-  <img src="docs/screens/group-room.jpg" width="85%" alt="Sala de grupo: los miembros alrededor de una mesa, conversación en directo">
+  <img src="screens/group-room.jpg" width="85%" alt="Sala de grupo: los miembros alrededor de una mesa, conversación en directo">
 </p>
 
 ### 📟 Deja de adivinar tu cuota
@@ -69,7 +69,7 @@ Vincula un grupo de Grok Bot a una sala y sus miembros se sientan alrededor de l
 El panel LED de la pared del fondo va mostrando cuánto has usado de tu cuota semanal de Grok Bot, tu plan, tu saldo prepago y la fecha de reinicio.
 
 <p align="center">
-  <img src="docs/screens/led-board.jpg" width="70%" alt="El panel LED de la pared del fondo: cuota, saldo y fecha de reinicio">
+  <img src="screens/led-board.jpg" width="70%" alt="El panel LED de la pared del fondo: cuota, saldo y fecha de reinicio">
 </p>
 
 ### 🧱 Organízala a tu manera y hazla a lo grande
@@ -86,19 +86,19 @@ La distribución y las funciones no cambian; cambian el ambiente de la oficina y
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="docs/screens/themes/junyi.jpg" alt="Tienda del Consejo de Guerra"><br><b>Tienda del Consejo de Guerra</b><br><sub>Pantallas de bambú y tambores de guerra</sub></td>
-    <td align="center" width="33%"><img src="docs/screens/themes/mengshou.jpg" alt="Ciudad Peluche"><br><b>Ciudad Peluche</b><br><sub>Pasos de cebra, semáforos y gorros de animales</sub></td>
-    <td align="center" width="33%"><img src="docs/screens/themes/xingji.jpg" alt="Puente de la Nave"><br><b>Puente de la Nave</b><br><sub>Planetas por la ventana; tus KPI, en órbita</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/junyi.jpg" alt="Tienda del Consejo de Guerra"><br><b>Tienda del Consejo de Guerra</b><br><sub>Pantallas de bambú y tambores de guerra</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/mengshou.jpg" alt="Ciudad Peluche"><br><b>Ciudad Peluche</b><br><sub>Pasos de cebra, semáforos y gorros de animales</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/xingji.jpg" alt="Puente de la Nave"><br><b>Puente de la Nave</b><br><sub>Planetas por la ventana; tus KPI, en órbita</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screens/themes/nihong.jpg" alt="Mercado Nocturno de Neón"><br><b>Mercado Nocturno de Neón</b><br><sub>Neones y puestos de comida para trasnochar</sub></td>
-    <td align="center"><img src="docs/screens/themes/senlin.jpg" alt="Cabaña del Bosque"><br><b>Cabaña del Bosque</b><br><sub>Madera, luciérnagas y reuniones junto al fuego</sub></td>
-    <td align="center"><img src="docs/screens/themes/shenhai.jpg" alt="Base de las Profundidades"><br><b>Base de las Profundidades</b><br><sub>Peces por la ventana y cascos de buzo de latón</sub></td>
+    <td align="center"><img src="screens/themes/nihong.jpg" alt="Mercado Nocturno de Neón"><br><b>Mercado Nocturno de Neón</b><br><sub>Neones y puestos de comida para trasnochar</sub></td>
+    <td align="center"><img src="screens/themes/senlin.jpg" alt="Cabaña del Bosque"><br><b>Cabaña del Bosque</b><br><sub>Madera, luciérnagas y reuniones junto al fuego</sub></td>
+    <td align="center"><img src="screens/themes/shenhai.jpg" alt="Base de las Profundidades"><br><b>Base de las Profundidades</b><br><sub>Peces por la ventana y cascos de buzo de latón</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screens/themes/chashi.jpg" alt="Salón de Té Zen"><br><b>Salón de Té Zen</b><br><sub>Tatami y bambú: primero, un té</sub></td>
-    <td align="center"><img src="docs/screens/themes/tianpin.jpg" alt="Obrador de Dulces"><br><b>Obrador de Dulces</b><br><sub>Suelos de cuadros rosas, siempre de celebración</sub></td>
-    <td align="center"><img src="docs/screens/themes/xmas.jpg" alt="Cabaña de Navidad"><br><b>Cabaña de Navidad</b><br><sub>De temporada: chimenea, muñeco de nieve y gorros de Papá Noel</sub></td>
+    <td align="center"><img src="screens/themes/chashi.jpg" alt="Salón de Té Zen"><br><b>Salón de Té Zen</b><br><sub>Tatami y bambú: primero, un té</sub></td>
+    <td align="center"><img src="screens/themes/tianpin.jpg" alt="Obrador de Dulces"><br><b>Obrador de Dulces</b><br><sub>Suelos de cuadros rosas, siempre de celebración</sub></td>
+    <td align="center"><img src="screens/themes/xmas.jpg" alt="Cabaña de Navidad"><br><b>Cabaña de Navidad</b><br><sub>De temporada: chimenea, muñeco de nieve y gorros de Papá Noel</sub></td>
   </tr>
 </table>
 
@@ -109,7 +109,7 @@ La distribución y las funciones no cambian; cambian el ambiente de la oficina y
 BotOffice es una experiencia en dos partes: en la app de escritorio **supervisas**, y en [botoffice.ai](https://botoffice.ai) **contratas y decoras**. Ambas usan la misma cuenta.
 
 <p align="center">
-  <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="Talentos de BotOffice: elige Bots por su credencial"></a>
+  <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="Talentos de BotOffice: elige Bots por su credencial"></a>
 </p>
 
 - 🧑‍💼 **Ya hay 573 Bots listos para trabajar**: redacción, diseño, vídeo, datos, correo, comercio electrónico… Cada uno tiene su credencial con su puesto, su horario y cuántas veces lo han contratado. ¿Te gusta uno? Copia su prompt en Grok Bot y empieza al momento.
@@ -172,8 +172,8 @@ Por favor, instala BotOffice (una app de escritorio de oficina 3D para Grok Bot)
 - Cada versión incluye `SHA256.txt` por si quieres verificar la descarga
 
 <p align="center">
-  <img src="docs/screens/welcome.png" width="58%" alt="Pantalla de bienvenida al abrir por primera vez">
-  <img src="docs/screens/settings-member.jpg" width="30%" alt="Ajustes: tarjeta de miembro, temas y ampliaciones">
+  <img src="screens/welcome.png" width="58%" alt="Pantalla de bienvenida al abrir por primera vez">
+  <img src="screens/settings-member.jpg" width="30%" alt="Ajustes: tarjeta de miembro, temas y ampliaciones">
 </p>
 
 ## Preguntas frecuentes
@@ -190,7 +190,7 @@ BotOffice es software de código cerrado y descarga gratuita. Este repositorio s
 ---
 
 <p align="center">
-  <a href="https://botoffice.ai"><img src="docs/logo.svg" width="40" alt="BotOffice"></a><br>
+  <a href="https://botoffice.ai"><img src="logo.svg" width="40" alt="BotOffice"></a><br>
   <b>BotOffice · Dale a cada Bot su escritorio</b><br>
   <sub><a href="https://botoffice.ai">botoffice.ai</a> · <a href="https://botoffice.ai/talent">Talentos</a> · <a href="https://botoffice.ai/deploy">Decorar la oficina</a> · <a href="https://botoffice.ai/pricing">Planes</a></sub><br>
   <sub>© Chengdu Duoyuan Culture Communication Co., Ltd.</sub>

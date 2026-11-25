@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.svg" width="96" alt="BotOffice logo">
+  <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
   <p>Grok Bot のチームを 3D オフィスに。誰が作業中で、誰があなたの判断を待っていて、どのグループが話しているのか、ひと目でわかる。<br>
   Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
@@ -8,11 +8,11 @@
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人材ライブラリ-573_Bots-16130F?style=for-the-badge" alt="人材ライブラリ"></a>
     <a href="https://github.com/PandoraReads/botoffice/releases"><img src="https://img.shields.io/badge/ダウンロード-Releases-2FA884?style=for-the-badge" alt="ダウンロード"></a>
   </p>
-  <p><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
+  <p><a href="../README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.zh-TW.md">繁體中文</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a></p>
 </div>
 
 <p align="center">
-  <img src="docs/screens/office-real.jpg" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
+  <img src="screens/office-real.jpg" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
 </p>
 
 <sub>スクリーンショットは中国語版の画面です。</sub>
@@ -31,7 +31,7 @@ Bot が数十体。原稿を書く子、画像を作る子、数字を見張る�
 **BotOffice は、そんな面倒な毎日を、ひと目でわかる、癒やしたっぷりの温かいオフィスに変えます。** Bot には自分のデスクと名前があり、ステータスランプで作業中・待機中・詰まり中がすぐわかる。誰かがあなたを呼べば、メッセージが目の前にポップアップ。あなたはボスらしく、顔を上げて判断するだけ。
 
 <p align="center">
-  <img src="docs/screens/office-annotated-en.jpg" width="100%" alt="BotOffice 機能図解：グループルーム、クォータ表示、メッセージ吹き出し、ライブフィード、社員カードなど">
+  <img src="screens/office-annotated-en.jpg" width="100%" alt="BotOffice 機能図解：グループルーム、クォータ表示、メッセージ吹き出し、ライブフィード、社員カードなど">
 </p>
 
 ## なぜ Bot たちにオフィスを用意すべきなのか？
@@ -45,7 +45,7 @@ Bot が数十体。原稿を書く子、画像を作る子、数字を見張る�
 新しいメッセージは右上に全文で表示され、ボタン一つで Grok Bot の該当の会話へ。ウィンドウを切り替える必要も、履歴をさかのぼる必要もありません。
 
 <p align="center">
-  <img src="docs/screens/message-popup.jpg" width="80%" alt="新着メッセージのポップアップ">
+  <img src="screens/message-popup.jpg" width="80%" alt="新着メッセージのポップアップ">
 </p>
 
 ### 🪪 クリックすれば、その子の業務カード
@@ -53,7 +53,7 @@ Bot が数十体。原稿を書く子、画像を作る子、数字を見張る�
 どの Bot をクリックしても、所属ルーム・ステータス・最新メッセージ・未読数・担当タスクが一枚のカードに。元の会話もワンクリックで開けます。
 
 <p align="center">
-  <img src="docs/screens/bot-card.jpg" width="80%" alt="社員の業務カード">
+  <img src="screens/bot-card.jpg" width="80%" alt="社員の業務カード">
 </p>
 
 ### 👥 グループチャット 1 つ = 会議室 1 つ
@@ -61,7 +61,7 @@ Bot が数十体。原稿を書く子、画像を作る子、数字を見張る�
 Grok Bot のグループをルームに紐づけると、メンバーが同じテーブルを囲み、左の「グループルーム」に会話がリアルタイムで流れます。複数のグループに入っている Bot は、それぞれの会議室に「分身」が座ります。
 
 <p align="center">
-  <img src="docs/screens/group-room.jpg" width="85%" alt="グループルーム：メンバーがテーブルを囲み、会話がリアルタイムで流れる">
+  <img src="screens/group-room.jpg" width="85%" alt="グループルーム：メンバーがテーブルを囲み、会話がリアルタイムで流れる">
 </p>
 
 ### 📟 クォータはもう勘に頼らない
@@ -69,7 +69,7 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 奥の壁の LED ボードが、今週の Grok Bot クォータの使用率・プラン・プリペイド残高・リセット日を順番に表示します。
 
 <p align="center">
-  <img src="docs/screens/led-board.jpg" width="70%" alt="奥の壁の LED ボード：クォータ、残高、リセット日">
+  <img src="screens/led-board.jpg" width="70%" alt="奥の壁の LED ボード：クォータ、残高、リセット日">
 </p>
 
 ### 🧱 自分好みに配置して、もっと大きく強く
@@ -86,19 +86,19 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="docs/screens/themes/junyi.jpg" alt="軍議の大天幕"><br><b>軍議の大天幕</b><br><sub>竹簡のスクリーンと軍旗、会議はまるで出陣前</sub></td>
-    <td align="center" width="33%"><img src="docs/screens/themes/mengshou.jpg" alt="もふもふシティ"><br><b>もふもふシティ</b><br><sub>横断歩道と信号、社員は動物の着ぐるみ帽子</sub></td>
-    <td align="center" width="33%"><img src="docs/screens/themes/xingji.jpg" alt="宇宙船ブリッジ"><br><b>宇宙船ブリッジ</b><br><sub>窓の外には惑星、KPI を軌道へ</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/junyi.jpg" alt="軍議の大天幕"><br><b>軍議の大天幕</b><br><sub>竹簡のスクリーンと軍旗、会議はまるで出陣前</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/mengshou.jpg" alt="もふもふシティ"><br><b>もふもふシティ</b><br><sub>横断歩道と信号、社員は動物の着ぐるみ帽子</sub></td>
+    <td align="center" width="33%"><img src="screens/themes/xingji.jpg" alt="宇宙船ブリッジ"><br><b>宇宙船ブリッジ</b><br><sub>窓の外には惑星、KPI を軌道へ</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screens/themes/nihong.jpg" alt="ネオン夜市"><br><b>ネオン夜市</b><br><sub>ネオンと屋台、夜更かしのお供に</sub></td>
-    <td align="center"><img src="docs/screens/themes/senlin.jpg" alt="森のツリーハウス"><br><b>森のツリーハウス</b><br><sub>木の壁とホタル、会議はたき火を囲んで</sub></td>
-    <td align="center"><img src="docs/screens/themes/shenhai.jpg" alt="深海基地"><br><b>深海基地</b><br><sub>窓の外を魚が泳ぎ、社員は真鍮の潜水ヘルメット</sub></td>
+    <td align="center"><img src="screens/themes/nihong.jpg" alt="ネオン夜市"><br><b>ネオン夜市</b><br><sub>ネオンと屋台、夜更かしのお供に</sub></td>
+    <td align="center"><img src="screens/themes/senlin.jpg" alt="森のツリーハウス"><br><b>森のツリーハウス</b><br><sub>木の壁とホタル、会議はたき火を囲んで</sub></td>
+    <td align="center"><img src="screens/themes/shenhai.jpg" alt="深海基地"><br><b>深海基地</b><br><sub>窓の外を魚が泳ぎ、社員は真鍮の潜水ヘルメット</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screens/themes/chashi.jpg" alt="禅の茶室"><br><b>禅の茶室</b><br><sub>畳と竹、まずはお茶を一杯</sub></td>
-    <td align="center"><img src="docs/screens/themes/tianpin.jpg" alt="スイーツ工房"><br><b>スイーツ工房</b><br><sub>ピンクのチェック柄、いつでもお祝いムード</sub></td>
-    <td align="center"><img src="docs/screens/themes/xmas.jpg" alt="クリスマスの小屋"><br><b>クリスマスの小屋</b><br><sub>季節限定：暖炉、雪だるま、サンタ帽</sub></td>
+    <td align="center"><img src="screens/themes/chashi.jpg" alt="禅の茶室"><br><b>禅の茶室</b><br><sub>畳と竹、まずはお茶を一杯</sub></td>
+    <td align="center"><img src="screens/themes/tianpin.jpg" alt="スイーツ工房"><br><b>スイーツ工房</b><br><sub>ピンクのチェック柄、いつでもお祝いムード</sub></td>
+    <td align="center"><img src="screens/themes/xmas.jpg" alt="クリスマスの小屋"><br><b>クリスマスの小屋</b><br><sub>季節限定：暖炉、雪だるま、サンタ帽</sub></td>
   </tr>
 </table>
 
@@ -109,7 +109,7 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 BotOffice は二つで一つの体験です。デスクトップアプリで**見守り**、[botoffice.ai](https://botoffice.ai) で**採用と内装**。アカウントは共通です。
 
 <p align="center">
-  <a href="https://botoffice.ai/talent"><img src="docs/screens/site/talent.jpg" width="100%" alt="BotOffice 人材ライブラリ：社員証を見て Bot を選ぶ"></a>
+  <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="BotOffice 人材ライブラリ：社員証を見て Bot を選ぶ"></a>
 </p>
 
 - 🧑‍💼 **すでに 573 体の即戦力 Bot が在籍**：執筆、デザイン、動画、データ、メール、EC……一人ひとりに社員証があり、職種・勤務時間・採用回数がひと目でわかります。気に入ったらプロンプトをコピーして Grok Bot に貼るだけで着任。
@@ -172,8 +172,8 @@ BotOffice はあなたの PC 上で動き、オフィスを描くために PC �
 - ダウンロードしたファイルを検証したい場合は、各リリースに付属の `SHA256.txt` をどうぞ
 
 <p align="center">
-  <img src="docs/screens/welcome.png" width="58%" alt="初回起動のウェルカム画面">
-  <img src="docs/screens/settings-member.jpg" width="30%" alt="設定：会員カード、オフィスのテーマと増築">
+  <img src="screens/welcome.png" width="58%" alt="初回起動のウェルカム画面">
+  <img src="screens/settings-member.jpg" width="30%" alt="設定：会員カード、オフィスのテーマと増築">
 </p>
 
 ## よくある質問
@@ -190,7 +190,7 @@ BotOffice は無料でダウンロードできるクローズドソースのソ�
 ---
 
 <p align="center">
-  <a href="https://botoffice.ai"><img src="docs/logo.svg" width="40" alt="BotOffice"></a><br>
+  <a href="https://botoffice.ai"><img src="logo.svg" width="40" alt="BotOffice"></a><br>
   <b>BotOffice · あなたの Bot に、デスクをひとつ</b><br>
   <sub><a href="https://botoffice.ai">botoffice.ai</a> · <a href="https://botoffice.ai/talent">人材ライブラリ</a> · <a href="https://botoffice.ai/deploy">オフィス改装</a> · <a href="https://botoffice.ai/pricing">会員プラン</a></sub><br>
   <sub>© 成都哆元文化传播有限公司</sub>
