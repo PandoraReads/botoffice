@@ -19,7 +19,7 @@
 
 ---
 
-## Work for someone? Nah. I wanna be the BOSS.
+## Work for someone else? Nah. I wanna be the BOSS.
 
 You've got dozens of Bots: one writes, one designs, one watches the numbers, and a few are chatting in a group. So why are you getting busier and more worn out by the day? —
 
