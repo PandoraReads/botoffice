@@ -1,8 +1,7 @@
 <div align="center">
   <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.<br>
-  把你的 Grok Bot 和 Hermes Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。</p>
+  <p>Turn your Grok & Hermes Bot team into a cozy 3D office — new messages, group chats and Kanban tasks all in one place.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/Website-botoffice.ai-E63946?style=for-the-badge" alt="Website botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talent_Wall-573_Bots-16130F?style=for-the-badge" alt="Talent wall"></a>
