@@ -28,17 +28,13 @@ You've got dozens of Bots: one writes, one designs, one watches data, and a few 
 - 🔔 **Group chats flooding in**, and you scroll forever to find what actually matters. Ugh 😡
 - 📉 **No idea how much quota is left** until it hits zero and there's nothing left to run on ｡°(°¯᷄◠¯᷅°)°｡
 
-**BotOffice turns all that daily grind into a cozy office full of good vibes, one you can read at a glance.** Every Bot has its own desk and name tag, and a status light tells you whether it's busy, waiting, or stuck. When someone needs you, the message pops up right in front of you. You just look up, like a boss, and decide.
+**BotOffice turns all that daily grind into a cozy office full of good vibes, one you can read at a glance.** Every Bot has its own desk and name tag, and a status light tells you who's waiting for your reply and who was just active. When someone needs you, the message pops up right in front of you. You just look up, like a boss, and decide.
 
 <p align="center">
   <img src="screens/office-annotated-en.jpg" width="100%" alt="BotOffice feature map: group room, quota board, message bubbles, live feed, bot card and more">
 </p>
 
 ## Why give your Bots an office?
-
-### 👀 See everything at once: who's busy, who's waiting on you
-
-Every Bot sits at its own desk with a status light next to its name: 🟢 working · 🔴 waiting for your review · 🟡 blocked · 🔵 idle. Tap **Review** or **Unread** at the bottom and BotOffice walks you through them in order, so nothing slips through.
 
 ### 💬 When a Bot needs you, the message comes to you
 

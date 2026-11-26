@@ -28,17 +28,13 @@ Tienes decenas de Bots: uno escribe, otro diseña, otro vigila los números y va
 - 🔔 **Los grupos no paran de sonar** y tardas siglos en encontrar lo importante. Qué rabia 😡
 - 📉 **No sabes cuánta cuota te queda** hasta que se agota y ya no hay con qué seguir ｡°(°¯᷄◠¯᷅°)°｡
 
-**BotOffice convierte toda esa rutina pesada en una oficina acogedora y llena de buen rollo, que entiendes de un vistazo.** Cada Bot tiene su escritorio y su nombre, y una luz de estado te dice si está ocupado, esperando o atascado. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista, como buena jefa, y decides.
+**BotOffice convierte toda esa rutina pesada en una oficina acogedora y llena de buen rollo, que entiendes de un vistazo.** Cada Bot tiene su escritorio y su nombre, y una luz de estado te dice quién espera tu respuesta y quién ha estado activo hace poco. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista, como buena jefa, y decides.
 
 <p align="center">
   <img src="screens/office-annotated-en.jpg" width="100%" alt="Mapa de funciones de BotOffice: sala de grupo, panel de cuota, burbujas de mensajes, avisos en directo, ficha de bot y más">
 </p>
 
 ## ¿Por qué darles una oficina a tus Bots?
-
-### 👀 Todo a la vista: quién está ocupado y quién te espera
-
-Cada Bot tiene una luz junto a su nombre: 🟢 trabajando · 🔴 esperando tu revisión · 🟡 atascado · 🔵 libre. Pulsa **Revisión** o **No leídos** abajo y BotOffice te los muestra en orden, para que no se te escape nada.
 
 ### 💬 Cuando un Bot te necesita, el mensaje viene a ti
 
