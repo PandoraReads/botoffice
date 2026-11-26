@@ -227,6 +227,7 @@ BotOffice 在你本机运行，只**读取**你电脑上 Grok Bot 的数据来�
 
 - [Grok Bot](https://grok.com)：BotOffice 的一切都建立在 Grok Bot 之上，办公室里的每一位员工都来自你的 Grok Bot。
 - [Pixabay](https://pixabay.com)：应用里的部分音乐和音效来自 Pixabay 的免版税素材库，感谢创作者们。
+- [麦当的 Bot 小镇](https://www.mdldm.club/grok-bots)：部分 Bot 员工的提示词参考了 Bot 小镇，感谢麦当的分享。
 
 ## 许可
 

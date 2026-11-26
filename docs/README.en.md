@@ -229,6 +229,7 @@ Please install BotOffice (a 3D office desktop app for Grok Bot) on this computer
 
 - [Grok Bot](https://grok.com): BotOffice is built entirely on Grok Bot — every employee in your office comes from your Grok Bot.
 - [Pixabay](https://pixabay.com): some of the music and sound effects in the app come from Pixabay's royalty-free library. Thanks to its creators.
+- [Maidang's Bot Town (麦当的 Bot 小镇)](https://www.mdldm.club/grok-bots): some of our Bot employees' prompts were inspired by Bot Town. Thanks to Maidang for sharing.
 
 ## License
 

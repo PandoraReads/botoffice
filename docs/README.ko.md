@@ -229,6 +229,7 @@ BotOffice는 내 컴퓨터에서 실행되며, 사무실을 그리기 위해 컴
 
 - [Grok Bot](https://grok.com): BotOffice의 모든 것은 Grok Bot 위에 만들어졌어요. 사무실의 직원 한 명 한 명이 모두 여러분의 Grok Bot에서 왔습니다.
 - [Pixabay](https://pixabay.com): 앱의 일부 음악과 효과음은 Pixabay의 로열티 프리 라이브러리를 사용했어요. 창작자분들께 감사드립니다.
+- [마이당의 Bot 마을(麦当的 Bot 小镇)](https://www.mdldm.club/grok-bots): 일부 Bot 직원의 프롬프트는 Bot 마을을 참고했어요. 공유해 주신 마이당 님께 감사드립니다.
 
 ## 라이선스
 

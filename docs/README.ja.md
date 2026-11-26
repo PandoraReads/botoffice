@@ -229,6 +229,7 @@ BotOffice はあなたの PC 上で動き、オフィスを描くために PC �
 
 - [Grok Bot](https://grok.com)：BotOffice はすべて Grok Bot の上に成り立っています。オフィスで働く社員は、みんなあなたの Grok Bot から来ています。
 - [Pixabay](https://pixabay.com)：アプリ内の音楽と効果音の一部は、Pixabay のロイヤリティフリー素材を使用しています。クリエイターの皆さんに感謝します。
+- [麦当（マイダン）の Bot タウン（麦当的 Bot 小镇）](https://www.mdldm.club/grok-bots)：一部の Bot 社員のプロンプトは Bot タウンを参考にしています。共有してくれた麦当さんに感謝します。
 
 ## ライセンス
 
