@@ -1,8 +1,8 @@
 <div align="center">
   <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>Grok Bot のチームを 3D オフィスに。誰が作業中で、誰があなたの判断を待っていて、どのグループが話しているのか、ひと目でわかる。<br>
-  Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
+  <p>Grok Bot と Hermes Bot のチームを 3D オフィスに。誰が作業中で、誰があなたの判断を待っていて、どのグループが話しているのか、ひと目でわかる。<br>
+  Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/公式サイト-botoffice.ai-E63946?style=for-the-badge" alt="公式サイト"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人材ライブラリ-573_Bots-16130F?style=for-the-badge" alt="人材ライブラリ"></a>
@@ -38,7 +38,7 @@ Bot が数十体。原稿を書く子、画像を作る子、数字を見張る�
 
 ### 💬 Bot からの呼びかけは、目の前に
 
-新しいメッセージは右上に全文で表示され、ボタン一つで Grok Bot の該当の会話へ。ウィンドウを切り替える必要も、履歴をさかのぼる必要もありません。
+新しいメッセージは右上に全文で表示され、ボタン一つで Grok Bot や Hermes デスクトップ版の該当の会話へ。ウィンドウを切り替える必要も、履歴をさかのぼる必要もありません。
 
 <p align="center">
   <img src="screens/message-popup.jpg" width="80%" alt="新着メッセージのポップアップ">
@@ -46,7 +46,7 @@ Bot が数十体。原稿を書く子、画像を作る子、数字を見張る�
 
 ### 🪪 クリックすれば、その子の業務カード
 
-どの Bot をクリックしても、所属ルーム・ステータス・最新メッセージ・未読数・担当タスクが一枚のカードに。元の会話もワンクリックで開けます。
+どの Bot をクリックしても、所属ルーム・ステータス・最新メッセージ・未読数・担当タスクが一枚のカードに。元の会話もワンクリックで開けます。Bot がひと言話しただけで返信はしない？「✓ 既読・返信不要」を押せば「返信待ち」から外れます。
 
 <p align="center">
   <img src="screens/bot-card.jpg" width="80%" alt="社員の業務カード">
@@ -62,7 +62,7 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 
 ### 📟 クォータはもう勘に頼らない
 
-奥の壁の LED ボードが、今週の Grok Bot クォータの使用率・プラン・プリペイド残高・リセット日を順番に表示します。
+奥の壁の LED ボードが、今週の Grok Bot クォータの使用率・プラン・プリペイド残高・リセット日を順番に表示します。Hermes の今週 / 今日のトークン使用量も表示でき、設定で「Grok のみ・Hermes のみ・1 画面に両方・交互に表示」を選べます。
 
 <p align="center">
   <img src="screens/led-board.jpg" width="70%" alt="奥の壁の LED ボード：クォータ、残高、リセット日">
@@ -73,6 +73,7 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 - **ワンクリック取り込み**：設定 → オフィス → 取り込み、最近よく使う Bot が自動で着席
 - **ドラッグで配置**：Bot をルームにドロップすれば、席・向き・名札が自動で整う
 - **区画を増築**：席が足りない？会議室・サーバールーム・休憩室を追加して、オフィスの隣にドラッグ
+- **ドラッグで並べ替え**：ルーム内のメンバーをドラッグして順番を変えると、席順もそのまま変わります
 - **配置の巻き戻し**：直近 5 回分の保存前レイアウトを保持、ワンクリックで復元
 
 ## 📮 ポスト：オフィスを離れずに、リーダーへ仕事を頼む
@@ -111,6 +112,38 @@ Grok Bot のグループをルームに紐づけると、メンバーが同じ�
 > - URL とキーはあなたの PC にだけ保存され、アップロードされません。ただし、これを知っている人は誰でもリーダーに仕事を頼めるので、他人には渡さないでください。
 > - 届かなかったときは、カードに赤字で理由が表示されます。いちばん多いのはキーの失効（Grok Bot で再発行した場合など）です。リーダーに新しい URL とキーをもらい、設定に貼り直してください。
 > - 1 通送るたびにリーダーが 1 回動き、Grok Bot の週間使用量にカウントされます。Grok Bot では 1 つのルーティンにつき 1 時間あたり最大 200 回まで起動できます。
+> - Hermes を使っているなら、ポストの宛先を「Hermes Lead」にするだけ。Webhook の設定は不要です。特定の Hermes Bot に頼みたいときは、その Bot の業務カードから直接メッセージを送れます。
+
+## 🪽 Hermes Bot も出社します
+
+[Hermes Agent](https://hermes-agent.nousresearch.com) を使っていますか？Hermes の各 Bot（profile）もオフィスに座れて、Grok Bot と同じ部屋で働けます。Hermes の社員は翼のついた紫のメッセンジャー帽をかぶっているので、ひと目でわかります。
+
+- **メッセージとステータスランプ**：Hermes の最新の返信を読み取り、返信待ち・最近アクティブ・静か が一目瞭然。新着はリアルタイムでポップアップ
+- **直接メッセージ**：Hermes Bot の業務カードからそのまま送信。「前回の続き」も「新しいタスク」も選べて、Webhook の設定は不要
+- **元の会話を開く**：Hermes デスクトップ版があればワンクリックでその会話へ。なければターミナルで続きから（履歴の振り返り付き）
+- **使用量**：奥の壁の LED ボードに Hermes の今週 / 今日のトークン使用量を表示できます
+
+<p align="center">
+  <img src="screens/hermes-en.jpg" width="85%" alt="メッセンジャー帽の Hermes Bot。業務カードから直接メッセージを送れる">
+</p>
+
+## 📋 タスクボード：誰が何をしているか、ホワイトボード 1 枚で
+
+作業エリアの**ホワイトボード**をクリックすると、タスクボードが開きます。
+
+- **Grok Bot ボード**：巡回 Bot に定期タスクでチームのタスクをこの PC に書き出してもらうと、ボードが表示され 10 秒ごとに更新されます。初回はボード上の「プロンプトをコピー」から巡回 Bot に送るだけ
+- **Hermes ボード**：Hermes 内蔵のタスクボード（Kanban）をそのまま読み取り、複数のボードもまとめて表示
+- **2 つのビュー**：付箋（状態ごとの列：Triage・To do・Ready・In progress・Blocked・In review・Done）とスイムレーン（Bot ごとに 1 行、誰が忙しいかひと目でわかる）
+- **名前をクリックで会話へ**：カードの担当者をクリックすると、その Bot との会話が開きます
+- **🗑 シュレッダー**：いらなくなったタスクは右上のシュレッダーにドラッグ。5 秒以内なら取り消せます。Grok Bot のタスクはリーダー経由で担当 Bot に中止を伝え、Hermes のタスクはアーカイブ（復元可能）して担当 Bot に伝えます
+- 完了は直近 7 件だけ表示。閉じて開き直しても、前回見ていた場所から
+
+<p align="center">
+  <img src="screens/kanban-en.jpg" width="100%" alt="タスクボードの付箋ビュー：カードをドラッグするとシュレッダーの横に手書きのヒント">
+</p>
+<p align="center">
+  <img src="screens/kanban-lanes-en.jpg" width="100%" alt="タスクボードのスイムレーン：Bot ごとに 1 行">
+</p>
 
 ## 🌄 気分で選べる 12 の背景
 
@@ -153,7 +186,7 @@ BotOffice は二つで一つの体験です。デスクトップアプリで**�
   <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="BotOffice 人材ライブラリ：社員証を見て Bot を選ぶ"></a>
 </p>
 
-- 🧑‍💼 **すでに 573 体の即戦力 Bot が在籍**：執筆、デザイン、動画、データ、メール、EC……一人ひとりに社員証があり、職種・勤務時間・採用回数がひと目でわかります。気に入ったらプロンプトをコピーして Grok Bot に貼るだけで着任。
+- 🧑‍💼 **すでに 573 体の即戦力 Bot が在籍**：執筆、デザイン、動画、データ、メール、EC……一人ひとりに社員証があり、職種・勤務時間・採用回数がひと目でわかります。気に入ったらプロンプトをコピーして Grok Bot か Hermes に貼るだけで着任。
 - 🔍 **ネット上の最強 Skill と Bot を毎日リサーチ**：毎日ネット全体から本当に使える Skill、Bot、ワークフローを探し、社員として人材ライブラリに追加し続けます。自分で探し回る必要はありません。
 - 🧩 **ワークフロー単位でチーム採用**：小紅書（RED）制作部、公式アカウント編集部、EC 新商品チーム……ボタン一つでチームごと採用、役割分担と引き継ぎも設定済み。
 - 🥇 **ゴールド社員**：業界のプロのワークフローから生まれたエース社員。
@@ -162,20 +195,20 @@ BotOffice は二つで一つの体験です。デスクトップアプリで**�
 
 ## 🔒 データはあなたの PC の中だけ
 
-BotOffice はあなたの PC 上で動き、オフィスを描くために PC 内の Grok Bot のデータを**読むだけ**です。会話をアップロードしたり、代わりにメッセージを送ったり、Grok Bot の中身を変更したりはしません。アカウントは会員情報と購入済みテーマの同期にのみ使われます。
+BotOffice はあなたの PC 上で動き、オフィスを描くために PC 内の Grok Bot と Hermes のデータを**読み取り**ます。会話をアップロードすることはなく、あなたが自分で「Send」を押したときやカードをシュレッダーに入れたときだけメッセージを送ります。それ以外に Grok Bot や Hermes の中身を変更することはありません。アカウントは会員情報と購入済みテーマの同期にのみ使われます。
 
 ## 📦 ダウンロードとインストール
 
 > 🆕 **最新版は [Releases](https://github.com/PandoraReads/botoffice/releases/latest) からダウンロード**：インストーラーには無料コンテンツのみ入っています。公式サイトのアカウントでログインすると、購入済みのテーマが自動でダウンロードされます。インストール済みの方は「設定 → バージョン情報 → アップデートを確認」からワンクリックで更新できます。
 
-**始める前に**：この PC に [Grok Bot](https://grok.com) のデスクトップ版をインストールしてログインしておいてください。Node.js などの開発ツールは不要です。
+**始める前に**：この PC に [Grok Bot](https://grok.com) のデスクトップ版をインストールしてログインするか、[Hermes Agent](https://hermes-agent.nousresearch.com) をインストールしておいてください（両方でも OK）。Node.js などの開発ツールは不要です。
 
 ### 方法 1：Agent にインストールしてもらう（おすすめ）
 
-下の文章をあなたの Agent（Grok Bot、Claude Code、Codex など）にコピーして送れば、ダウンロード・検証・インストールまでやってくれます。
+下の文章をあなたの Agent（Grok Bot、Hermes、Claude Code、Codex など）にコピーして送れば、ダウンロード・検証・インストールまでやってくれます。
 
 ```text
-この PC に BotOffice（Grok Bot 用の 3D オフィスのデスクトップアプリ）をインストールしてください：
+この PC に BotOffice（Grok Bot と Hermes Bot 用の 3D オフィスのデスクトップアプリ）をインストールしてください：
 1. https://github.com/PandoraReads/botoffice/releases/latest を開き、私の OS に合うインストーラーを選んでください：
    - macOS（Apple シリコン）：BotOffice-<バージョン>-mac-arm64.dmg
    - macOS（Intel）：BotOffice-<バージョン>-mac-x64.dmg
@@ -221,13 +254,14 @@ BotOffice はあなたの PC 上で動き、オフィスを描くために PC �
 
 <details><summary><b>プログラミングは必要？</b></summary><p>いいえ。インストールも取り込みも配置も、画面上で数回クリックするだけです。</p></details>
 <details><summary><b>BotOffice は無料？</b></summary><p>本体は無料で、標準の「オフィス」はずっと使えます。有料なのはテーマ、増築、会員特典です。<a href="https://botoffice.ai/pricing">会員プラン</a>をご覧ください。</p></details>
-<details><summary><b>Grok Bot 専用？</b></summary><p>現在は Grok Bot のみに対応し、PC 内の Grok Bot のステータス、メッセージ、グループチャット、クォータを読み取ります。</p></details>
+<details><summary><b>どの Bot に対応していますか？</b></summary><p>Grok Bot と Hermes Bot（Hermes Agent の各 profile）です。Grok Bot はステータス・メッセージ・グループチャット・クォータを、Hermes はステータス・メッセージ・タスクボード・トークン使用量を読み取ります。両方の Bot を同じオフィスに座らせられます。</p></details>
 <details><summary><b>PC を買い替えたら、購入したテーマは？</b></summary><p>大丈夫です。テーマはアカウントに紐づいているので、新しい PC で同じアカウントにログインすれば再ダウンロードされます。</p></details>
 <details><summary><b>ポストを押しても反応しない／届かなかったと表示される</b></summary><p>まず設定の「Assign a task to the Lead」が緑の「Set up」になっているか確認してください。キーが無効と表示された場合は、リーダーに最新の Webhook URL とキーをもらって貼り直します。接続できない場合は、ネットワークを確認してから「Retry」を押してください。</p></details>
 
 ## 謝辞
 
-- [Grok Bot](https://grok.com)：BotOffice はすべて Grok Bot の上に成り立っています。オフィスで働く社員は、みんなあなたの Grok Bot から来ています。
+- [Grok Bot](https://grok.com)：BotOffice は Grok Bot から始まりました。オフィスの社員はあなたの Grok Bot から来ています。
+- [Hermes Agent](https://hermes-agent.nousresearch.com)（Nous Research）：Hermes の Bot も全員オフィスに座れます。タスクボードは Hermes 自身の Kanban を読み取っています。
 - [Pixabay](https://pixabay.com)：アプリ内の音楽と効果音の一部は、Pixabay のロイヤリティフリー素材を使用しています。クリエイターの皆さんに感謝します。
 - [麦当（マイダン）の Bot タウン（麦当的 Bot 小镇）](https://www.mdldm.club/grok-bots)：一部の Bot 社員のプロンプトは Bot タウンを参考にしています。共有してくれた麦当さんに感謝します。
 

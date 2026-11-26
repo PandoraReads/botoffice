@@ -1,8 +1,8 @@
 <div align="center">
   <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>Turn your Grok Bot team into a living 3D office — see who's working, who needs your call, and which group is talking, at a glance.<br>
-  把你的 Grok Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。</p>
+  <p>Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.<br>
+  把你的 Grok Bot 和 Hermes Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/Website-botoffice.ai-E63946?style=for-the-badge" alt="Website botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talent_Wall-573_Bots-16130F?style=for-the-badge" alt="Talent wall"></a>
@@ -38,15 +38,15 @@ You've got dozens of Bots: one writes, one designs, one watches data, and a few 
 
 ### 💬 When a Bot needs you, the message comes to you
 
-A new message pops up in full at the top right, with a button that jumps straight to that conversation in Grok Bot. No window switching, no digging through history.
+A new message pops up in full at the top right, with a button that jumps straight to that conversation in Grok Bot or the Hermes desktop app. No window switching, no digging through history.
 
 <p align="center">
-  <img src="screens/message-popup.jpg" width="80%" alt="New message pop-up with a one-click jump back to Grok Bot">
+  <img src="screens/message-popup.jpg" width="80%" alt="New message pop-up with a one-click jump back to the original chat">
 </p>
 
 ### 🪪 One click opens its work card
 
-Click any Bot to see its card: which room it's in, its status, its latest message, unread count, and current tasks, plus a button to open the original chat.
+Click any Bot to see its card: which room it's in, its status, its latest message, unread count, and current tasks, plus a button to open the original chat. A Bot just said something and you've read it but won't reply? Click **✓ Seen, no reply needed** and it stops counting as waiting for you.
 
 <p align="center">
   <img src="screens/bot-card.jpg" width="80%" alt="A bot's work card: status, latest message, tasks">
@@ -62,7 +62,7 @@ Bind a Grok Bot group to a room and its members sit around the same table, with 
 
 ### 📟 Stop guessing your quota
 
-The LED board on the back wall cycles through how much of this week's Grok Bot quota you've used, your plan, your prepaid balance, and the reset date.
+The LED board on the back wall cycles through how much of this week's Grok Bot quota you've used, your plan, your prepaid balance, and the reset date. It can also show how many tokens Hermes used this week and today — pick Grok only, Hermes only, both on one screen, or take turns in Settings.
 
 <p align="center">
   <img src="screens/led-board.jpg" width="70%" alt="The back-wall LED board cycling quota, balance, and reset date">
@@ -73,6 +73,7 @@ The LED board on the back wall cycles through how much of this week's Grok Bot q
 - **One-click import**: Settings → Office → Import, and your most active Bots take their seats
 - **Drag into rooms**: drop a Bot into any room; seats, facing, and name tags arrange themselves
 - **Expand with new plots**: out of seats? Add a meeting room, server room, or lounge and drag it next to your office
+- **Drag to reorder**: drag members inside a room to change their order, and their seats follow
 - **Undo for layouts**: your last 5 saved layouts are kept, one click to restore
 
 ## 📮 The mailbox: hand the Lead a task without leaving your office
@@ -111,6 +112,38 @@ The mailbox needs to be connected to *your own* Lead bot first. Everyone's Lead 
 > - The URL and key are stored only on your computer and never uploaded. Anyone who has them can give your Lead tasks, though, so keep them to yourself.
 > - If a letter doesn't go through, the card explains why in red. The most common cause is an expired key (for example, after it was regenerated in Grok Bot): ask the Lead for the new URL and key and paste them into Settings again.
 > - Each letter makes the Lead run once and counts toward your weekly Grok Bot usage. Grok Bot allows up to 200 runs per routine per hour.
+> - Using Hermes? Just pick **Hermes Lead** as the recipient in the mailbox — no webhook needed. To give a task to one specific Hermes Bot, message it from its work card.
+
+## 🪽 Hermes Bots come to work too
+
+Using [Hermes Agent](https://hermes-agent.nousresearch.com)? Every Hermes Bot (profile) can take a desk and sit alongside your Grok Bots. Hermes employees wear a purple messenger cap with little wings, so you can spot them at a glance.
+
+- **Messages and status lights**: BotOffice reads Hermes's latest replies, shows who's waiting for you, active, or quiet, and pops new messages up in real time
+- **Message it directly**: open a Hermes Bot's work card to send it a message — **Continue last chat** or start a **New task**, no webhook needed
+- **Open the original chat**: with the Hermes desktop app installed, one click jumps to that conversation there; without it, the chat resumes in Terminal with a recap
+- **Usage**: the LED board on the back wall can show how many tokens Hermes used this week and today
+
+<p align="center">
+  <img src="screens/hermes-en.jpg" width="85%" alt="A Hermes Bot in its messenger cap, messaged straight from its work card">
+</p>
+
+## 📋 Task board: who's doing what, on one whiteboard
+
+Click the **whiteboard** in the work area to open the task board.
+
+- **Grok Bot board**: have your patrol bot write the team's tasks to your computer on a schedule, and the board shows up and refreshes every 10 seconds. The first time, the board gives you a prompt to copy and send to your patrol bot
+- **Hermes board**: reads Hermes's built-in task board (Kanban); several boards are shown together
+- **Two views**: sticky notes (columns by status: Triage, To do, Ready, In progress, Blocked, In review, Done) and lanes (one row per Bot, so you see who's busy)
+- **Click a name to chat**: click the employee on a card to open your conversation with it
+- **🗑 Shredder**: don't need a task anymore? Drag its card into the shredder at the top right; you can undo within 5 seconds. For Grok Bot, the Lead tells the responsible Bot to stop; for Hermes, the task is archived (recoverable) and the responsible Bot is told
+- Only the 7 most recent done tasks are shown, and the board reopens where you left it
+
+<p align="center">
+  <img src="screens/kanban-en.jpg" width="100%" alt="Task board, sticky notes view: a handwritten hint appears by the shredder while dragging a card">
+</p>
+<p align="center">
+  <img src="screens/kanban-lanes-en.jpg" width="100%" alt="Task board, lanes view: one row per Bot">
+</p>
 
 ## 🌄 12 backdrops for every mood
 
@@ -153,7 +186,7 @@ BotOffice is one experience in two parts: the desktop app is where you **watch**
   <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="BotOffice talent wall: pick Bots by their badges"></a>
 </p>
 
-- 🧑‍💼 **573 ready-made Bot employees already on board**: writing, design, video, data, email, e-commerce… Each has its own badge showing its role, schedule, and how many times it's been hired. Found one you like? Copy its prompt into Grok Bot and it starts right away.
+- 🧑‍💼 **573 ready-made Bot employees already on board**: writing, design, video, data, email, e-commerce… Each has its own badge showing its role, schedule, and how many times it's been hired. Found one you like? Copy its prompt into Grok Bot or Hermes and it starts right away.
 - 🔍 **The best Skills and Bots on the web, scouted every day**: we search the whole web daily for the most useful Skills, Bots, and workflows, turn them into employees, and keep adding them to the talent wall, so you don't have to hunt.
 - 🧩 **Hire a whole workflow team**: a Xiaohongshu studio, a newsletter desk, a product-launch crew… one click hires the whole team, with roles and hand-offs already set up.
 - 🥇 **Gold Hires**: star employees distilled from the workflows of industry pros.
@@ -162,20 +195,20 @@ BotOffice is one experience in two parts: the desktop app is where you **watch**
 
 ## 🔒 Your data stays on your computer
 
-BotOffice runs on your machine and only **reads** your local Grok Bot data to draw the office. It never uploads your chats, never sends messages for you, and never changes anything in Grok Bot. Your account is used only to sync your membership and purchased themes.
+BotOffice runs on your machine and **reads** your local Grok Bot and Hermes data to draw the office. It never uploads your chats, and it only sends a message when you click **Send** yourself or drag a card into the shredder; otherwise it never changes anything in Grok Bot or Hermes. Your account is used only to sync your membership and purchased themes.
 
 ## 📦 Download and install
 
 > 🆕 **Get the latest version from [Releases](https://github.com/PandoraReads/botoffice/releases/latest)**: installers include the free content only; sign in to your botoffice.ai account and the themes you own download automatically. Already installed? Go to **Settings → About → Check for updates** to upgrade in one click.
 
-**Before you start**: install the [Grok Bot](https://grok.com) desktop app on this computer and sign in. BotOffice doesn't need Node.js or any developer tools.
+**Before you start**: install the [Grok Bot](https://grok.com) desktop app on this computer and sign in, or install [Hermes Agent](https://hermes-agent.nousresearch.com) (or both). BotOffice doesn't need Node.js or any developer tools.
 
 ### Option 1: let your Agent install it (recommended)
 
-Copy this into your own Agent (Grok Bot, Claude Code, Codex…) and it will download, verify, and install BotOffice for you:
+Copy this into your own Agent (Grok Bot, Hermes, Claude Code, Codex…) and it will download, verify, and install BotOffice for you:
 
 ```text
-Please install BotOffice (a 3D office desktop app for Grok Bot) on this computer:
+Please install BotOffice (a 3D office desktop app for Grok Bot and Hermes Bot) on this computer:
 1. Open https://github.com/PandoraReads/botoffice/releases/latest and pick the installer for my system:
    - macOS (Apple Silicon): BotOffice-<version>-mac-arm64.dmg
    - macOS (Intel): BotOffice-<version>-mac-x64.dmg
@@ -221,13 +254,14 @@ Please install BotOffice (a 3D office desktop app for Grok Bot) on this computer
 
 <details><summary><b>Do I need to code?</b></summary><p>No. Installing, importing, and arranging are all a few clicks in the app.</p></details>
 <details><summary><b>Is BotOffice free?</b></summary><p>The app is free and the default <b>Office</b> look is yours forever. Themes, expansions, and membership perks are paid; see <a href="https://botoffice.ai/pricing">plans</a>.</p></details>
-<details><summary><b>Does it only work with Grok Bot?</b></summary><p>For now, yes. It reads status, messages, group chats, and quota from Grok Bot on your computer.</p></details>
+<details><summary><b>Which bots does it support?</b></summary><p>Grok Bot and Hermes Bot (every Hermes Agent profile). For Grok Bot it reads status, messages, group chats, and quota; for Hermes it reads status, messages, the task board, and token usage. Bots from both can share the same office.</p></details>
 <details><summary><b>I got a new computer. Are my themes still there?</b></summary><p>Yes. Themes belong to your account; sign in on the new computer and they download again.</p></details>
 <details><summary><b>The mailbox does nothing / says the letter didn't go through?</b></summary><p>First check that <b>Assign a task to the Lead</b> in Settings shows a green "Set up". If the card says the key is invalid, ask the Lead for its latest webhook URL and key and paste them in again. If it can't connect, check your network and click <b>Retry</b>.</p></details>
 
 ## Acknowledgements
 
-- [Grok Bot](https://grok.com): BotOffice is built entirely on Grok Bot — every employee in your office comes from your Grok Bot.
+- [Grok Bot](https://grok.com): BotOffice started on Grok Bot — the employees in your office come from your Grok Bot.
+- [Hermes Agent](https://hermes-agent.nousresearch.com) (Nous Research): every Hermes Bot can take a desk, and the task board reads Hermes's own Kanban.
 - [Pixabay](https://pixabay.com): some of the music and sound effects in the app come from Pixabay's royalty-free library. Thanks to its creators.
 - [Maidang's Bot Town (麦当的 Bot 小镇)](https://www.mdldm.club/grok-bots): some of our Bot employees' prompts were inspired by Bot Town. Thanks to Maidang for sharing.
 
