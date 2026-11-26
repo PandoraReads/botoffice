@@ -79,6 +79,51 @@ Grok Bot 그룹을 방에 연결하면 멤버들이 한 테이블에 둘러앉�
 - **부지 증축**: 자리가 모자라면 회의실, 서버실, 휴게실을 추가해 사무실 옆으로 드래그
 - **배치 되돌리기**: 최근 5번의 저장 전 배치를 보관, 클릭 한 번으로 복원
 
+## 📮 우체통: 사무실을 떠나지 않고 리더에게 업무 맡기기
+
+안내 데스크 옆에 우체통이 있어요. 클릭해서 할 일을 적고 「Send」를 누르면 봉투가 우체통에 쏙 들어가고, 업무가 바로 리더 Bot에게 전달됩니다. **편지 한 통 = 새 업무 하나.** 리더가 일을 마치면 Grok Bot의 원래 대화에 답장을 보내고, 사무실에도 새 메시지가 바로 떠요.
+
+우체통은 **안내 데스크 옆, 리더 바로 곁**에 있어요. 위치는 이 그림을 보세요. 테마마다 우체통 모양과 편지 넣는 동작이 달라서, 군의대장(War Tent)에서는 전서구가 편지를 부리에 물고, 맹수도시(Critter City)에서는 길가 우편함이 빨간 깃발을 세웁니다.
+
+<p align="center">
+  <img src="screens/mailbox-where-en.jpg" width="80%" alt="우체통 위치: 안내 데스크 옆, 리더 곁">
+</p>
+
+<p align="center">
+  <img src="screens/mailbox-en.jpg" width="100%" alt="우체통: 업무 작성 → 보내기 → 리더에게 전달됨">
+</p>
+
+### 처음 설정하기 (약 3분)
+
+먼저 우체통을 *내* 리더 Bot과 연결해야 해요. 리더는 사람마다 다르니 이 단계는 직접 한 번만 해 주세요 (앱 화면은 중국어 또는 영어입니다):
+
+1. **📮우체통 클릭**: 사무실에서 안내 데스크 옆 우체통을 클릭하세요. 아직 설정하지 않았다면 카드 위쪽에 노란 안내가 보여요. 그 안의 「Set up(去设置)」을 누르면 설정의 「Assign a task to the Lead(给总管派任务)」가 바로 열립니다.
+2. **메시지 원클릭 복사**: 설정 패널에서 「Copy」를 클릭하세요. 버튼이 초록색으로 바뀌면 복사된 거예요. 복사되는 문장은 다음과 같아요 (영어 화면 기준):
+   ```text
+   Please create a routine called "BotOffice tasks" with a Webhook trigger. Rule: every time a webhook request arrives, treat the message field in its JSON as a new task I'm giving you in this chat, carry it out, and post the result back here. Once it's set up, send me the webhook URL and key so I can paste them into BotOffice.
+   ```
+3. **리더 Bot에게 보내기**: Grok Bot을 열고, 상단에 고정해 둔 리더 Bot과의 대화에 붙여넣어 보내세요. 리더가 Webhook으로 실행되는 루틴을 스스로 만듭니다.
+4. **Webhook URL과 키 복사**: 리더가 **Webhook URL**(보통 `https://api2.cursor.sh/automations/webhook/`로 시작)과 **키**를 답장으로 보내 주면 복사해 두세요.
+5. **BotOffice 설정에 붙여넣기**: BotOffice의 「Assign a task to the Lead」로 돌아가 아래의 「Webhook URL」「Webhook key」에 URL과 키를 붙여넣고 「Save」를 누르세요. 상태가 초록색 「Set up」으로 바뀌면 끝!
+6. **다시 📮우체통을 눌러 써 보기**: 간단한 일(예: 「오늘 할 일 확인해 줘」)을 적고 「Send」를 누르거나 ⌘ / Ctrl + Enter를 누르세요. 초록색 「✓ Delivered to the Lead」가 보이면 전달된 거예요. 리더의 답장은 사무실에 바로 뜹니다.
+
+<p align="center">
+  <img src="screens/mailbox-setup-en.jpg" width="46%" alt="설정: 리더에게 업무 맡기기 (2단계 설정)">
+</p>
+
+> 💡 **알아 두면 좋아요**
+> - URL과 키는 내 컴퓨터에만 저장되고 업로드되지 않아요. 다만 이걸 가진 사람은 누구나 리더에게 일을 시킬 수 있으니 다른 사람에게 알려 주지 마세요.
+> - 편지가 전달되지 않으면 카드에 빨간 글씨로 이유가 표시돼요. 가장 흔한 원인은 키 만료(Grok Bot에서 다시 생성한 경우 등)예요. 리더에게 새 URL과 키를 받아 설정에 다시 붙여넣으세요.
+> - 편지를 보낼 때마다 리더가 한 번 실행되고 Grok Bot 주간 사용량에 포함돼요. Grok Bot은 루틴 하나당 시간당 최대 200번까지 실행할 수 있어요.
+
+## 🌄 기분 따라 고르는 12가지 배경
+
+오른쪽 「배경(Backdrop)」 버튼에 12가지 배경이 있어요: **기본, 성운, 봄 벚꽃, 여름밤 반딧불, 가을 낙엽, 첫눈, 맑은 바닷가, 해 질 녘 도시, 비 오는 밤 창가, 북유럽 오로라, 베이퍼웨이브, 황무지 오렌지 안개**. 사무실은 그대로, 뒤의 풍경만 바뀌어요. 모든 배경에 은은한 움직임(흩날리는 꽃잎, 깜빡이는 반딧불, 일렁이는 오로라…)이 있고, 어두운 배경에서는 모서리 프레임과 시계가 자동으로 밝은 색으로 바뀝니다. 모두 무료이고, 고른 배경은 이 컴퓨터에 기억돼요.
+
+<p align="center">
+  <img src="screens/backdrops-en.jpg" width="100%" alt="배경 패널: 12가지 배경 (황무지 오렌지 안개)">
+</p>
+
 ## 🎨 풍부한 테마, 클릭 한 번으로 인테리어 변신
 
 배치와 기능은 그대로, 사무실 분위기와 직원 복장만 바뀝니다. 처음 설치하면 「사무실」 테마로 시작하고, 나머지 아홉 가지 테마는 BotOffice 공식 사이트에서 마련할 수 있으며, **새 테마가 계속 나옵니다**. 시즌 한정판도 있고, 새 테마가 나오면 앱 안의 공지로 바로 알려 드립니다.
@@ -125,7 +170,7 @@ BotOffice는 내 컴퓨터에서 실행되며, 사무실을 그리기 위해 컴
 
 ## 📦 다운로드와 설치
 
-> 🧪 **비공개 베타 중**: 유료 테마를 로그인 후 계정별로 내려받는 방식으로 바꾸는 중이라, 새 설치 파일에는 무료 콘텐츠만 들어갑니다. 준비되면 [Releases](https://github.com/PandoraReads/botoffice/releases)에 공개합니다. 베타 사용자는 「설정 → 정보 → 업데이트 확인」에서 바로 업데이트할 수 있습니다.
+> 🆕 **최신 버전은 [Releases](https://github.com/PandoraReads/botoffice/releases/latest)에서 다운로드**: 설치 파일에는 무료 콘텐츠만 들어 있어요. 공식 사이트 계정으로 로그인하면 구매한 테마가 자동으로 내려받아집니다. 이미 설치했다면 「설정 → 정보 → 업데이트 확인」에서 클릭 한 번으로 업그레이드하세요.
 
 **시작하기 전에**: 이 컴퓨터에 [Grok Bot](https://grok.com) 데스크톱 앱을 설치하고 로그인하세요. Node.js 같은 개발 도구는 필요 없습니다.
 
@@ -182,6 +227,12 @@ BotOffice는 내 컴퓨터에서 실행되며, 사무실을 그리기 위해 컴
 <details><summary><b>BotOffice는 무료인가요?</b></summary><p>앱은 무료이고 기본 「사무실」 테마는 계속 쓸 수 있습니다. 유료는 테마, 증축, 멤버십 혜택입니다. <a href="https://botoffice.ai/pricing">멤버십</a>을 확인하세요.</p></details>
 <details><summary><b>Grok Bot만 지원하나요?</b></summary><p>현재는 그렇습니다. 내 컴퓨터의 Grok Bot에서 상태, 메시지, 그룹 채팅, 사용량을 읽어 옵니다.</p></details>
 <details><summary><b>컴퓨터를 바꾸면 산 테마는요?</b></summary><p>그대로 있습니다. 테마는 계정에 귀속되므로 새 컴퓨터에서 같은 계정으로 로그인하면 다시 다운로드됩니다.</p></details>
+<details><summary><b>우체통을 눌러도 반응이 없거나, 전달되지 않았다고 나와요</b></summary><p>먼저 설정의 「Assign a task to the Lead」가 초록색 「Set up」인지 확인하세요. 키가 유효하지 않다고 나오면 리더에게 최신 Webhook URL과 키를 받아 다시 붙여넣으세요. 연결할 수 없다고 나오면 네트워크를 확인한 뒤 「Retry」를 누르세요.</p></details>
+
+## 감사의 말
+
+- [Grok Bot](https://grok.com): BotOffice의 모든 것은 Grok Bot 위에 만들어졌어요. 사무실의 직원 한 명 한 명이 모두 여러분의 Grok Bot에서 왔습니다.
+- [Pixabay](https://pixabay.com): 앱의 일부 음악과 효과음은 Pixabay의 로열티 프리 라이브러리를 사용했어요. 창작자분들께 감사드립니다.
 
 ## 라이선스
 

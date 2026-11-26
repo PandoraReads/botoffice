@@ -79,6 +79,51 @@ El panel LED de la pared del fondo va mostrando cuánto has usado de tu cuota se
 - **Ampliar con nuevas parcelas**: ¿faltan sitios? Añade una sala de reuniones, de servidores o de descanso y arrástrala junto a tu oficina
 - **Deshacer la distribución**: se guardan tus últimas 5 distribuciones; un clic para recuperarlas
 
+## 📮 El buzón: encárgale tareas al Jefe sin salir de tu oficina
+
+Junto a la recepción hay un buzón. Haz clic, escribe lo que hay que hacer y pulsa **Send**: el sobre entra en el buzón y la tarea llega directamente a tu Bot Jefe. **Cada carta = una tarea nueva.** Cuando el Jefe termina, responde en su chat habitual de Grok Bot y la oficina te muestra el mensaje nuevo al momento.
+
+El buzón está **junto a la recepción, al lado del Jefe**; en esta imagen ves dónde. Cada tema lo decora a su manera y con su propia animación: en la Tienda de Guerra (War Tent) una paloma mensajera sujeta la carta con el pico, y en Ciudad Peluche (Critter City) el buzón de la calle levanta su banderita roja cuando la carta ya está dentro.
+
+<p align="center">
+  <img src="screens/mailbox-where-en.jpg" width="80%" alt="Dónde está el buzón: junto a la recepción, al lado del Jefe">
+</p>
+
+<p align="center">
+  <img src="screens/mailbox-en.jpg" width="100%" alt="Buzón: escribe una tarea → Enviar → Entregada al Jefe">
+</p>
+
+### Configuración inicial (unos 3 minutos)
+
+Primero hay que conectar el buzón con *tu propio* Bot Jefe. Cada persona tiene su propio Jefe, así que este paso lo haces tú una sola vez (la app está en chino o en inglés):
+
+1. **Haz clic en el 📮 buzón**: en la oficina, haz clic en el buzón junto a la recepción. Si aún no está configurado, la tarjeta muestra un aviso amarillo: pulsa **Set up** (去设置) y se abrirá Ajustes directamente en **Assign a task to the Lead** (给总管派任务).
+2. **Copia el mensaje con un clic**: pulsa **Copy** en el panel de ajustes; el botón se pone verde cuando está copiado. Esto es lo que se copia (con la interfaz en inglés):
+   ```text
+   Please create a routine called "BotOffice tasks" with a Webhook trigger. Rule: every time a webhook request arrives, treat the message field in its JSON as a new task I'm giving you in this chat, carry it out, and post the result back here. Once it's set up, send me the webhook URL and key so I can paste them into BotOffice.
+   ```
+3. **Envíaselo a tu Bot Jefe**: abre Grok Bot, entra en el chat de tu Bot Jefe fijado, pega y envía. El Jefe creará por sí mismo una rutina que se activa por webhook.
+4. **Copia la URL del webhook y la clave**: el Jefe te responderá con una **URL de webhook** (normalmente empieza por `https://api2.cursor.sh/automations/webhook/`) y una **clave**. Cópialas.
+5. **Pégalas en los Ajustes de BotOffice**: vuelve a **Assign a task to the Lead**, pega la URL y la clave en **Webhook URL** y **Webhook key**, justo debajo, y pulsa **Save**. Cuando el estado se ponga verde ("Set up"), listo.
+6. **Vuelve a hacer clic en el 📮 buzón para probarlo**: escribe algo sencillo (por ejemplo, "¿Qué tengo pendiente hoy?") y pulsa **Send** o ⌘ / Ctrl + Enter. Si ves **✓ Delivered to the Lead** en verde, ha llegado, y la respuesta del Jefe aparecerá en tu oficina.
+
+<p align="center">
+  <img src="screens/mailbox-setup-en.jpg" width="46%" alt="Ajustes: encargar una tarea al Jefe (configuración en dos pasos)">
+</p>
+
+> 💡 **Conviene saber**
+> - La URL y la clave se guardan solo en tu ordenador y nunca se suben a ningún sitio. Eso sí, quien las tenga puede encargarle tareas a tu Jefe, así que no se las pases a nadie.
+> - Si una carta no llega, la tarjeta explica el motivo en rojo. Lo más habitual es una clave caducada (por ejemplo, si se volvió a generar en Grok Bot): pídele al Jefe la URL y la clave nuevas y vuelve a pegarlas en Ajustes.
+> - Cada carta hace que el Jefe se ejecute una vez y cuenta para tu uso semanal de Grok Bot. Grok Bot permite hasta 200 ejecuciones por rutina y hora.
+
+## 🌄 12 fondos para cada estado de ánimo
+
+El botón **Fondo (Backdrop)** de la derecha tiene 12 fondos: **Predeterminado, Nebulosa, Sakura, Luciérnagas, Hojas de otoño, Primera nevada, Playa soleada, Ciudad al atardecer, Noche de lluvia, Auroras boreales, Vaporwave y Ciudad de polvo**. La oficina no cambia; solo cambia el paisaje de detrás. Todos se mueven con suavidad (pétalos que caen, luciérnagas que parpadean, auroras que fluyen…) y, en los fondos oscuros, el marco de las esquinas y el reloj se vuelven claros automáticamente. Todos son gratis y tu elección se recuerda en este ordenador.
+
+<p align="center">
+  <img src="screens/backdrops-en.jpg" width="100%" alt="Panel de fondos: 12 fondos, con Ciudad de polvo seleccionado">
+</p>
+
 ## 🎨 Muchos temas, un clic para cambiar la decoración
 
 La distribución y las funciones no cambian; cambian el ambiente de la oficina y la ropa de tus Bots. Una instalación nueva empieza con el estilo **Oficina**; los otros nueve temas se consiguen en la web de BotOffice, **y no dejan de llegar nuevos**: hay ediciones de temporada y cada tema nuevo se anuncia dentro de la app.
@@ -125,7 +170,7 @@ BotOffice se ejecuta en tu equipo y solo **lee** los datos locales de Grok Bot p
 
 ## 📦 Descarga e instalación
 
-> 🧪 **En beta privada**: los temas de pago pasan a entregarse por cuenta tras iniciar sesión, así que los nuevos instaladores solo incluyen contenido gratuito. Se publicarán en [Releases](https://github.com/PandoraReads/botoffice/releases) cuando estén listos. Si ya usas la beta, actualiza desde **Ajustes → Acerca de → Buscar actualizaciones**.
+> 🆕 **Descarga la última versión en [Releases](https://github.com/PandoraReads/botoffice/releases/latest)**: los instaladores solo incluyen el contenido gratuito; inicia sesión con tu cuenta de botoffice.ai y los temas que tengas se descargarán solos. ¿Ya lo tienes instalado? Ve a **Ajustes → Acerca de → Buscar actualizaciones** para actualizar con un clic.
 
 **Antes de empezar**: instala la app de escritorio de [Grok Bot](https://grok.com) en este ordenador e inicia sesión. BotOffice no necesita Node.js ni herramientas de desarrollo.
 
@@ -182,6 +227,12 @@ Por favor, instala BotOffice (una app de escritorio de oficina 3D para Grok Bot)
 <details><summary><b>¿BotOffice es gratis?</b></summary><p>La app es gratis y el estilo <b>Oficina</b> es tuyo para siempre. Los temas, las ampliaciones y las ventajas de membresía son de pago; consulta los <a href="https://botoffice.ai/pricing">planes</a>.</p></details>
 <details><summary><b>¿Solo funciona con Grok Bot?</b></summary><p>Por ahora, sí. Lee el estado, los mensajes, los chats de grupo y la cuota de Grok Bot en tu ordenador.</p></details>
 <details><summary><b>He cambiado de ordenador. ¿Sigo teniendo mis temas?</b></summary><p>Sí. Los temas van con tu cuenta; inicia sesión en el nuevo ordenador y se descargarán de nuevo.</p></details>
+<details><summary><b>El buzón no hace nada o dice que la carta no se envió</b></summary><p>Primero comprueba que <b>Assign a task to the Lead</b> en Ajustes aparece en verde ("Set up"). Si la tarjeta dice que la clave no es válida, pídele al Jefe su URL y clave de webhook más recientes y vuelve a pegarlas. Si no puede conectarse, revisa tu red y pulsa <b>Retry</b>.</p></details>
+
+## Agradecimientos
+
+- [Grok Bot](https://grok.com): BotOffice está construido por completo sobre Grok Bot; cada empleado de tu oficina viene de tu Grok Bot.
+- [Pixabay](https://pixabay.com): parte de la música y los efectos de sonido de la app proceden de la biblioteca libre de derechos de Pixabay. Gracias a sus creadores.
 
 ## Licencia
 

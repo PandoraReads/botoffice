@@ -79,6 +79,51 @@ The LED board on the back wall cycles through how much of this week's Grok Bot q
 - **Expand with new plots**: out of seats? Add a meeting room, server room, or lounge and drag it next to your office
 - **Undo for layouts**: your last 5 saved layouts are kept, one click to restore
 
+## 📮 The mailbox: hand the Lead a task without leaving your office
+
+There's a mailbox next to the front desk. Click it, write what needs doing, hit **Send** — the envelope slides in, and the task goes straight to your Lead bot. **Every letter = one new task.** When the Lead is done, it replies in its usual Grok Bot chat, and the office pops the new message up for you.
+
+You'll find the mailbox **by the front desk, right next to the Lead** — here's where it is. Each theme dresses it up differently, with its own little animation: in the War Tent a carrier pigeon takes the letter in its beak, and in Critter City the curbside mailbox raises its red flag once your letter is in.
+
+<p align="center">
+  <img src="screens/mailbox-where-en.jpg" width="80%" alt="Where the mailbox is: by the front desk, next to the Lead">
+</p>
+
+<p align="center">
+  <img src="screens/mailbox-en.jpg" width="100%" alt="Mailbox: write a task → Send → Delivered to the Lead">
+</p>
+
+### First-time setup (about 3 minutes)
+
+The mailbox needs to be connected to *your own* Lead bot first. Everyone's Lead is different, so this is a one-time step you do yourself:
+
+1. **Click the 📮 mailbox**: in the office, click the mailbox by the front desk. If it isn't set up yet, the card shows a yellow banner — click **Set up** in it, and Settings opens right at **Assign a task to the Lead**.
+2. **Copy the message**: click **Copy** in the settings panel — the button turns green when it's copied. This is what gets copied:
+   ```text
+   Please create a routine called "BotOffice tasks" with a Webhook trigger. Rule: every time a webhook request arrives, treat the message field in its JSON as a new task I'm giving you in this chat, carry it out, and post the result back here. Once it's set up, send me the webhook URL and key so I can paste them into BotOffice.
+   ```
+3. **Send it to your Lead bot**: open Grok Bot, go to the chat with your pinned Lead bot, paste, and send. The Lead creates a webhook-triggered routine on its own.
+4. **Copy the webhook URL and key**: the Lead replies with a **webhook URL** (usually starting with `https://api2.cursor.sh/automations/webhook/`) and a **key**. Copy them.
+5. **Paste them into BotOffice Settings**: back in **Assign a task to the Lead**, paste the URL and the key into **Webhook URL** and **Webhook key** below it, then click **Save**. When the status turns green ("Set up"), you're done.
+6. **Click the 📮 mailbox again to try it**: write something small (e.g. "What's on my to-do list today?") and click **Send** or press ⌘ / Ctrl + Enter. A green **✓ Delivered to the Lead** means it arrived, and the Lead's reply will pop up in your office.
+
+<p align="center">
+  <img src="screens/mailbox-setup-en.jpg" width="46%" alt="Settings: Assign a task to the Lead (two-step setup)">
+</p>
+
+> 💡 **Good to know**
+> - The URL and key are stored only on your computer and never uploaded. Anyone who has them can give your Lead tasks, though, so keep them to yourself.
+> - If a letter doesn't go through, the card explains why in red. The most common cause is an expired key (for example, after it was regenerated in Grok Bot): ask the Lead for the new URL and key and paste them into Settings again.
+> - Each letter makes the Lead run once and counts toward your weekly Grok Bot usage. Grok Bot allows up to 200 runs per routine per hour.
+
+## 🌄 12 backdrops for every mood
+
+The **Backdrop** button on the right holds 12 backdrops: **Default, Nebula, Sakura, Fireflies, Autumn Leaves, First Snow, Seaside, Dusk City, Rainy Night, Northern Lights, Vaporwave, and Dust City**. The office stays the same; only the scenery behind it changes. Each one moves gently (drifting petals, blinking fireflies, flowing auroras…), and on dark backdrops the corner frame and clock switch to light colors automatically. All free, and your pick is remembered on this computer.
+
+<p align="center">
+  <img src="screens/backdrops-en.jpg" width="100%" alt="Backdrop panel: 12 backdrops, Dust City shown">
+</p>
+
 ## 🎨 Plenty of themes, one click to redecorate
 
 The layout and features stay the same; the whole mood of the office and your Bots' outfits change. A fresh install comes with the **Office** look; the other nine themes are available on the BotOffice website, **and new ones keep coming**: there are seasonal limited editions, and every new theme is announced right inside the app.
@@ -125,7 +170,7 @@ BotOffice runs on your machine and only **reads** your local Grok Bot data to dr
 
 ## 📦 Download and install
 
-> 🧪 **In private beta**: paid themes are moving to account-based delivery after sign-in, so new installers ship with free content only. They'll be published on [Releases](https://github.com/PandoraReads/botoffice/releases) when ready. Beta users can upgrade from **Settings → About → Check for updates**.
+> 🆕 **Get the latest version from [Releases](https://github.com/PandoraReads/botoffice/releases/latest)**: installers include the free content only; sign in to your botoffice.ai account and the themes you own download automatically. Already installed? Go to **Settings → About → Check for updates** to upgrade in one click.
 
 **Before you start**: install the [Grok Bot](https://grok.com) desktop app on this computer and sign in. BotOffice doesn't need Node.js or any developer tools.
 
@@ -182,6 +227,12 @@ Please install BotOffice (a 3D office desktop app for Grok Bot) on this computer
 <details><summary><b>Is BotOffice free?</b></summary><p>The app is free and the default <b>Office</b> look is yours forever. Themes, expansions, and membership perks are paid; see <a href="https://botoffice.ai/pricing">plans</a>.</p></details>
 <details><summary><b>Does it only work with Grok Bot?</b></summary><p>For now, yes. It reads status, messages, group chats, and quota from Grok Bot on your computer.</p></details>
 <details><summary><b>I got a new computer. Are my themes still there?</b></summary><p>Yes. Themes belong to your account; sign in on the new computer and they download again.</p></details>
+<details><summary><b>The mailbox does nothing / says the letter didn't go through?</b></summary><p>First check that <b>Assign a task to the Lead</b> in Settings shows a green "Set up". If the card says the key is invalid, ask the Lead for its latest webhook URL and key and paste them in again. If it can't connect, check your network and click <b>Retry</b>.</p></details>
+
+## Acknowledgements
+
+- [Grok Bot](https://grok.com): BotOffice is built entirely on Grok Bot — every employee in your office comes from your Grok Bot.
+- [Pixabay](https://pixabay.com): some of the music and sound effects in the app come from Pixabay's royalty-free library. Thanks to its creators.
 
 ## License
 
