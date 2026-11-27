@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <img src="screens/office-real.gif" width="100%" alt="A real BotOffice: every Bot at its desk, new-message bubbles and history">
+  <img src="screens/office-real.jpg" width="100%" alt="A real BotOffice: every Bot at its desk, new-message bubbles and history">
 </p>
 
 <sub>Screenshots show the Chinese interface.</sub>

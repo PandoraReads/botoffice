@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <img src="screens/office-real.gif" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
+  <img src="screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
 </p>
 
 ---
