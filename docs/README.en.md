@@ -1,7 +1,8 @@
 <div align="center">
   <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>Turn your Grok & Hermes Bot team into a cozy 3D office — new messages, group chats and Kanban tasks all in one place.</p>
+  <p>Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.<br>
+  把你的 Grok Bot 和 Hermes Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/Website-botoffice.ai-E63946?style=for-the-badge" alt="Website botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talent_Wall-573_Bots-16130F?style=for-the-badge" alt="Talent wall"></a>
@@ -144,6 +145,23 @@ Click the **whiteboard** in the work area to open the task board.
   <img src="screens/kanban-lanes-en.jpg" width="100%" alt="Task board, lanes view: one row per Bot">
 </p>
 
+## 🐈‍⬛ Meet Xiaohei, the front-desk cat who also answers your questions
+
+A little black kitten in a red scarf now lives at the bottom-right of the reception desk, with a bowl of kibble piled so high it spills over (the bowl takes your theme's color).
+
+- 🐾 **Pet her**: hover and your cursor turns into a palm — she sticks her bum up, rolls onto her belly and pops hearts. When idle she naps, sleeps belly-up and daydreams about fish, butterflies, you, and that annoying dog
+- 💬 **Click to chat**: connect your own chat model (DeepSeek, Kimi, Qwen, Zhipu, OpenAI, Gemini, Claude or a custom endpoint) and she'll chat, brainstorm, and act as BotOffice's little help desk — ask her how to install or use anything
+- 🔁 **Backup models**: the first model is the main one; if it can't connect, she switches to the next automatically
+- 📒 **Notebook memory**: she remembers the important things you tell her; cross out anything wrong or tell her directly
+- 🌐 **Web search**: turn it on and she can look things up online, with source links. No extra key needed when your main model is DeepSeek
+- 💕 **Affection**: pet her and chat often and she gets clingy; ignore her too long and she droops — or even gets sick from missing you
+
+Your API keys stay on your own computer. (Xiaohei currently speaks Chinese.)
+
+<p align="center">
+  <img src="screens/companion.jpg" width="100%" alt="Xiaohei: ask “How do I use BotOffice?” in her chat panel">
+</p>
+
 ## 🌄 12 backdrops for every mood
 
 The **Backdrop** button on the right holds 12 backdrops: **Default, Nebula, Sakura, Fireflies, Autumn Leaves, First Snow, Seaside, Dusk City, Rainy Night, Northern Lights, Vaporwave, and Dust City**. The office stays the same; only the scenery behind it changes. Each one moves gently (drifting petals, blinking fireflies, flowing auroras…), and on dark backdrops the corner frame and clock switch to light colors automatically. All free, and your pick is remembered on this computer.
@@ -171,7 +189,7 @@ The layout and features stay the same; the whole mood of the office and your Bot
   <tr>
     <td align="center"><img src="screens/themes/chashi.jpg" alt="Zen Tea Room"><br><b>Zen Tea Room</b><br><sub>Tatami and bamboo; tea before tasks</sub></td>
     <td align="center"><img src="screens/themes/tianpin.jpg" alt="Sweet Bakery"><br><b>Sweet Bakery</b><br><sub>Pink checkered floors, always ready to celebrate</sub></td>
-    <td align="center"><img src="screens/themes/xmas.jpg" alt="Christmas Cabin"><br><b>Christmas Cabin</b><br><sub>Seasonal: fireplace, snowman, Santa hats</sub></td>
+    <td align="center"><img src="screens/themes/xmas.jpg" alt="Christmas Cabin"><br><b>Christmas Cabin</b><br><sub>Seasonal: big moon, Santa's sleigh at the window, fireplace & candlelight</sub></td>
   </tr>
 </table>
 

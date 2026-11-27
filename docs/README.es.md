@@ -145,6 +145,23 @@ Haz clic en la **pizarra** de la zona de trabajo para abrir el tablero de tareas
   <img src="screens/kanban-lanes-en.jpg" width="100%" alt="Tablero, vista de carriles: una fila por Bot">
 </p>
 
+## 🐈‍⬛ Conoce a Xiaohei, la gatita de recepción que también responde tus dudas
+
+Una gatita negra con bufanda roja vive ahora en la esquina inferior derecha de la recepción, con un plato de pienso tan lleno que se desborda (el plato toma el color de tu tema).
+
+- 🐾 **Acaríciala**: al pasar el ratón, el cursor se vuelve una mano; ella levanta la colita, se pone panza arriba y suelta corazones. Cuando está ociosa dormita, duerme patas arriba y sueña con peces, mariposas, contigo y con ese perro que no soporta
+- 💬 **Haz clic para charlar**: conecta tu propio modelo de chat (DeepSeek, Kimi, Qwen, Zhipu, OpenAI, Gemini, Claude o uno personalizado) y te hará compañía, te dará ideas y será el pequeño servicio de ayuda de BotOffice: pregúntale cómo instalar o usar lo que sea
+- 🔁 **Modelos de respaldo**: el primero es el principal; si no conecta, cambia solo al siguiente
+- 📒 **Memoria en su libreta**: recuerda lo importante que le cuentas; tacha lo que esté mal o díselo directamente
+- 🌐 **Búsqueda web**: actívala y buscará en internet, con enlaces a las fuentes. Si tu modelo principal es DeepSeek, no necesitas otra clave
+- 💕 **Cariño**: cuanto más la acaricias y le hablas, más mimosa se vuelve; si la ignoras mucho tiempo se pone triste, e incluso enferma de extrañarte
+
+Tus claves de API se quedan en tu propio ordenador. (Por ahora Xiaohei habla en chino.)
+
+<p align="center">
+  <img src="screens/companion.jpg" width="100%" alt="Xiaohei: pregúntale «¿Cómo uso BotOffice?» en su chat">
+</p>
+
 ## 🌄 12 fondos para cada estado de ánimo
 
 El botón **Fondo (Backdrop)** de la derecha tiene 12 fondos: **Predeterminado, Nebulosa, Sakura, Luciérnagas, Hojas de otoño, Primera nevada, Playa soleada, Ciudad al atardecer, Noche de lluvia, Auroras boreales, Vaporwave y Ciudad de polvo**. La oficina no cambia; solo cambia el paisaje de detrás. Todos se mueven con suavidad (pétalos que caen, luciérnagas que parpadean, auroras que fluyen…) y, en los fondos oscuros, el marco de las esquinas y el reloj se vuelven claros automáticamente. Todos son gratis y tu elección se recuerda en este ordenador.
@@ -172,7 +189,7 @@ La distribución y las funciones no cambian; cambian el ambiente de la oficina y
   <tr>
     <td align="center"><img src="screens/themes/chashi.jpg" alt="Salón de Té Zen"><br><b>Salón de Té Zen</b><br><sub>Tatami y bambú: primero, un té</sub></td>
     <td align="center"><img src="screens/themes/tianpin.jpg" alt="Obrador de Dulces"><br><b>Obrador de Dulces</b><br><sub>Suelos de cuadros rosas, siempre de celebración</sub></td>
-    <td align="center"><img src="screens/themes/xmas.jpg" alt="Cabaña de Navidad"><br><b>Cabaña de Navidad</b><br><sub>De temporada: chimenea, muñeco de nieve y gorros de Papá Noel</sub></td>
+    <td align="center"><img src="screens/themes/xmas.jpg" alt="Cabaña de Navidad"><br><b>Cabaña de Navidad</b><br><sub>De temporada: gran luna, el trineo de Papá Noel junto a la ventana, chimenea y velas</sub></td>
   </tr>
 </table>
 

@@ -143,6 +143,23 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 或
   <img src="screens/kanban-lanes.jpg" width="100%" alt="任務看板泳道檢視：每個 Bot 一行">
 </p>
 
+## 🐈‍⬛ 櫃台多了一隻小黑貓：會撒嬌，也會幫你解答
+
+總台右下角住著「小黑」，一隻戴紅圍巾的黑色小奶貓，坐墊前那碗貓糧堆得冒了尖（碗的顏色會跟著主題變）。
+
+- 🐾 **摸摸牠**：滑鼠移上去變成手掌，小黑會翹屁股、翻肚皮、冒愛心；閒著時打盹、四腳朝天，頭上冒出小魚、蝴蝶、主人和討厭的狗狗
+- 💬 **點牠聊天**：接上你自己的對話模型（DeepSeek、Kimi、通義千問、智譜、OpenAI、Gemini、Claude 或自訂），牠就能陪你聊天、出主意，也是 BotOffice 的小客服，怎麼裝、怎麼用都能問
+- 🔁 **多個模型互為備援**：排第一的是主模型，連不上時自動換下一個
+- 📒 **小本本記憶**：牠會記住你說過的重要事情，記錯了可以劃掉，也能直接告訴牠
+- 🌐 **連網搜尋**：開啟後能上網查新鮮事，回答附出處連結。主模型是 DeepSeek 時不用另外填 Key
+- 💕 **親密度**：常摸摸、常聊天會越來越黏你；太久不理牠會蔫，甚至想你想到生病
+
+API Key 只存在你自己的電腦上。
+
+<p align="center">
+  <img src="screens/companion.jpg" width="100%" alt="小黑：點開對話框問「BotOffice 怎麼用？」">
+</p>
+
 ## 🌄 12 款背景，換個心情
 
 右側的「背景」按鈕裡有 12 款背景：**預設、星雲、春日櫻花、夏夜螢火、秋日落葉、冬日初雪、海邊晴日、黃昏城市、雨夜窗邊、北歐極光、蒸汽波、廢土橙霧**。辦公室本身不變，只換背後的風景；每款都有輕柔的動態（飄落的櫻花、閃爍的螢火、流動的極光……），深色背景下角落的取景框和時間會自動變成淺色。全部免費，選好的背景會記在本機。
@@ -169,7 +186,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 或
   <tr>
     <td align="center"><img src="screens/themes/chashi.jpg" alt="禪意茶室"><br><b>禪意茶室</b><br><sub>草蓆竹影，事情再多也先喝口茶</sub></td>
     <td align="center"><img src="screens/themes/tianpin.jpg" alt="甜品工坊"><br><b>甜品工坊</b><br><sub>粉白格子地板，隨時準備慶祝</sub></td>
-    <td align="center"><img src="screens/themes/xmas.jpg" alt="聖誕小屋"><br><b>聖誕小屋</b><br><sub>季節限定：壁爐、雪人、聖誕帽</sub></td>
+    <td align="center"><img src="screens/themes/xmas.jpg" alt="聖誕小屋"><br><b>聖誕小屋</b><br><sub>季節限定：大月亮、雪橇飛過窗前、壁爐燭光</sub></td>
   </tr>
 </table>
 

@@ -1,8 +1,8 @@
 <div align="center">
   <img src="docs/logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>把你的 Grok 和 Hermes Bot 团队装进一间温馨的3D办公室：收发消息、群聊记录、任务看板，一目了然。<br>
-  Turn your Grok & Hermes Bot team into a cozy 3D office — new messages, group chats, and Kanban tasks all in one place.</p>
+  <p>把你的 Grok Bot 和 Hermes Bot 机器人团队装进一间 3D 办公室：谁在干活、谁在等你拍板、哪个群在聊，一目了然。<br>
+  Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/官网-botoffice.ai-E63946?style=for-the-badge" alt="官网 botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人才库-573_位_Bot-16130F?style=for-the-badge" alt="人才库"></a>
@@ -143,6 +143,23 @@ Bot 说了新话，右上角弹出全文，旁边一个按钮直达 Grok Bot 或
   <img src="docs/screens/kanban-lanes.jpg" width="100%" alt="任务看板泳道视图：每个 Bot 一行">
 </p>
 
+## 🐈‍⬛ 前台多了一只小黑猫：会撒娇，也会帮你答疑
+
+总台右下角住着「小黑」，一只戴红围巾的黑色小奶猫，坐垫前那碗猫粮堆得冒了尖（碗的颜色会跟着主题变）。
+
+- 🐾 **摸摸它**：鼠标放上去变成手掌，小黑会撅屁股、翻肚皮、冒爱心；闲着时打盹、四脚朝天，头上冒出小鱼、蝴蝶、主人和讨厌的狗狗
+- 💬 **点它聊天**：接上你自己的对话模型（DeepSeek、Kimi、通义千问、智谱、OpenAI、Gemini、Claude 或自定义），它就能陪你聊天、出主意，也是 BotOffice 的小客服，怎么装、怎么用都能问
+- 🔁 **多个模型互为备用**：排第一的是主模型，连不上时自动换下一个
+- 📒 **小本本记忆**：它会记住你说过的重要事情，记错了可以划掉，也能直接告诉它
+- 🌐 **联网搜索**：打开后能上网查新鲜事，回答附出处链接。主模型是 DeepSeek 时不用另外填 Key
+- 💕 **亲密度**：常摸摸、常聊天会越来越黏你；太久不理它会蔫，甚至想你想得生病
+
+API Key 只存在你自己的电脑上。
+
+<p align="center">
+  <img src="docs/screens/companion.jpg" width="100%" alt="小黑：点开对话框问「BotOffice 怎么用？」">
+</p>
+
 ## 🌄 12 款背景，换一换心情
 
 右侧的「背景」按钮里有 12 款背景：**默认、星云、春日樱花、夏夜萤火、秋日落叶、冬日初雪、海边晴日、黄昏城市、雨夜窗边、北欧极光、蒸汽波、废土橙雾**。办公室本身不变，只换背后的风景；每款都有轻柔的动效（飘落的樱花、闪烁的萤火、流动的极光……），深色背景下角落的取景框和时间会自动变成浅色。全部免费，选好的背景会记在本机。
@@ -169,7 +186,7 @@ Bot 说了新话，右上角弹出全文，旁边一个按钮直达 Grok Bot 或
   <tr>
     <td align="center"><img src="docs/screens/themes/chashi.jpg" alt="禅意茶室"><br><b>禅意茶室</b><br><sub>草席竹影，事情再多也先喝口茶</sub></td>
     <td align="center"><img src="docs/screens/themes/tianpin.jpg" alt="甜品工坊"><br><b>甜品工坊</b><br><sub>粉白格子地板，随时准备庆祝</sub></td>
-    <td align="center"><img src="docs/screens/themes/xmas.jpg" alt="圣诞小屋"><br><b>圣诞小屋</b><br><sub>季节限定：壁炉、雪人、圣诞帽</sub></td>
+    <td align="center"><img src="docs/screens/themes/xmas.jpg" alt="圣诞小屋"><br><b>圣诞小屋</b><br><sub>季节限定：大月亮、雪橇飞过窗前、壁炉烛光</sub></td>
   </tr>
 </table>
 
