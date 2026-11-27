@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <img src="screens/office-real.jpg" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
+  <img src="screens/office-real.gif" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
 </p>
 
 <sub>スクリーンショットは中国語版の画面です。</sub>

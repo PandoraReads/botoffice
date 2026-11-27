@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <img src="screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
+  <img src="screens/office-real.gif" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
 </p>
 
 <sub>Las capturas muestran la interfaz en chino.</sub>
