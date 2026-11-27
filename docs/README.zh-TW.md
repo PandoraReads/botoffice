@@ -1,8 +1,8 @@
 <div align="center">
   <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>把你的 Grok Bot 和 Hermes Bot 機器人團隊裝進一間 3D 辦公室：誰在幹活、誰在等你拍板、哪個群在聊，一目瞭然。<br>
-  Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
+  <p>把你的 AI 員工們裝進一間溫馨的3D辦公室：誰在幹活、誰在等你拍板、哪個群在聊，一目瞭然。<br>
+  Bring your AI employees into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/官網-botoffice.ai-E63946?style=for-the-badge" alt="官網 botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/人才庫-573_位_Bot-16130F?style=for-the-badge" alt="人才庫"></a>
@@ -15,28 +15,31 @@
   <img src="screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
 </p>
 
+> 🆕 **BotOffice 2.0 已支援接入 6 種 AI 員工**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **智譜 ZCode** · 🐱 **騰訊 WorkBuddy** · 🪽 **Hermes Agent**。
+> 裝了哪個就接哪個，不同來源的員工可以坐在同一間辦公室，狀態、訊息、任務看板一屏看完。[看看都支援什麼 →](#-支援的-ai-員工6-種來源坐進同一間辦公室)
+
 ---
 
 ## 打工？不可能。我要當老闆。
 
-你養了幾十個Bot：有的寫稿，有的做圖，有的盯資料，還有幾個在群裡開會。然後你發現，為什麼自己越來越忙，越來越憔悴——
+你手下的 AI 員工越來越多：Grok Bot 寫稿做圖、Codex 和 Claude Code 寫程式、WorkBuddy 幫你跑腿，還有幾個在群裡開會。然後你發現，為什麼自己越來越忙，越來越憔悴——
 
-- 😵 **挨個點開對話**，看誰回了、誰卡住了、誰在等你確認，心累😩
-- 🙈 **待稽核總是漏**：Bot 幹完活等你點頭，一等就是半天，無奈 ╮(╯▽╰)╭
+- 😵 **在好幾個應用之間來回切**，挨個點開對話，看誰回了、誰卡住了、誰在等你確認，心累😩
+- 🙈 **待審核總是漏**：AI 幹完活等你點頭，一等就是半天，無奈 ╮(╯▽╰)╭
 - 🔔 **群聊訊息刷屏**，翻半天才找到重要資訊，煩躁😡
 - 📉 **額度用了多少心裡沒底**，用到見底才發現沒得蹬了｡°(°¯᷄◠¯᷅°)°｡
 
-**BotOffice 把這一切繁瑣日常變成一間充滿情緒價值的你一眼就能看懂的溫馨辦公室。** 每個 Bot 有自己的工位和名字，狀態燈告訴你誰在等你回話、誰剛剛活躍；有人找你，訊息直接彈到你面前。你只需要像老闆一樣，抬頭看一眼，然後做決定。
+**BotOffice 把這一切繁瑣日常變成一間充滿情緒價值的、你一眼就能看懂的溫馨辦公室。** 每位 AI 員工有自己的工位和名字，狀態燈告訴你誰在幹活、誰在等你回話、誰剛剛活躍；有人找你，訊息直接彈到你面前。你只需要像老闆一樣，抬頭看一眼，然後做決定。
 
 <p align="center">
   <img src="screens/office-annotated.jpg" width="100%" alt="BotOffice 功能圖解：群聊室、額度屏、訊息氣泡、實時訊息流、員工卡片等 11 處功能">
 </p>
 
-## 為什麼你應該給Bot們一間辦公室？
+## 為什麼你應該給 AI 員工們一間辦公室？
 
-### 💬 Bot 找你，訊息直接彈到你面前
+### 💬 員工找你，訊息直接彈到你面前
 
-Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 或 Hermes 桌面端裡的那段對話。不用切視窗、不用翻記錄，看完點一下就能回覆。
+員工說了新話，右上角彈出全文，旁邊一個按鈕直達它原來那段對話（Grok Bot、Codex、ZCode、Hermes 跳到桌面端，Claude Code 在終端機裡接著聊）。不用切視窗、不用翻紀錄，看完點一下就能回覆。
 
 <p align="center">
   <img src="screens/message-popup.jpg" width="80%" alt="新訊息彈窗：全文可見，一鍵跳回原對話">
@@ -44,7 +47,7 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 或
 
 ### 🪪 點一下，就是它的工作檔案
 
-點任何一位員工，彈出它的工作卡：在哪個房間、現在什麼狀態、最新一條訊息、幾條未讀、手上的任務，一鍵開啟原對話。Bot 只是說了句話、你看過不打算回？點「✓ 已讀，不用回覆」，它就不再算在「等我回覆」裡。
+點任何一位員工，彈出它的工作卡：在哪個房間、現在什麼狀態、最新一條訊息、幾條未讀、手上的任務，一鍵打開原對話。員工只是說了句話、你看過不打算回？點「✓ 已讀，不用回覆」，它就不再算在「等我回覆」裡。
 
 <p align="center">
   <img src="screens/bot-card.jpg" width="80%" alt="員工工作卡：狀態、最新訊息、任務">
@@ -68,8 +71,8 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 或
 
 ### 🧱 自己佈置，做大做強
 
-- **一鍵匯入**：設定 → 辦公室 → 一鍵匯入，最近活躍的 Bot 自動入座
-- **拖進房間**：把 Bot 拖到想要的房間，座位、朝向、名牌自動排好
+- **一鍵匯入**：設定 → 辦公室 → 一鍵匯入，最近活躍的員工自動入座
+- **拖進房間**：把員工拖到想要的房間，座位、朝向、名牌自動排好。名單裡每個人前面都有來源小圖示，顏色也按來源區分
 - **擴建地塊**：人坐不下？加一塊會議室、機房或休息室，在場景裡拖到辦公室旁邊拼上
 - **拖動排序**：房間裡的成員拖一拖就能換順序，座位跟著變
 - **佈置後悔藥**：最近 5 次儲存前的佈置都留著，點一下就能找回
@@ -92,55 +95,64 @@ Bot 說了新話，右上角彈出全文，旁邊一個按鈕直達 Grok Bot 或
 
 郵筒要先和你自己的總管 Bot 接上（每個人的總管不一樣，所以這一步要你自己做一次）：
 
-1. **點擊📮郵筒**：在辦公室裡點總台旁邊的郵筒。還沒設定時，卡片頂部會有黃色提示，點裡面的「去设置」，會直接打開系統設定的「給總管派任務」這一欄。
-2. **一鍵複製提示詞**：在設定面板裡點「一鍵複製」，按鈕變綠就是複製好了。複製的是這段話（介面是簡體中文）：
+1. **點擊📮郵筒**：在辦公室裡點總台旁邊的郵筒。第一次點開，卡片裡直接就是設定方法（設定好以後，點卡片右上角的 ⚙ 隨時修改）。
+2. **一鍵複製提示詞**：點卡片裡的「一鍵複製」，按鈕變綠就是複製好了。複製的是這段話（介面是簡體中文）：
    ```text
    请帮我建一个例行任务，名字叫「BotOffice 派活」，触发方式选 Webhook。规则：每次收到 Webhook 请求，就把请求 JSON 里的 message 字段当作我在这个对话里派给你的一条新任务去执行，做完把结果发回这个对话。建好后把这个 Webhook 的地址（URL）和密钥（key）发给我，我要填到 BotOffice 里。
    ```
 3. **傳給總管 Bot**：打開 Grok Bot，進入你置頂的總管 Bot 的對話，貼上送出。總管會自己建好一個用 Webhook 觸發的例行任務。
 4. **複製 Webhook 地址和金鑰**：總管會回覆一個 **Webhook 地址**（通常以 `https://api2.cursor.sh/automations/webhook/` 開頭）和一把**金鑰**，把它們複製下來。
-5. **填進 BotOffice 系統設定**：回到 BotOffice 系統設定的「給總管派任務」，把地址和金鑰分別貼到下方的「Webhook 地址」「Webhook 密钥」裡，點「保存」。狀態變成綠色「已設定」就好了。
+5. **填回郵筒卡片**：回到 BotOffice，把網址和金鑰分別貼到郵筒卡片的「Webhook 網址」「Webhook 金鑰」裡，點「儲存」。卡片會自動切回投遞介面，就設定好了。
 6. **重新點擊📮郵筒試一下**：寫一件小事（例如「幫我查一下今天的待辦」），點「投遞」或按 ⌘ / Ctrl + Enter。看到綠色的「✓ 已送達總管」就代表送到了，總管的回覆會在辦公室裡彈出來。
 
 <p align="center">
-  <img src="screens/mailbox-setup.jpg" width="46%" alt="系統設定：給總管派任務（兩步設定）">
+  <img src="screens/mailbox-setup.jpg" width="46%" alt="郵筒卡片裡的設定：複製提示詞發給總管，再填回 Webhook 網址和金鑰">
 </p>
 
 > 💡 **小提醒**
 > - 地址和金鑰只存在你自己的電腦上，不會上傳；但誰拿到它們都能給你的總管派活，所以別傳給別人。
-> - 沒送出去時，卡片裡會用紅字寫明原因。最常見的是金鑰失效（例如在 Grok Bot 裡重新產生過）：請總管把新的地址和金鑰傳給你，再到設定裡重填一次。
+> - 沒送出去時，卡片裡會用紅色寫明原因。最常見的是金鑰失效（比如在 Grok Bot 裡重新產生過）：讓總管把新的網址和金鑰發給你，點郵筒右上角的 ⚙ 重填一次。
 > - 每次投遞都會讓總管執行一次，計入 Grok Bot 的週額度；Grok Bot 對每個例行任務每小時最多觸發 200 次。
 > - 用 Hermes？郵筒裡把收件人選成「Hermes 總管」就行，不用設定 Webhook；想給某個 Hermes Bot 單獨派活，直接在它的工作卡里發訊息。
 
-## 🪽 Hermes Bot 也來上班了
+## 🤝 支援的 AI 員工：6 種來源，坐進同一間辦公室
 
-裝了 [Hermes Agent](https://hermes-agent.nousresearch.com)？它的每個 Bot（profile）都能坐進辦公室，和 Grok Bot 混坐。Hermes 的員工戴著帶翅膀的紫色信使帽，一眼就能認出來。
+BotOffice 只**讀取你電腦上**這些 AI 工具的本機紀錄，不用改它們的任何設定。Codex、Claude Code、ZCode、WorkBuddy 都是**一個專案資料夾 = 一位員工**，名字直接用專案名；每家員工戴著自己的標誌性帽子，一眼就能認出來。
 
-- **訊息和狀態燈**：自動讀取 Hermes 的最新回覆，等你回覆、剛剛活躍、安靜一看便知，新訊息實時彈出
-- **直接發訊息**：點開 Hermes Bot 的工作卡就能給它發訊息，可以「接著上次聊」，也可以開「新任務」，不用設定 Webhook
-- **開啟原對話**：裝了 Hermes 桌面端，一鍵跳到桌面端裡那段對話；沒裝就在終端裡接著聊（帶歷史回顧）
-- **用量**：後牆的點陣屏能顯示 Hermes 本週 / 今天用了多少 token
+| 員工 | 3D 造型 | 能看到 | 打開原對話 | 給它發訊息 |
+|---|---|---|---|---|
+| 🤖 **Grok Bot** | 各種主題帽子 | 狀態、訊息、群聊、額度 | Grok Bot 桌面端 | 郵筒 / 工位卡（設定 Webhook） |
+| `>_` **OpenAI Codex**（命令列、Codex 桌面版、ChatGPT 桌面版） | 墨綠色終端小帽 | 最新回覆、正在跑的命令、最近對話 | 桌面版 | ✅ |
+| 🎓 **Claude Code**（命令列、Claude 桌面版裡的 Code） | 黑色學士帽 | 最新回覆、正在用的工具、對話標題 | 終端機裡接著聊 | ✅ |
+| 🕶 **智譜 ZCode** | 頭頂一副超大墨鏡 | 任務狀態、最新回覆、待辦進度、未讀 | ZCode 桌面版 | ✅ |
+| 🐱 **騰訊 WorkBuddy** | 綠色貓耳朵毛線帽 | 任務狀態、最新回覆、正在跑的工具 | WorkBuddy 桌面版 | 暫不支援（唯讀） |
+| 🪽 **Hermes Agent** | 帶翅膀的紫色信使帽 | 狀態、訊息、任務看板、token 用量 | Hermes 桌面端 / 終端機 | ✅（接著上次聊或開新任務） |
+
+- **自動偵測，也能手動指定**：系統設定裡能看到每一家有沒有連上；裝在非預設位置的，點「手動選擇資料夾」指給 BotOffice 就行
+- **狀態燈**：在幹活的員工頭頂冒「正在輸入」的小點點，幹完等你看的亮「等你回覆」
+- **員工卡片**：最新回覆、正在跑的命令或在改的檔案、這個專案最近的幾段對話，一張卡片看完
 
 <p align="center">
-  <img src="screens/hermes.jpg" width="85%" alt="Hermes Bot 戴著信使帽，在工作卡里直接給它發訊息">
+  <img src="screens/agents.jpg" width="100%" alt="各家員工的造型：Codex 墨綠終端小帽、Claude Code 學士帽、ZCode 頭頂墨鏡、WorkBuddy 貓耳毛線帽、Hermes 翅膀信使帽">
 </p>
 
 ## 📋 任務看板：誰在做什麼，一塊白板看清
 
-點辦公室工位區的**白板**，開啟任務看板。
+點辦公室工位區的**白板**，打開任務看板。頂部按來源切換：**Grok Bot · Codex · Claude Code · ZCode · WorkBuddy · Hermes**。
 
-- **Grok Bot 看板**：讓你的巡檢 Bot 用定時任務把團隊任務寫到本機，看板就會自動出現、每 10 秒重新整理。第一次用，看板裡有「一鍵複製提示詞」，發給巡檢 Bot 就行
-- **Hermes 看板**：直接讀取 Hermes 自帶的任務看板（Kanban），多個看板合在一起顯示
-- **兩種檢視**：便利貼（按狀態分列：待整理、待辦、可開工、進行中、卡住了、待稽核、已完成）和泳道（每個 Bot 一行，誰忙誰閒一目瞭然）
-- **點員工跳對話**：點卡片上的員工名，直接開啟和它的對話
-- **🗑 碎紙機**：任務不要了？把卡片拖進右上角的碎紙機，5 秒內可以撤銷。Grok Bot 的任務會透過總管通知負責的 Bot 停手；Hermes 的任務會歸檔（還能找回）並告訴負責的 Bot
-- 已完成只顯示最近 7 項；關掉再開啟，停在你上次看的地方
+- **Codex / Claude Code / ZCode / WorkBuddy**：不用任何設定，**每段對話（任務）就是一張便利貼**，按「進行中 / 等你回覆 / 最近完成」自動歸好，ZCode 還會多一欄「出錯了」。點開卡片能看到你最後說的話、AI 的最新回覆、正在跑的命令，ZCode 的卡片還帶待辦進度（☑ 已完成 ▶ 進行中 ☐ 待做）
+- **Grok Bot**：讓你的巡檢 Bot 用排程任務把團隊任務寫到本機，看板就會自動出現、每 10 秒刷新。第一次用，看板裡有「一鍵複製提示詞」，發給巡檢 Bot 就行
+- **Hermes**：直接讀取 Hermes 內建的任務看板（Kanban），多個看板合在一起顯示
+- **兩種視圖**：便利貼（按狀態分欄）和泳道（每位員工一行，誰忙誰閒一目瞭然）
+- **點員工跳對話**：點卡片上的員工名，直接回到和它的對話
+- **🗑 碎紙機**：任務不要了？把卡片拖進右上角的碎紙機，5 秒內可以撤銷。Grok Bot 的任務會透過總管通知負責的 Bot 停手；Hermes 的任務會封存（還能找回）；Codex、Claude Code、ZCode、WorkBuddy 的卡片只是從看板上拿掉，原來的對話不受影響
+- 關掉再打開，停在你上次看的來源和視圖
 
 <p align="center">
-  <img src="screens/kanban.jpg" width="100%" alt="任務看板便利貼檢視：拖動卡片時，碎紙機旁出現手寫提示">
+  <img src="screens/kanban.jpg" width="100%" alt="任務看板便利貼視圖：每個任務一張便利貼，點開能看到最新回覆和待辦進度">
 </p>
 <p align="center">
-  <img src="screens/kanban-lanes.jpg" width="100%" alt="任務看板泳道檢視：每個 Bot 一行">
+  <img src="screens/kanban-lanes.jpg" width="100%" alt="任務看板泳道視圖：每位員工一行">
 </p>
 
 ## 🐈‍⬛ 櫃台多了一隻小黑貓：會撒嬌，也會幫你解答
@@ -201,7 +213,7 @@ BotOffice 是一整套體驗：桌面應用負責「看」，[botoffice.ai](http
   <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="BotOffice 人才庫：看工牌挑 Bot"></a>
 </p>
 
-- 🧑‍💼 **已入駐573 位現成的 Bot 員工**：寫稿、做圖、剪影片、盯資料、管郵箱、跑電商……每一位都有自己的工牌：職位、上班時間、被僱傭次數一目瞭然。挑中了，複製提示詞貼上進 Grok Bot 或 Hermes，馬上上崗。
+- 🧑‍💼 **已入駐 573 位現成的 Bot 員工**：寫稿、做圖、剪影片、盯數據、管信箱、跑電商……每一位都有自己的工牌：職位、上班時間、被雇用次數一目瞭然。挑中了，複製提示詞貼進你的 Agent，馬上上崗。
 - 🔍 **每天蒐羅全網最強的 Skill 和 Bot**：我們每天在全網找最好用的 Skill、Bot 和工作流，整理成員工，持續上新到人才庫，你不用自己到處找。
 - 🧩 **按工作流整組招**：小紅書圖文部、公眾號編輯部、電商上新組……一個按鈕招來一整組，分工和交接都已經配好。
 - 🥇 **黃金僱員**：行業高手的工作流提煉出來的王牌員工。
@@ -210,20 +222,20 @@ BotOffice 是一整套體驗：桌面應用負責「看」，[botoffice.ai](http
 
 ## 🔒 你的資料，只留在你的電腦上
 
-BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot 和 Hermes 的資料來畫出辦公室：不會上傳你的對話；只有你親手點了「投遞」「傳送」或把卡片拖進碎紙機，才會替你發出訊息，其餘時候不會改動 Grok Bot 和 Hermes 裡的任何東西。登入賬號只用來同步會員身份和已購裝修。
+BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot、Codex、Claude Code、ZCode、WorkBuddy、Hermes 的本機紀錄來畫出辦公室：不會上傳你的對話；只有你親手點了「投遞」「傳送」或把卡片拖進碎紙機，才會替你發出訊息，其餘時候不會改動這些工具裡的任何東西。登入帳號只用來同步會員身分和已購裝修。
 
 ## 📦 下載與安裝
 
 > 🆕 **最新版本在 [Releases](https://github.com/PandoraReads/botoffice/releases/latest) 下載**：安裝包只內建免費內容，登入官網帳號後，你買過的裝修會自動下載。已經裝過的使用者，在「設定 → 關於 → 檢查更新」裡就能一鍵升級。
 
-**安裝前**：先在這臺電腦上裝好 [Grok Bot](https://grok.com) 桌面版並登入，或者裝好 [Hermes Agent](https://hermes-agent.nousresearch.com)（兩個都裝也行）。BotOffice 不需要另外裝 Node.js 或任何開發工具。
+**安裝前**：這台電腦上至少裝好一個 AI 員工的來源：Grok Bot、OpenAI Codex、Claude Code、智譜 ZCode、騰訊 WorkBuddy 或 Hermes Agent（裝幾個都行），並且用它聊過至少一次。BotOffice 不需要另外裝 Node.js 或任何開發工具。
 
 ### 方式一：讓你的 Agent 幫你裝（推薦）
 
 把下面這段話複製給你自己的 Agent（Grok Bot、Hermes、Claude Code、Codex 都可以），它會幫你下載、核對、安裝：
 
 ```text
-請幫我在這臺電腦上安裝 BotOffice（Grok Bot 和 Hermes Bot 的 3D 辦公室桌面應用）：
+請幫我在這台電腦上安裝 BotOffice（給 AI 員工們的 3D 辦公室桌面應用，支援 Grok Bot、Codex、Claude Code、ZCode、WorkBuddy、Hermes）：
 1. 開啟 https://github.com/PandoraReads/botoffice/releases/latest ，按我的系統選安裝包：
    - macOS（Apple 晶片）：BotOffice-<版本>-mac-arm64.dmg
    - macOS（Intel 晶片）：BotOffice-<版本>-mac-x64.dmg
@@ -253,7 +265,7 @@ BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot 和 Hermes 的資
 **裝好以後**
 
 1. 開啟 BotOffice，歡迎頁點「進入辦公室」
-2. 右上角齒輪 → 設定 → 辦公室 → **一鍵匯入**，你的 Bot 自動入座
+2. 右上角齒輪 → 設定 → 辦公室 → **一鍵匯入**，你的 AI 員工自動入座
 3. 想解鎖更多裝修主題和會員權益？在設定裡登入官網賬號，裝修會自動下載
 
 - 開機自動啟動，雙擊桌面圖示直接進辦公室，不用先開瀏覽器
@@ -269,14 +281,20 @@ BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot 和 Hermes 的資
 
 <details><summary><b>需要會寫程式碼嗎？</b></summary><p>不需要。安裝、匯入、佈置都在介面裡點幾下完成。</p></details>
 <details><summary><b>BotOffice 收費嗎？</b></summary><p>本體免費，預設裝修「辦公室」永久可用。付費的是裝修主題、擴容和會員權益，詳見 <a href="https://botoffice.ai/pricing">會員方案</a>。</p></details>
-<details><summary><b>支援哪些 Bot？</b></summary><p>Grok Bot 和 Hermes Bot（Hermes Agent 的每個 profile）。Grok Bot 讀狀態、訊息、群聊和額度；Hermes 讀狀態、訊息、任務看板和 token 用量。兩邊的 Bot 可以坐在同一間辦公室。</p></details>
+<details><summary><b>支援哪些 AI 員工？</b></summary><p>Grok Bot、OpenAI Codex、Claude Code、智譜 ZCode、騰訊 WorkBuddy、Hermes Agent。Codex、Claude Code、ZCode、WorkBuddy 按專案資料夾分員工；Grok Bot 還能看群聊和額度，Hermes 還能看內建的任務看板和 token 用量。不同來源的員工可以坐在同一間辦公室。Claude 桌面版裡的一般聊天和 Cowork 存在雲端，讀不到。</p></details>
 <details><summary><b>換電腦了，買過的裝修還在嗎？</b></summary><p>在。裝修跟著賬號走，在新電腦上登入同一個賬號就會自動重新下載。</p></details>
-<details><summary><b>郵筒點了沒反應 / 顯示沒送出去？</b></summary><p>先看系統設定裡「給總管派任務」是不是綠色「已設定」。如果卡片提示金鑰失效，請總管把最新的 Webhook 地址和金鑰傳給你，重新填一次；如果提示連不上，檢查網路後點「重試」。</p></details>
+<details><summary><b>郵筒點了沒反應 / 顯示沒送出去？</b></summary><p>先點郵筒右上角的 ⚙，看是不是綠色「已設定」。如果卡片裡提示金鑰失效，讓總管把最新的 Webhook 網址和金鑰發給你，重新填一次；如果提示連不上，檢查網路後點「重試」。</p></details>
 
 ## 致謝
 
-- [Grok Bot](https://grok.com)：BotOffice 從 Grok Bot 起步，辦公室裡的員工來自你的 Grok Bot。
-- [Hermes Agent](https://hermes-agent.nousresearch.com)（Nous Research）：Hermes 的每個 Bot 都能坐進辦公室，任務看板也來自 Hermes 自帶的 Kanban。
+BotOffice 能把這麼多 AI 員工請進同一間辦公室，要感謝這些優秀的工具（BotOffice 只讀取它們留在你電腦上的本機紀錄，和這些產品沒有官方合作關係，名稱和商標歸各自所有者）：
+
+- [Grok Bot](https://grok.com)：BotOffice 從 Grok Bot 起步，群聊室、額度屏和郵筒都是為它打造的。
+- [OpenAI Codex](https://openai.com/codex)：命令列、Codex 桌面版和 ChatGPT 桌面版裡的 Codex 對話都能坐進辦公室。
+- [Claude Code](https://claude.com/product/claude-code)（Anthropic）：命令列和 Claude 桌面版裡的 Code 對話都能坐進辦公室。
+- [智譜 ZCode](https://github.com/zai-org/ZCode)：開源的 AI 程式設計工作台，任務狀態和待辦進度都來自它的本機紀錄。
+- [騰訊 WorkBuddy](https://www.workbuddy.ai)：桌面打工 Agent，它的每個任務都能在辦公室裡看到。
+- [Hermes Agent](https://hermes-agent.nousresearch.com)（Nous Research）：Hermes 的每個 Bot 都能坐進辦公室，任務看板也來自 Hermes 內建的 Kanban。
 - [Pixabay](https://pixabay.com)：應用裡的部分音樂和音效來自 Pixabay 的免版稅素材庫，感謝創作者們。
 - [麥當的 Bot 小鎮](https://www.mdldm.club/grok-bots)：部分 Bot 員工的提示詞參考了 Bot 小鎮，感謝麥當的分享。
 
@@ -288,7 +306,7 @@ BotOffice 是免費下載的閉源軟體。本倉庫只發布安裝包、更新�
 
 <p align="center">
   <a href="https://botoffice.ai"><img src="logo.svg" width="40" alt="BotOffice"></a><br>
-  <b>BotOffice · 給你的 Bot 一個工位</b><br>
+  <b>BotOffice · 給你的 AI 員工一個工位</b><br>
   <sub><a href="https://botoffice.ai">botoffice.ai</a> · <a href="https://botoffice.ai/talent">人才庫</a> · <a href="https://botoffice.ai/deploy">裝修辦公室</a> · <a href="https://botoffice.ai/pricing">會員方案</a></sub><br>
   <sub>© 成都哆元文化传播有限公司</sub>
 </p>

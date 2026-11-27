@@ -1,8 +1,8 @@
 <div align="center">
   <img src="logo.svg" width="96" alt="BotOffice logo">
   <h1>BotOffice</h1>
-  <p>Convierte tu equipo de Grok Bot y Hermes Bot en una oficina 3D viva: quién está trabajando, quién espera tu decisión y qué grupo está conversando, de un vistazo.<br>
-  Turn your Grok Bot & Hermes Bot team into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
+  <p>Lleva a tus empleados de IA a una acogedora oficina 3D: quién está trabajando, quién espera tu decisión y qué grupo está conversando, de un vistazo.<br>
+  Bring your AI employees into a cozy 3D office — see who's working, who needs your call, and which group is talking, at a glance.</p>
   <p>
     <a href="https://botoffice.ai"><img src="https://img.shields.io/badge/Web-botoffice.ai-E63946?style=for-the-badge" alt="Web botoffice.ai"></a>
     <a href="https://botoffice.ai/talent"><img src="https://img.shields.io/badge/Talentos-573_Bots-16130F?style=for-the-badge" alt="Talentos"></a>
@@ -15,30 +15,33 @@
   <img src="screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
 </p>
 
+> 🆕 **BotOffice 2.0 ya conecta 6 tipos de empleados de IA**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> Conecta los que uses: empleados de distintas herramientas comparten la misma oficina, con estado, mensajes y tablero de tareas en una sola pantalla. [Ver qué se admite →](#-empleados-de-ia-compatibles-6-fuentes-una-sola-oficina)
+
 <sub>Las capturas muestran la interfaz en chino.</sub>
 
 ---
 
 ## ¿Trabajar para otro? Ni hablar. Quiero ser quien manda.
 
-Tienes decenas de Bots: uno escribe, otro diseña, otro vigila los números y varios están reunidos en un grupo. Entonces, ¿por qué cada día estás más ocupado y más agotado?
+Tu equipo de IA no para de crecer: Grok Bot escribe y diseña, Codex y Claude Code programan, WorkBuddy te hace los recados y unos cuantos más están reunidos en un grupo. ¿Y por qué tú estás cada vez más ocupado y más agotado?
 
-- 😵 **Abrir cada chat uno por uno** para ver quién respondió, quién se atascó y quién te espera. Agotador 😩
-- 🙈 **Se te pasan las revisiones**: un Bot termina su trabajo y espera medio día tu visto bueno. Qué se le va a hacer ╮(╯▽╰)╭
+- 😵 **Saltar de una app a otra**, abriendo chats uno por uno para ver quién respondió, quién se atascó y quién espera tu visto bueno. Agotador 😩
+- 🙈 **Revisiones olvidadas**: una IA termina su trabajo y se pasa medio día esperando tu OK. Qué le vamos a hacer ╮(╯▽╰)╭
 - 🔔 **Los grupos no paran de sonar** y tardas siglos en encontrar lo importante. Qué rabia 😡
 - 📉 **No sabes cuánta cuota te queda** hasta que se agota y ya no hay con qué seguir ｡°(°¯᷄◠¯᷅°)°｡
 
-**BotOffice convierte toda esa rutina pesada en una oficina acogedora y llena de buen rollo, que entiendes de un vistazo.** Cada Bot tiene su escritorio y su nombre, y una luz de estado te dice quién espera tu respuesta y quién ha estado activo hace poco. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista, como buena jefa, y decides.
+**BotOffice convierte toda esa rutina en una oficina acogedora y con buen ambiente que entiendes de un vistazo.** Cada empleado de IA tiene su escritorio y su nombre; las luces de estado te dicen quién está trabajando, quién espera tu respuesta y quién acaba de estar activo. Cuando alguien te necesita, el mensaje aparece delante de ti. Tú solo levantas la vista como un jefe y decides.
 
 <p align="center">
   <img src="screens/office-annotated-en.jpg" width="100%" alt="Mapa de funciones de BotOffice: sala de grupo, panel de cuota, burbujas de mensajes, avisos en directo, ficha de bot y más">
 </p>
 
-## ¿Por qué darles una oficina a tus Bots?
+## ¿Por qué darles una oficina a tus empleados de IA?
 
-### 💬 Cuando un Bot te necesita, el mensaje viene a ti
+### 💬 Cuando un empleado te necesita, el mensaje viene a ti
 
-Los mensajes nuevos aparecen completos arriba a la derecha, con un botón que te lleva directo a esa conversación en Grok Bot o en la app de escritorio de Hermes. Sin cambiar de ventana ni rebuscar en el historial.
+Un mensaje nuevo aparece completo arriba a la derecha, con un botón que lleva directo a la conversación original (la app de escritorio para Grok Bot, Codex, ZCode y Hermes; el terminal para Claude Code). Sin cambiar de ventana ni buscar en el historial: lo lees y respondes con un clic.
 
 <p align="center">
   <img src="screens/message-popup.jpg" width="80%" alt="Aviso de mensaje nuevo">
@@ -46,7 +49,7 @@ Los mensajes nuevos aparecen completos arriba a la derecha, con un botón que te
 
 ### 🪪 Un clic abre su ficha de trabajo
 
-Haz clic en cualquier Bot para ver su ficha: en qué sala está, su estado, su último mensaje, los no leídos y sus tareas, además de un botón para abrir el chat original. ¿Un Bot solo dijo algo, ya lo leíste y no vas a responder? Pulsa **✓ Leído, sin respuesta** y deja de contar como pendiente de tu respuesta.
+Haz clic en cualquier empleado para ver su ficha: en qué sala está, su estado, su último mensaje, cuántos sin leer, sus tareas y un botón para abrir el chat original. ¿Solo era un aviso y no piensas responder? Pulsa **✓ Seen, no reply needed** y deja de contar en **Awaiting me**.
 
 <p align="center">
   <img src="screens/bot-card.jpg" width="80%" alt="Ficha de trabajo de un bot">
@@ -70,8 +73,8 @@ El panel LED de la pared del fondo va mostrando cuánto has usado de tu cuota se
 
 ### 🧱 Organízala a tu manera y hazla a lo grande
 
-- **Importar con un clic**: Ajustes → Oficina → Importar, y tus Bots más activos ocupan sus puestos
-- **Arrastrar a las salas**: suelta un Bot en cualquier sala; asientos, orientación y placas se colocan solos
+- **Importar con un clic**: Ajustes → Oficina → Importar, y tus empleados más activos ocupan sus puestos
+- **Arrastrar a salas**: suelta un empleado en cualquier sala y los asientos, la orientación y los nombres se colocan solos. Cada nombre de la lista lleva un pequeño icono de origen, y los colores distinguen cada herramienta
 - **Ampliar con nuevas parcelas**: ¿faltan sitios? Añade una sala de reuniones, de servidores o de descanso y arrástrala junto a tu oficina
 - **Arrastra para reordenar**: arrastra a los miembros dentro de una sala para cambiar su orden y sus asientos lo siguen
 - **Deshacer la distribución**: se guardan tus últimas 5 distribuciones; un clic para recuperarlas
@@ -94,55 +97,64 @@ El buzón está **junto a la recepción, al lado del Jefe**; en esta imagen ves 
 
 Primero hay que conectar el buzón con *tu propio* Bot Jefe. Cada persona tiene su propio Jefe, así que este paso lo haces tú una sola vez (la app está en chino o en inglés):
 
-1. **Haz clic en el 📮 buzón**: en la oficina, haz clic en el buzón junto a la recepción. Si aún no está configurado, la tarjeta muestra un aviso amarillo: pulsa **Set up** (去设置) y se abrirá Ajustes directamente en **Assign a task to the Lead** (给总管派任务).
-2. **Copia el mensaje con un clic**: pulsa **Copy** en el panel de ajustes; el botón se pone verde cuando está copiado. Esto es lo que se copia (con la interfaz en inglés):
+1. **Haz clic en el 📮 buzón**: en la oficina, haz clic en el buzón junto a la recepción. La primera vez, la tarjeta muestra directamente los pasos de configuración (después, cámbialo cuando quieras con el ⚙ de la esquina superior derecha de la tarjeta).
+2. **Copia el prompt**: pulsa **Copy** en la tarjeta; el botón se pone verde cuando está copiado. Este es el texto que se copia:
    ```text
    Please create a routine called "BotOffice tasks" with a Webhook trigger. Rule: every time a webhook request arrives, treat the message field in its JSON as a new task I'm giving you in this chat, carry it out, and post the result back here. Once it's set up, send me the webhook URL and key so I can paste them into BotOffice.
    ```
 3. **Envíaselo a tu Bot Jefe**: abre Grok Bot, entra en el chat de tu Bot Jefe fijado, pega y envía. El Jefe creará por sí mismo una rutina que se activa por webhook.
 4. **Copia la URL del webhook y la clave**: el Jefe te responderá con una **URL de webhook** (normalmente empieza por `https://api2.cursor.sh/automations/webhook/`) y una **clave**. Cópialas.
-5. **Pégalas en los Ajustes de BotOffice**: vuelve a **Assign a task to the Lead**, pega la URL y la clave en **Webhook URL** y **Webhook key**, justo debajo, y pulsa **Save**. Cuando el estado se ponga verde ("Set up"), listo.
+5. **Pégalos en la tarjeta del buzón**: vuelve a BotOffice, pega la URL y la clave en **Webhook URL** y **Webhook key** de la tarjeta del buzón y pulsa **Save**. La tarjeta vuelve a la pantalla de envío: ya está listo.
 6. **Vuelve a hacer clic en el 📮 buzón para probarlo**: escribe algo sencillo (por ejemplo, "¿Qué tengo pendiente hoy?") y pulsa **Send** o ⌘ / Ctrl + Enter. Si ves **✓ Delivered to the Lead** en verde, ha llegado, y la respuesta del Jefe aparecerá en tu oficina.
 
 <p align="center">
-  <img src="screens/mailbox-setup-en.jpg" width="46%" alt="Ajustes: encargar una tarea al Jefe (configuración en dos pasos)">
+  <img src="screens/mailbox-setup-en.jpg" width="46%" alt="Configuración dentro de la tarjeta del buzón: copia el prompt para tu Líder y pega la URL y la clave del webhook">
 </p>
 
 > 💡 **Conviene saber**
 > - La URL y la clave se guardan solo en tu ordenador y nunca se suben a ningún sitio. Eso sí, quien las tenga puede encargarle tareas a tu Jefe, así que no se las pases a nadie.
-> - Si una carta no llega, la tarjeta explica el motivo en rojo. Lo más habitual es una clave caducada (por ejemplo, si se volvió a generar en Grok Bot): pídele al Jefe la URL y la clave nuevas y vuelve a pegarlas en Ajustes.
+> - Si una carta no llega, la tarjeta explica el motivo en rojo. Lo más habitual es una clave caducada (por ejemplo, si se regeneró en Grok Bot): pide a tu Líder la nueva URL y clave y vuelve a introducirlas con el ⚙ de la esquina superior derecha de la tarjeta del buzón.
 > - Cada carta hace que el Jefe se ejecute una vez y cuenta para tu uso semanal de Grok Bot. Grok Bot permite hasta 200 ejecuciones por rutina y hora.
 > - ¿Usas Hermes? Elige **Hermes Lead** como destinatario en el buzón y listo, sin webhook. Para encargarle algo a un Bot de Hermes concreto, envíale un mensaje desde su ficha.
 
-## 🪽 Los Bots de Hermes también vienen a trabajar
+## 🤝 Empleados de IA compatibles: 6 fuentes, una sola oficina
 
-¿Usas [Hermes Agent](https://hermes-agent.nousresearch.com)? Cada Bot de Hermes (perfil) puede ocupar un puesto y sentarse junto a tus Grok Bots. Los empleados de Hermes llevan una gorra morada de mensajero con alitas, así que los reconoces al instante.
+BotOffice solo **lee los registros locales** que estas herramientas de IA guardan en tu equipo: nunca cambia su configuración. En Codex, Claude Code, ZCode y WorkBuddy, **una carpeta de proyecto = un empleado**, con el nombre del proyecto. Cada fuente lleva su sombrero característico, así que los distingues de un vistazo.
 
-- **Mensajes y luces de estado**: BotOffice lee las últimas respuestas de Hermes, muestra quién espera tu respuesta, quién está activo y quién en silencio, y te avisa de los mensajes nuevos al momento
-- **Escríbele directamente**: abre la ficha de un Bot de Hermes para enviarle un mensaje: **Seguir la última charla** o **Nueva tarea**, sin webhook
-- **Abrir el chat original**: con la app de escritorio de Hermes, un clic te lleva a esa conversación; sin ella, se retoma en la Terminal con un resumen
-- **Uso**: el panel LED de la pared del fondo puede mostrar cuántos tokens usó Hermes esta semana y hoy
+| Empleado | Aspecto 3D | Qué ves | Abrir el chat original | Enviarle mensajes |
+|---|---|---|---|---|
+| 🤖 **Grok Bot** | Sombreros de cada tema | Estado, mensajes, chats de grupo, cuota | App de escritorio de Grok Bot | Buzón / ficha (con webhook) |
+| `>_` **OpenAI Codex** (CLI, Codex de escritorio, Codex en ChatGPT de escritorio) | Gorra de terminal verde oscuro | Última respuesta, comando en curso, chats recientes | App de escritorio | ✅ |
+| 🎓 **Claude Code** (CLI, Code en la app de escritorio de Claude) | Birrete negro | Última respuesta, herramienta en uso, títulos de chat | Continuar en el terminal | ✅ |
+| 🕶 **Zhipu ZCode** | Gafas de sol enormes sobre la cabeza | Estado de tareas, última respuesta, progreso de pendientes, sin leer | App de escritorio de ZCode | ✅ |
+| 🐱 **Tencent WorkBuddy** | Gorro de lana verde con orejas de gato | Estado de tareas, última respuesta, herramienta en curso | App de escritorio de WorkBuddy | Aún no (solo lectura) |
+| 🪽 **Hermes Agent** | Gorro de mensajero morado con alas | Estado, mensajes, tablero de tareas, uso de tokens | App de escritorio de Hermes / terminal | ✅ (seguir el último chat o nueva tarea) |
+
+- **Detección automática, o indícala tú**: Ajustes muestra si cada fuente está conectada; si alguna está instalada en otro sitio, pulsa **Choose folder manually**
+- **Luces de estado**: los empleados trabajando muestran los puntos de "escribiendo"; el trabajo terminado que espera tu revisión enciende **Awaiting reply**
+- **Ficha del empleado**: última respuesta, el comando que ejecuta o el archivo que edita y los chats recientes del proyecto, todo en una tarjeta
 
 <p align="center">
-  <img src="screens/hermes-en.jpg" width="85%" alt="Un Bot de Hermes con su gorra de mensajero, al que se escribe desde su ficha">
+  <img src="screens/agents.jpg" width="100%" alt="El aspecto de cada fuente: gorra de terminal verde de Codex, birrete de Claude Code, gafas de sol de ZCode, gorro con orejas de gato de WorkBuddy, gorro alado de Hermes">
 </p>
 
 ## 📋 Tablero de tareas: quién hace qué, en una sola pizarra
 
-Haz clic en la **pizarra** de la zona de trabajo para abrir el tablero de tareas.
+Haz clic en la **pizarra** de la zona de trabajo para abrir el tablero de tareas. Cambia de fuente arriba: **Grok Bot · Codex · Claude Code · ZCode · WorkBuddy · Hermes**.
 
-- **Tablero de Grok Bot**: pide a tu Bot de ronda que escriba las tareas del equipo en tu ordenador con una tarea programada; el tablero aparece y se actualiza cada 10 segundos. La primera vez, el tablero te da un prompt para copiar y enviar a tu Bot de ronda
-- **Tablero de Hermes**: lee el tablero de tareas integrado de Hermes (Kanban); si hay varios, se muestran juntos
-- **Dos vistas**: notas adhesivas (columnas por estado: Triage, To do, Ready, In progress, Blocked, In review, Done) y carriles (una fila por Bot, para ver quién está ocupado)
-- **Haz clic en un nombre para chatear**: pulsa el empleado de una tarjeta para abrir tu conversación con él
-- **🗑 Trituradora**: ¿ya no necesitas una tarea? Arrastra su tarjeta a la trituradora de arriba a la derecha; puedes deshacerlo durante 5 segundos. En Grok Bot, el Jefe avisa al Bot responsable para que pare; en Hermes, la tarea se archiva (recuperable) y se avisa al Bot responsable
-- Solo se muestran las 7 tareas terminadas más recientes, y el tablero se vuelve a abrir donde lo dejaste
+- **Codex / Claude Code / ZCode / WorkBuddy**: sin configurar nada, **cada chat (tarea) es una nota adhesiva**, ordenada en **In progress / Awaiting reply / Recently done**, y ZCode añade una columna **Error**. Abre una tarjeta para ver lo último que dijiste, la última respuesta de la IA y el comando en curso; las tarjetas de ZCode muestran también el progreso de pendientes (☑ hecho ▶ en curso ☐ por hacer)
+- **Grok Bot**: haz que tu bot de patrulla escriba las tareas del equipo en este equipo con una tarea programada, y el tablero aparece solo y se actualiza cada 10 segundos. La primera vez, el tablero tiene un botón **Copy prompt**: solo envíaselo a tu bot de patrulla
+- **Hermes**: lee directamente el tablero de tareas integrado de Hermes (Kanban) y une varios tableros en una vista
+- **Dos vistas**: notas adhesivas (columnas por estado) y carriles (una fila por empleado, para ver quién está ocupado y quién libre)
+- **Del nombre al chat**: haz clic en el nombre de un empleado en una tarjeta para volver a su conversación
+- **🗑 Trituradora**: ¿ya no necesitas una tarea? Arrastra su tarjeta a la trituradora de arriba a la derecha; tienes 5 segundos para deshacer. Las tareas de Grok Bot avisan al bot asignado a través de tu Líder; las de Hermes se archivan (recuperables); las tarjetas de Codex, Claude Code, ZCode y WorkBuddy solo salen del tablero y el chat original no se toca
+- Al cerrarlo y volver a abrirlo, recuerda la fuente y la vista en que estabas
 
 <p align="center">
-  <img src="screens/kanban-en.jpg" width="100%" alt="Tablero, vista de notas: al arrastrar una tarjeta aparece una pista escrita a mano junto a la trituradora">
+  <img src="screens/kanban-en.jpg" width="100%" alt="Tablero en vista de notas: una nota por tarea; al abrirla se ven la última respuesta y el progreso de pendientes">
 </p>
 <p align="center">
-  <img src="screens/kanban-lanes-en.jpg" width="100%" alt="Tablero, vista de carriles: una fila por Bot">
+  <img src="screens/kanban-lanes-en.jpg" width="100%" alt="Tablero en vista de carriles: una fila por empleado">
 </p>
 
 ## 🐈‍⬛ Conoce a Xiaohei, la gatita de recepción que también responde tus dudas
@@ -203,7 +215,7 @@ BotOffice es una experiencia en dos partes: en la app de escritorio **supervisas
   <a href="https://botoffice.ai/talent"><img src="screens/site/talent.jpg" width="100%" alt="Talentos de BotOffice: elige Bots por su credencial"></a>
 </p>
 
-- 🧑‍💼 **Ya hay 573 Bots listos para trabajar**: redacción, diseño, vídeo, datos, correo, comercio electrónico… Cada uno tiene su credencial con su puesto, su horario y cuántas veces lo han contratado. ¿Te gusta uno? Copia su prompt en Grok Bot o Hermes y empieza al momento.
+- 🧑‍💼 **573 empleados Bot listos para trabajar**: redacción, diseño, vídeo, datos, correo, comercio electrónico… Cada uno tiene su credencial con su puesto, su horario y cuántas veces lo han contratado. ¿Te gusta uno? Copia su prompt en tu Agent y empieza al momento.
 - 🔍 **Los mejores Skills y Bots de la red, cada día**: buscamos a diario en toda la web los Skills, Bots y flujos de trabajo más útiles, los convertimos en empleados y los vamos sumando a Talentos, para que tú no tengas que buscarlos.
 - 🧩 **Contrata un equipo entero por flujo de trabajo**: un estudio de Xiaohongshu, una redacción de boletines, un equipo de lanzamientos… un clic contrata a todo el equipo, con roles y relevos ya configurados.
 - 🥇 **Bots Dorados**: empleados estrella destilados de los flujos de trabajo de profesionales del sector.
@@ -212,20 +224,20 @@ BotOffice es una experiencia en dos partes: en la app de escritorio **supervisas
 
 ## 🔒 Tus datos se quedan en tu ordenador
 
-BotOffice se ejecuta en tu equipo y **lee** los datos locales de Grok Bot y Hermes para dibujar la oficina. Nunca sube tus chats y solo envía un mensaje cuando tú pulsas **Send** o arrastras una tarjeta a la trituradora; aparte de eso, nunca cambia nada en Grok Bot ni en Hermes. Tu cuenta solo se usa para sincronizar tu membresía y los temas comprados.
+BotOffice se ejecuta en tu equipo y **lee** los registros locales de Grok Bot, Codex, Claude Code, ZCode, WorkBuddy y Hermes para dibujar la oficina. Nunca sube tus conversaciones y solo envía un mensaje cuando tú pulsas **Enviar**, **Entregar** o arrastras una tarjeta a la trituradora; aparte de eso, no cambia nada en esas herramientas. Tu cuenta solo sirve para sincronizar tu membresía y las decoraciones compradas.
 
 ## 📦 Descarga e instalación
 
 > 🆕 **Descarga la última versión en [Releases](https://github.com/PandoraReads/botoffice/releases/latest)**: los instaladores solo incluyen el contenido gratuito; inicia sesión con tu cuenta de botoffice.ai y los temas que tengas se descargarán solos. ¿Ya lo tienes instalado? Ve a **Ajustes → Acerca de → Buscar actualizaciones** para actualizar con un clic.
 
-**Antes de empezar**: instala la app de escritorio de [Grok Bot](https://grok.com) en este ordenador e inicia sesión, o instala [Hermes Agent](https://hermes-agent.nousresearch.com) (o ambos). BotOffice no necesita Node.js ni herramientas de desarrollo.
+**Antes de empezar**: instala en este equipo al menos una fuente de empleados de IA —Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy o Hermes Agent (puedes combinar varias)— y chatea con ella al menos una vez. BotOffice no necesita Node.js ni herramientas de desarrollo.
 
 ### Opción 1: que tu Agent lo instale (recomendado)
 
 Copia esto a tu propio Agent (Grok Bot, Hermes, Claude Code, Codex…) y se encargará de descargar, verificar e instalar BotOffice:
 
 ```text
-Por favor, instala BotOffice (una app de escritorio de oficina 3D para Grok Bot y Hermes Bot) en este ordenador:
+Instala BotOffice en este equipo (una app de escritorio con una oficina 3D para empleados de IA: Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes):
 1. Abre https://github.com/PandoraReads/botoffice/releases/latest y elige el instalador para mi sistema:
    - macOS (Apple Silicon): BotOffice-<versión>-mac-arm64.dmg
    - macOS (Intel): BotOffice-<versión>-mac-x64.dmg
@@ -255,7 +267,7 @@ Por favor, instala BotOffice (una app de escritorio de oficina 3D para Grok Bot 
 **Después de instalar**
 
 1. Abre BotOffice y pulsa «Entrar en la oficina» en la pantalla de bienvenida
-2. Engranaje arriba a la derecha → Ajustes → Oficina → **Importar**; tus Bots ocupan sus puestos
+2. Engranaje arriba a la derecha → Ajustes → Oficina → **Importar**; tus empleados de IA ocupan sus puestos
 3. ¿Quieres desbloquear más temas y ventajas de miembro? Inicia sesión con tu cuenta de la web en Ajustes y los temas se descargarán solos
 
 - Se abre al encender el ordenador; doble clic en el icono del escritorio y estás en tu oficina, sin navegador
@@ -271,16 +283,22 @@ Por favor, instala BotOffice (una app de escritorio de oficina 3D para Grok Bot 
 
 <details><summary><b>¿Necesito saber programar?</b></summary><p>No. Instalar, importar y organizar son unos pocos clics en la app.</p></details>
 <details><summary><b>¿BotOffice es gratis?</b></summary><p>La app es gratis y el estilo <b>Oficina</b> es tuyo para siempre. Los temas, las ampliaciones y las ventajas de membresía son de pago; consulta los <a href="https://botoffice.ai/pricing">planes</a>.</p></details>
-<details><summary><b>¿Con qué bots funciona?</b></summary><p>Con Grok Bot y Hermes Bot (cada perfil de Hermes Agent). De Grok Bot lee el estado, los mensajes, los chats de grupo y la cuota; de Hermes, el estado, los mensajes, el tablero de tareas y el uso de tokens. Los bots de ambos pueden compartir la misma oficina.</p></details>
+<details><summary><b>¿Qué empleados de IA admite?</b></summary><p>Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy y Hermes Agent. Codex, Claude Code, ZCode y WorkBuddy crean un empleado por carpeta de proyecto; Grok Bot muestra además chats de grupo y cuota, y Hermes su tablero de tareas integrado y el uso de tokens. Empleados de distintas fuentes pueden compartir oficina. Los chats normales y Cowork de la app de escritorio de Claude están en la nube y no se pueden leer.</p></details>
 <details><summary><b>He cambiado de ordenador. ¿Sigo teniendo mis temas?</b></summary><p>Sí. Los temas van con tu cuenta; inicia sesión en el nuevo ordenador y se descargarán de nuevo.</p></details>
-<details><summary><b>El buzón no hace nada o dice que la carta no se envió</b></summary><p>Primero comprueba que <b>Assign a task to the Lead</b> en Ajustes aparece en verde ("Set up"). Si la tarjeta dice que la clave no es válida, pídele al Jefe su URL y clave de webhook más recientes y vuelve a pegarlas. Si no puede conectarse, revisa tu red y pulsa <b>Retry</b>.</p></details>
+<details><summary><b>¿El buzón no responde o dice que la carta no llegó?</b></summary><p>Pulsa el ⚙ de la esquina superior derecha de la tarjeta del buzón y comprueba que aparece <b>Set up</b> en verde. Si la tarjeta dice que la clave caducó, pide a tu Líder la URL y la clave más recientes y vuelve a introducirlas; si dice que no puede conectar, revisa tu red y pulsa <b>Retry</b>.</p></details>
 
 ## Agradecimientos
 
-- [Grok Bot](https://grok.com): BotOffice nació sobre Grok Bot; los empleados de tu oficina vienen de tu Grok Bot.
-- [Hermes Agent](https://hermes-agent.nousresearch.com) (Nous Research): cada Bot de Hermes puede ocupar un puesto, y el tablero de tareas lee el Kanban propio de Hermes.
-- [Pixabay](https://pixabay.com): parte de la música y los efectos de sonido de la app proceden de la biblioteca libre de derechos de Pixabay. Gracias a sus creadores.
-- [El pueblo de Bots de mdldm (麦当的 Bot 小镇)](https://www.mdldm.club/grok-bots): algunos prompts de nuestros empleados Bot se inspiraron en Bot Town. Gracias a mdldm por compartirlos.
+BotOffice puede reunir a todos estos empleados de IA en una oficina gracias a estas grandes herramientas (BotOffice solo lee los registros locales que guardan en tu equipo y no tiene ninguna colaboración oficial con estos productos; los nombres y marcas pertenecen a sus dueños):
+
+- [Grok Bot](https://grok.com): donde empezó BotOffice; la sala de grupo, el panel de cuota y el buzón se hicieron para él.
+- [OpenAI Codex](https://openai.com/codex): los chats del CLI, de Codex de escritorio y de Codex en ChatGPT de escritorio pueden ocupar un puesto.
+- [Claude Code](https://claude.com/product/claude-code) (Anthropic): los chats del CLI y de Code en la app de escritorio de Claude pueden ocupar un puesto.
+- [Zhipu ZCode](https://github.com/zai-org/ZCode): un entorno de programación con IA de código abierto; el estado de las tareas y el progreso de pendientes salen de sus registros locales.
+- [Tencent WorkBuddy](https://www.workbuddy.ai): un agente de trabajo de escritorio; cada una de sus tareas aparece en la oficina.
+- [Hermes Agent](https://hermes-agent.nousresearch.com) (Nous Research): cada Bot de Hermes puede ocupar un puesto, y el tablero de tareas también lee el Kanban integrado de Hermes.
+- [Pixabay](https://pixabay.com): parte de la música y los efectos de sonido de la app vienen de la biblioteca libre de derechos de Pixabay; gracias a sus creadores.
+- [Bot Town de Maidang](https://www.mdldm.club/grok-bots): algunos prompts de empleados Bot se inspiraron en Bot Town; gracias a Maidang por compartirlo.
 
 ## Licencia
 
@@ -290,7 +308,7 @@ BotOffice es software de código cerrado y descarga gratuita. Este repositorio s
 
 <p align="center">
   <a href="https://botoffice.ai"><img src="logo.svg" width="40" alt="BotOffice"></a><br>
-  <b>BotOffice · Dale a cada Bot su escritorio</b><br>
+  <b>BotOffice · Un escritorio para cada empleado de IA</b><br>
   <sub><a href="https://botoffice.ai">botoffice.ai</a> · <a href="https://botoffice.ai/talent">Talentos</a> · <a href="https://botoffice.ai/deploy">Decorar la oficina</a> · <a href="https://botoffice.ai/pricing">Planes</a></sub><br>
   <sub>© Chengdu Duoyuan Culture Communication Co., Ltd.</sub>
 </p>
