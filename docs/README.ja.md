@@ -15,6 +15,15 @@
   <img src="screens/office-real.jpg" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
 </p>
 
+> [!IMPORTANT]
+> **BotOffice は Token を一切消費しません。**
+>
+> オフィスにいる Bot 社員は、あなたが自分のパソコンですでに作った Bot や AI プロジェクト（Grok Bot・Codex・Claude Code・ZCode・WorkBuddy・Hermes）です。BotOffice はそれらを同じオフィスに招き入れるだけで、代わりにモデルを呼び出すことはありません。会話はこれまでどおり元のツールで、あなた自身のプランで行われます。
+>
+> **BotOffice の会員登録をしなくても接続できます。** 会員になると、オフィスのテーマと Bot 作成プロンプトがさらに増えます。
+>
+> 💬 受付の黒猫「小黒」とのチャットは任意の機能で、あなた自身のモデルと API Key を使います。
+
 > 🆕 **BotOffice 2.0 は 6 種類の AI 社員に対応しました**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**。
 > 使っているものをつなぐだけ。違うツールの社員も同じオフィスに座れて、状態・メッセージ・タスクボードがひとつの画面で見られます。[対応内容を見る →](#-対応する-ai-社員6-つの出どころがひとつのオフィスに)
 
@@ -232,6 +241,15 @@ BotOffice はあなたのパソコン上で動き、Grok Bot・Codex・Claude Co
 
 **インストール前に**：このパソコンに AI 社員の出どころを少なくとも一つ入れてください。Grok Bot・OpenAI Codex・Claude Code・Zhipu ZCode・Tencent WorkBuddy・Hermes Agent のどれでも（いくつでも）OK で、一度は会話しておいてください。Node.js などの開発ツールは不要です。
 
+> [!WARNING]
+> **Mac で「“BotOffice”は壊れているため開けません」と表示される？**
+>
+> **おすすめは下の「方法 1」で Agent に任せること**：SHA256 チェックサムを確認してから対処してくれるので、そのまま開けます。自分で入れてこの表示が出た場合は：ファイルは壊れていません。まだ Apple の署名がないアプリを macOS が止めています。BotOffice を「アプリケーション」に入れたあと「ターミナル」を開き、次の 1 行を貼り付けて Return を押し、「アプリケーション」で **BotOffice を右クリック → 開く** を選んでください：
+>
+> ```bash
+> xattr -cr /Applications/BotOffice.app
+> ```
+
 ### 方法 1：Agent にインストールしてもらう（おすすめ）
 
 下の文章をあなたの Agent（Grok Bot、Hermes、Claude Code、Codex など）にコピーして送れば、ダウンロード・検証・インストールまでやってくれます。
@@ -245,7 +263,7 @@ BotOffice はあなたのパソコン上で動き、Grok Bot・Codex・Claude Co
    ページにまだインストーラーがなければ、そこで止めて私に教えてください。ほかの場所で探さないでください。
 2. ダウンロード後、同じページの SHA256.txt でチェックサムを確認し、一致しなければファイルを削除して教えてください。
 3. インストール：macOS は BotOffice.app を「アプリケーション」にコピー、Windows は setup.exe を既定の設定で実行。
-4. BotOffice を開いてください。「開発元を検証できません」や SmartScreen の警告が出たら、どこを押せばいいか教えてください。確認は私がします。システムのセキュリティ設定は変更しないでください。
+4. BotOffice を開いてください。macOS で「壊れているため開けません」と出たら、手順 2 のチェックサムが一致した場合に限り `xattr -cr /Applications/BotOffice.app` を実行してダウンロードの隔離フラグを外してください。対象は BotOffice だけにして、システム全体のセキュリティ設定は切らないでください。「開発元を検証できません」や Windows の SmartScreen の警告が出たら、どこを押せばいいか教えてください。確認は私がします。
 5. ログイン時の自動起動や外部からのアクセス許可は、設定する前に私に確認してください。
 6. 終わったら次の手順を教えてください：右上の歯車 → 設定 → オフィス → 取り込み。
 ```
@@ -256,7 +274,7 @@ BotOffice はあなたのパソコン上で動き、Grok Bot・Codex・Claude Co
 
 1. [Releases](https://github.com/PandoraReads/botoffice/releases/latest) を開き、`BotOffice-<バージョン>-mac-arm64.dmg`（Apple シリコン：M1/M2/M3/M4）または `BotOffice-<バージョン>-mac-x64.dmg`（Intel）をダウンロード。どちらかわからない場合は、 → この Mac について の「チップ」を確認してください。
 2. `.dmg` をダブルクリックし、**BotOffice** を「アプリケーション」フォルダへドラッグ。
-3. 初回起動：「アプリケーション」で BotOffice を**右クリック** → 開く → 開く。それでも開けない場合は、システム設定 → プライバシーとセキュリティ の下にある「このまま開く」をクリック。次回からはダブルクリックで開けます。
+3. 初回起動：「アプリケーション」で BotOffice を**右クリック** → 開く → 開く。それでも開けない場合は、システム設定 → プライバシーとセキュリティ の下にある「このまま開く」をクリック。次回からはダブルクリックで開けます。 **「壊れているため開けません」と出たら、上の ⚠️ の方法で解決できます。**
 
 **Windows（Windows 10 以降）**
 
@@ -281,6 +299,7 @@ BotOffice はあなたのパソコン上で動き、Grok Bot・Codex・Claude Co
 
 ## よくある質問
 
+<details open><summary><b>⚠️ Mac で「壊れているため開けません」と出たら？</b></summary><p><b>👍 おすすめは Agent に任せること</b>：上の「方法 1」のプロンプトを自分の Agent（Grok Bot・Hermes・Claude Code・Codex）に送れば、<code>SHA256.txt</code> で確認してから macOS のダウンロード隔離フラグを外してくれます。<br><b>自分で入れた場合は？</b>ファイルは壊れていません。まだ Apple の署名がないアプリを macOS が止めています。BotOffice を「アプリケーション」に入れ、「ターミナル」で <code>xattr -cr /Applications/BotOffice.app</code> を実行してから、BotOffice を右クリック → 開く → 「開く」を押してください。それでも開けないときは、もう一度ダウンロードして Releases ページの <code>SHA256.txt</code> で確認してください。</p></details>
 <details><summary><b>プログラミングは必要？</b></summary><p>いいえ。インストールも取り込みも配置も、画面上で数回クリックするだけです。</p></details>
 <details><summary><b>BotOffice は無料？</b></summary><p>本体は無料で、標準の「オフィス」はずっと使えます。有料なのはテーマ、増築、会員特典です。<a href="https://botoffice.ai/pricing">会員プラン</a>をご覧ください。</p></details>
 <details><summary><b>どの AI 社員に対応していますか？</b></summary><p>Grok Bot・OpenAI Codex・Claude Code・Zhipu ZCode・Tencent WorkBuddy・Hermes Agent です。Codex・Claude Code・ZCode・WorkBuddy はプロジェクトフォルダごとに一人の社員になります。Grok Bot はグループチャットと利用枠も、Hermes は内蔵のタスクボードと token 使用量も見られます。違う出どころの社員も同じオフィスに座れます。Claude デスクトップアプリの通常のチャットと Cowork はクラウドにあるため読み取れません。</p></details>

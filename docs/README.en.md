@@ -15,6 +15,15 @@
   <img src="screens/office-real.jpg" width="100%" alt="A real BotOffice: every Bot at its desk, new-message bubbles and history">
 </p>
 
+> [!IMPORTANT]
+> **BotOffice doesn't use a single token.**
+>
+> The Bot employees in your office are Bots and AI projects you've already created on your own computer (Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes). BotOffice just brings them into one office. It never calls a model for you; conversations still happen in the original tools, on your own plans.
+>
+> **You can connect without a BotOffice membership.** Members unlock more office themes and Bot-creation prompts.
+>
+> 💬 Chatting with Xiaohei, the front-desk cat, is optional and uses your own model and API key.
+
 > 🆕 **BotOffice 2.0 now connects 6 kinds of AI employees**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
 > Connect whichever you use — employees from different sources can share one office, with status, messages, and the task board all on one screen. [See what's supported →](#-supported-ai-employees-6-sources-one-office)
 
@@ -232,6 +241,15 @@ BotOffice runs on your machine and **reads** the local records of Grok Bot, Code
 
 **Before you start**: install at least one AI employee source on this computer — Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy, or Hermes Agent (any combination works) — and chat with it at least once. BotOffice doesn't need Node.js or any developer tools.
 
+> [!WARNING]
+> **Mac says “BotOffice” is damaged and can't be opened?**
+>
+> **Easiest: use Option 1 below and let your agent install it.** It checks the SHA256 checksum first and only then clears this for you, so the app opens right away. Hit it while installing by hand? No worries: the file isn't broken. macOS is blocking an app that isn't Apple-signed yet. After dragging BotOffice into Applications, open Terminal, paste this line and press Return, then **right-click BotOffice → Open** in Applications:
+>
+> ```bash
+> xattr -cr /Applications/BotOffice.app
+> ```
+
 ### Option 1: let your Agent install it (recommended)
 
 Copy this into your own Agent (Grok Bot, Hermes, Claude Code, Codex…) and it will download, verify, and install BotOffice for you:
@@ -245,7 +263,7 @@ Please install BotOffice (a 3D office desktop app for AI employees: Grok Bot, Co
    If there's no installer on that page yet, stop and tell me. Don't look for it anywhere else.
 2. After downloading, check the file against SHA256.txt on the same page. If it doesn't match, delete the file and tell me.
 3. Install: on macOS, copy BotOffice.app into Applications; on Windows, run setup.exe with the default options.
-4. Open BotOffice. If the system says it can't verify the developer, or SmartScreen blocks it, tell me what to click and let me confirm it myself. Don't change my system security settings for me.
+4. Open BotOffice. If macOS says it is damaged and can't be opened: only if the checksum from step 2 matched, run `xattr -cr /Applications/BotOffice.app` to remove the download quarantine flag. Only touch BotOffice; don't turn off system-wide security settings. If it says it can't verify the developer, or Windows SmartScreen blocks it, tell me what to click and let me confirm it myself.
 5. Ask me before turning on launch-at-login or opening access to other devices.
 6. When it's done, tell me the next step: gear icon at the top right → Settings → Office → Import.
 ```
@@ -256,7 +274,7 @@ Please install BotOffice (a 3D office desktop app for AI employees: Grok Bot, Co
 
 1. Open [Releases](https://github.com/PandoraReads/botoffice/releases/latest) and download `BotOffice-<version>-mac-arm64.dmg` (Apple Silicon: M1/M2/M3/M4) or `BotOffice-<version>-mac-x64.dmg` (Intel). Not sure which? Click  → About This Mac and look at "Chip".
 2. Double-click the `.dmg` and drag **BotOffice** into Applications.
-3. First launch: in Applications, **right-click** BotOffice → Open → Open. If macOS still won't open it, go to System Settings → Privacy & Security and click "Open Anyway" near the bottom. After that, a double-click is enough.
+3. First launch: in Applications, **right-click** BotOffice → Open → Open. If macOS still won't open it, go to System Settings → Privacy & Security and click "Open Anyway" near the bottom. After that, a double-click is enough. **If it says the app is damaged, follow the ⚠️ note above.**
 
 **Windows (Windows 10 or later)**
 
@@ -281,6 +299,7 @@ Please install BotOffice (a 3D office desktop app for AI employees: Grok Bot, Co
 
 ## FAQ
 
+<details open><summary><b>⚠️ Mac says BotOffice is damaged and can't be opened. What now?</b></summary><p><b>👍 Easiest: let your agent install it.</b> Send the Option 1 prompt above to your own agent (Grok Bot, Hermes, Claude Code, or Codex). It checks the package against <code>SHA256.txt</code> first and only then clears the macOS download quarantine flag.<br><b>Installing by hand?</b> The file isn't broken; macOS is blocking an app that isn't Apple-signed yet. Drag BotOffice into Applications, open Terminal, paste <code>xattr -cr /Applications/BotOffice.app</code> and press Return. Then right-click BotOffice in Applications → Open, and click Open. Still stuck? Download it again and check it against <code>SHA256.txt</code> on the Releases page.</p></details>
 <details><summary><b>Do I need to code?</b></summary><p>No. Installing, importing, and arranging are all a few clicks in the app.</p></details>
 <details><summary><b>Is BotOffice free?</b></summary><p>The app is free and the default <b>Office</b> look is yours forever. Themes, expansions, and membership perks are paid; see <a href="https://botoffice.ai/pricing">plans</a>.</p></details>
 <details><summary><b>Which AI employees does it support?</b></summary><p>Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy, and Hermes Agent. Codex, Claude Code, ZCode, and WorkBuddy get one employee per project folder; Grok Bot also shows group chats and quota, and Hermes also shows its built-in task board and token usage. Employees from different sources can share one office. Regular chats and Cowork in the Claude desktop app live in the cloud and can't be read.</p></details>

@@ -15,6 +15,15 @@
   <img src="screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
 </p>
 
+> [!IMPORTANT]
+> **BotOffice no gasta ni un solo token.**
+>
+> Los empleados Bot de tu oficina son los Bots y proyectos de IA que ya creaste en tu propio ordenador (Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes). BotOffice solo los reúne en una misma oficina y nunca llama a un modelo por ti; las conversaciones siguen en las herramientas originales, con tus propios planes.
+>
+> **Puedes conectarlos sin ser miembro de BotOffice.** Los miembros desbloquean más temas de oficina y prompts para crear Bots.
+>
+> 💬 Chatear con Xiaohei, la gata de recepción, es opcional y usa tu propio modelo y tu API key.
+
 > 🆕 **BotOffice 2.0 ya conecta 6 tipos de empleados de IA**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
 > Conecta los que uses: empleados de distintas herramientas comparten la misma oficina, con estado, mensajes y tablero de tareas en una sola pantalla. [Ver qué se admite →](#-empleados-de-ia-compatibles-6-fuentes-una-sola-oficina)
 
@@ -232,6 +241,15 @@ BotOffice se ejecuta en tu equipo y **lee** los registros locales de Grok Bot, C
 
 **Antes de empezar**: instala en este equipo al menos una fuente de empleados de IA —Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy o Hermes Agent (puedes combinar varias)— y chatea con ella al menos una vez. BotOffice no necesita Node.js ni herramientas de desarrollo.
 
+> [!WARNING]
+> **¿Tu Mac dice que «BotOffice» está dañado y no se puede abrir?**
+>
+> **Lo más fácil: usa la Opción 1 de abajo y deja que tu Agent lo instale.** Comprueba primero la suma SHA256 y solo entonces lo resuelve, así que la app se abre a la primera. ¿Te pasó instalándolo tú? El archivo no está roto: macOS bloquea una app que aún no tiene firma de Apple. Después de arrastrar BotOffice a Aplicaciones, abre Terminal, pega esta línea, pulsa Intro y luego en Aplicaciones haz **clic derecho en BotOffice → Abrir**:
+>
+> ```bash
+> xattr -cr /Applications/BotOffice.app
+> ```
+
 ### Opción 1: que tu Agent lo instale (recomendado)
 
 Copia esto a tu propio Agent (Grok Bot, Hermes, Claude Code, Codex…) y se encargará de descargar, verificar e instalar BotOffice:
@@ -245,7 +263,7 @@ Instala BotOffice en este equipo (una app de escritorio con una oficina 3D para 
    Si todavía no hay instalador en esa página, detente y avísame. No lo busques en ningún otro sitio.
 2. Tras descargarlo, comprueba el archivo con SHA256.txt de la misma página. Si no coincide, borra el archivo y avísame.
 3. Instala: en macOS, copia BotOffice.app a Aplicaciones; en Windows, ejecuta setup.exe con las opciones por defecto.
-4. Abre BotOffice. Si el sistema dice que no puede verificar al desarrollador o SmartScreen lo bloquea, dime dónde hacer clic y déjame confirmarlo a mí. No cambies mis ajustes de seguridad.
+4. Abre BotOffice. Si macOS dice que está dañado y no se puede abrir: solo si la suma de verificación del paso 2 coincidió, ejecuta `xattr -cr /Applications/BotOffice.app` para quitar la marca de cuarentena de la descarga. Aplícalo solo a BotOffice; no desactives la seguridad del sistema. Si dice que no puede verificar al desarrollador o Windows SmartScreen lo bloquea, dime dónde hacer clic y déjame confirmarlo a mí.
 5. Pregúntame antes de activar el inicio automático o abrir el acceso a otros dispositivos.
 6. Cuando termines, dime el siguiente paso: engranaje arriba a la derecha → Ajustes → Oficina → Importar.
 ```
@@ -256,7 +274,7 @@ Instala BotOffice en este equipo (una app de escritorio con una oficina 3D para 
 
 1. Abre [Releases](https://github.com/PandoraReads/botoffice/releases/latest) y descarga `BotOffice-<versión>-mac-arm64.dmg` (Apple Silicon: M1/M2/M3/M4) o `BotOffice-<versión>-mac-x64.dmg` (Intel). ¿No sabes cuál? Haz clic en  → Acerca de este Mac y mira «Chip».
 2. Haz doble clic en el `.dmg` y arrastra **BotOffice** a Aplicaciones.
-3. Primera vez: en Aplicaciones, haz **clic derecho** en BotOffice → Abrir → Abrir. Si macOS sigue sin abrirlo, ve a Ajustes del Sistema → Privacidad y seguridad y pulsa «Abrir igualmente» abajo. Después, basta con hacer doble clic.
+3. Primera vez: en Aplicaciones, haz **clic derecho** en BotOffice → Abrir → Abrir. Si macOS sigue sin abrirlo, ve a Ajustes del Sistema → Privacidad y seguridad y pulsa «Abrir igualmente» abajo. Después, basta con hacer doble clic. **Si dice que la app está dañada, sigue el aviso ⚠️ de arriba.**
 
 **Windows (Windows 10 o posterior)**
 
@@ -281,6 +299,7 @@ Instala BotOffice en este equipo (una app de escritorio con una oficina 3D para 
 
 ## Preguntas frecuentes
 
+<details open><summary><b>⚠️ Mi Mac dice que BotOffice está dañado y no se puede abrir</b></summary><p><b>👍 Lo más fácil: deja que tu Agent lo instale.</b> Envía el prompt de la Opción 1 a tu propio Agent (Grok Bot, Hermes, Claude Code o Codex). Comprueba el paquete con <code>SHA256.txt</code> y solo entonces quita la marca de cuarentena de macOS.<br><b>¿Lo instalas tú?</b> El archivo no está roto; macOS bloquea una app que aún no tiene firma de Apple. Arrastra BotOffice a Aplicaciones, abre Terminal, pega <code>xattr -cr /Applications/BotOffice.app</code> y pulsa Intro. Luego haz clic derecho en BotOffice → Abrir y pulsa Abrir. ¿Sigue sin abrir? Descárgala de nuevo y compruébala con <code>SHA256.txt</code> en la página de Releases.</p></details>
 <details><summary><b>¿Necesito saber programar?</b></summary><p>No. Instalar, importar y organizar son unos pocos clics en la app.</p></details>
 <details><summary><b>¿BotOffice es gratis?</b></summary><p>La app es gratis y el estilo <b>Oficina</b> es tuyo para siempre. Los temas, las ampliaciones y las ventajas de membresía son de pago; consulta los <a href="https://botoffice.ai/pricing">planes</a>.</p></details>
 <details><summary><b>¿Qué empleados de IA admite?</b></summary><p>Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy y Hermes Agent. Codex, Claude Code, ZCode y WorkBuddy crean un empleado por carpeta de proyecto; Grok Bot muestra además chats de grupo y cuota, y Hermes su tablero de tareas integrado y el uso de tokens. Empleados de distintas fuentes pueden compartir oficina. Los chats normales y Cowork de la app de escritorio de Claude están en la nube y no se pueden leer.</p></details>

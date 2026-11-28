@@ -15,6 +15,15 @@
   <img src="screens/office-real.jpg" width="100%" alt="실제 BotOffice: 직원들이 각자 자리에, 새 메시지 말풍선과 기록">
 </p>
 
+> [!IMPORTANT]
+> **BotOffice는 Token을 전혀 쓰지 않습니다.**
+>
+> 사무실의 Bot 직원은 여러분이 이미 자기 컴퓨터에서 만든 Bot이나 AI 프로젝트(Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes)입니다. BotOffice는 이들을 한 사무실로 모아 줄 뿐, 대신 모델을 호출하지 않습니다. 대화는 원래 도구에서, 여러분의 요금제로 이루어집니다.
+>
+> **BotOffice 회원 가입 없이도 연결할 수 있습니다.** 회원이 되면 더 많은 사무실 테마와 Bot 생성 프롬프트를 쓸 수 있습니다.
+>
+> <sub>프런트의 검은 고양이 「샤오헤이」와의 채팅은 선택 기능이며, 여러분이 직접 넣은 모델과 API Key를 씁니다.</sub>
+
 > 🆕 **BotOffice 2.0은 이제 6종류의 AI 직원을 연결합니다**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
 > 쓰는 것만 연결하면 됩니다. 출처가 다른 직원도 한 사무실에 앉고, 상태·메시지·작업 보드를 한 화면에서 봅니다. [지원 내용 보기 →](#-지원하는-ai-직원-6가지-출처-한-사무실)
 
@@ -232,6 +241,15 @@ BotOffice는 당신의 컴퓨터에서 실행되며, Grok Bot·Codex·Claude Cod
 
 **설치 전에**: 이 컴퓨터에 AI 직원의 출처를 하나 이상 설치하세요. Grok Bot·OpenAI Codex·Claude Code·Zhipu ZCode·Tencent WorkBuddy·Hermes Agent 중 무엇이든(여러 개도 OK), 그리고 한 번 이상 대화해 두세요. Node.js 같은 개발 도구는 필요 없습니다.
 
+> [!WARNING]
+> **Mac에서 「“BotOffice”이(가) 손상되었기 때문에 열 수 없습니다」가 뜨나요?**
+>
+> **아래 「방법 1」로 Agent에게 맡기는 걸 추천해요**: SHA256 체크섬을 먼저 확인한 뒤 처리해 주니 바로 열립니다. 직접 설치하다 이 메시지를 봤다면:파일이 망가진 게 아니라, 아직 Apple 서명이 없는 앱을 macOS가 막은 것입니다. BotOffice를 「응용 프로그램」에 넣은 뒤 「터미널」을 열고 아래 한 줄을 붙여 넣어 Return을 누른 다음, 「응용 프로그램」에서 **BotOffice 우클릭 → 열기**를 누르세요:
+>
+> ```bash
+> xattr -cr /Applications/BotOffice.app
+> ```
+
 ### 방법 1: Agent에게 설치 맡기기 (추천)
 
 아래 내용을 내 Agent(Grok Bot, Hermes, Claude Code, Codex 등)에게 복사해 보내면 다운로드, 검증, 설치까지 알아서 해 줍니다.
@@ -245,7 +263,7 @@ BotOffice는 당신의 컴퓨터에서 실행되며, Grok Bot·Codex·Claude Cod
    페이지에 아직 설치 파일이 없으면 거기서 멈추고 알려 줘. 다른 곳에서 찾지 마.
 2. 다운로드한 뒤 같은 페이지의 SHA256.txt로 체크섬을 확인하고, 맞지 않으면 파일을 지우고 알려 줘.
 3. 설치: macOS는 BotOffice.app을 「응용 프로그램」에 복사하고, Windows는 setup.exe를 기본 옵션으로 실행해.
-4. BotOffice를 열어 줘. 「개발자를 확인할 수 없음」이나 SmartScreen 경고가 뜨면 어디를 눌러야 하는지 알려 주고, 확인은 내가 직접 할게. 시스템 보안 설정은 바꾸지 마.
+4. BotOffice를 열어 줘. macOS가 「손상되었기 때문에 열 수 없습니다」라고 하면, 2단계 체크섬이 맞았을 때만 `xattr -cr /Applications/BotOffice.app` 를 실행해서 다운로드 격리 표시를 지워 줘. BotOffice에만 적용하고 시스템 전체 보안 설정은 끄지 마. 「개발자를 확인할 수 없음」이나 Windows SmartScreen 경고가 뜨면 어디를 눌러야 하는지 알려 주고, 확인은 내가 직접 할게.
 5. 로그인 시 자동 실행이나 외부 접속 허용은 설정하기 전에 나한테 먼저 물어봐.
 6. 다 되면 다음 단계를 알려 줘: 오른쪽 위 톱니바퀴 → 설정 → 사무실 → 가져오기.
 ```
@@ -256,7 +274,7 @@ BotOffice는 당신의 컴퓨터에서 실행되며, Grok Bot·Codex·Claude Cod
 
 1. [Releases](https://github.com/PandoraReads/botoffice/releases/latest)에서 `BotOffice-<버전>-mac-arm64.dmg`(Apple 실리콘: M1/M2/M3/M4) 또는 `BotOffice-<버전>-mac-x64.dmg`(Intel)를 내려받습니다. 어느 쪽인지 모르겠다면  → 이 Mac에 관하여에서 「칩」 항목을 확인하세요.
 2. `.dmg`를 더블클릭하고 **BotOffice**를 「응용 프로그램」 폴더로 드래그합니다.
-3. 처음 실행할 때: 「응용 프로그램」에서 BotOffice를 **오른쪽 클릭** → 열기 → 열기. 그래도 열리지 않으면 시스템 설정 → 개인정보 보호 및 보안 아래쪽의 「그래도 열기」를 누르세요. 다음부터는 더블클릭으로 열립니다.
+3. 처음 실행할 때: 「응용 프로그램」에서 BotOffice를 **오른쪽 클릭** → 열기 → 열기. 그래도 열리지 않으면 시스템 설정 → 개인정보 보호 및 보안 아래쪽의 「그래도 열기」를 누르세요. 다음부터는 더블클릭으로 열립니다. **「손상되었기 때문에 열 수 없습니다」가 뜨면 위의 ⚠️ 안내대로 하세요.**
 
 **Windows (Windows 10 이상)**
 
@@ -281,6 +299,7 @@ BotOffice는 당신의 컴퓨터에서 실행되며, Grok Bot·Codex·Claude Cod
 
 ## 자주 묻는 질문
 
+<details open><summary><b>⚠️ Mac에서 「손상되었기 때문에 열 수 없습니다」가 떠요</b></summary><p><b>👍 Agent에게 맡기는 걸 추천해요</b>: 위 「방법 1」 프롬프트를 내 Agent(Grok Bot, Hermes, Claude Code, Codex)에게 보내면 <code>SHA256.txt</code>로 먼저 확인한 뒤 macOS 다운로드 격리 표시를 지워 줍니다.<br><b>직접 설치했다면?</b> 파일이 망가진 게 아니라, 아직 Apple 서명이 없는 앱을 macOS가 막은 것입니다. BotOffice를 「응용 프로그램」에 넣고 「터미널」에서 <code>xattr -cr /Applications/BotOffice.app</code> 를 실행한 뒤, BotOffice 우클릭 → 열기 → 「열기」를 누르세요. 그래도 안 되면 다시 내려받아 Releases 페이지의 <code>SHA256.txt</code>로 확인하세요.</p></details>
 <details><summary><b>코딩을 할 줄 알아야 하나요?</b></summary><p>아니요. 설치, 가져오기, 배치 모두 화면에서 몇 번 클릭하면 끝납니다.</p></details>
 <details><summary><b>BotOffice는 무료인가요?</b></summary><p>앱은 무료이고 기본 「사무실」 테마는 계속 쓸 수 있습니다. 유료는 테마, 증축, 멤버십 혜택입니다. <a href="https://botoffice.ai/pricing">멤버십</a>을 확인하세요.</p></details>
 <details><summary><b>어떤 AI 직원을 지원하나요?</b></summary><p>Grok Bot, OpenAI Codex, Claude Code, Zhipu ZCode, Tencent WorkBuddy, Hermes Agent입니다. Codex·Claude Code·ZCode·WorkBuddy는 프로젝트 폴더마다 직원 한 명이 됩니다. Grok Bot은 그룹 채팅과 사용량도, Hermes는 내장 작업 보드와 token 사용량도 볼 수 있습니다. 출처가 다른 직원도 한 사무실에 앉을 수 있습니다. Claude 데스크톱 앱의 일반 채팅과 Cowork는 클라우드에 있어 읽을 수 없습니다.</p></details>

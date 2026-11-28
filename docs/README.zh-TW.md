@@ -15,6 +15,15 @@
   <img src="screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
 </p>
 
+> [!IMPORTANT]
+> **BotOffice 不消耗任何 Token。**
+>
+> 辦公室裡的 Bot 員工，都是你已經在自己電腦上建立好的 Bot 或 AI 專案（Grok Bot、Codex、Claude Code、ZCode、WorkBuddy、Hermes）。BotOffice 只是把它們請進同一間辦公室，不替你呼叫模型；對話仍然在原來的工具裡進行，用的是你自己的方案。
+>
+> **不註冊 BotOffice 會員也能接入。** 註冊會員可以解鎖更多辦公室裝修主題和 Bot 建立提示詞。
+>
+> 💬 前台小黑貓的聊天是可選功能，用的是你自己填的模型和 API Key。
+
 > 🆕 **BotOffice 2.0 已支援接入 6 種 AI 員工**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **智譜 ZCode** · 🐱 **騰訊 WorkBuddy** · 🪽 **Hermes Agent**。
 > 裝了哪個就接哪個，不同來源的員工可以坐在同一間辦公室，狀態、訊息、任務看板一屏看完。[看看都支援什麼 →](#-支援的-ai-員工6-種來源坐進同一間辦公室)
 
@@ -230,6 +239,15 @@ BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot、Codex、Claude 
 
 **安裝前**：這台電腦上至少裝好一個 AI 員工的來源：Grok Bot、OpenAI Codex、Claude Code、智譜 ZCode、騰訊 WorkBuddy 或 Hermes Agent（裝幾個都行），並且用它聊過至少一次。BotOffice 不需要另外裝 Node.js 或任何開發工具。
 
+> [!WARNING]
+> **Mac 開啟時提示「“BotOffice”已損毀，無法打開」？**
+>
+> **推薦用下面的「方式一」讓 Agent 幫你裝**：它會先核對 SHA256 校驗值，對得上才替你處理這個提示，裝好直接能打開。自己裝遇到了也不用慌：檔案沒壞，是 macOS 攔下了還沒做 Apple 簽名的 App。把 BotOffice 拖進「應用程式」後，打開「終端機」，貼上下面這行按 Enter，再在「應用程式」裡**右鍵 BotOffice → 打開**：
+>
+> ```bash
+> xattr -cr /Applications/BotOffice.app
+> ```
+
 ### 方式一：讓你的 Agent 幫你裝（推薦）
 
 把下面這段話複製給你自己的 Agent（Grok Bot、Hermes、Claude Code、Codex 都可以），它會幫你下載、核對、安裝：
@@ -243,7 +261,7 @@ BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot、Codex、Claude 
    如果頁面上還沒有安裝包，就停下來告訴我，不要去別的地方找。
 2. 下載後，用同一頁的 SHA256.txt 核對校驗值；對不上就刪掉檔案並告訴我。
 3. 安裝：macOS 把 BotOffice.app 拷進「應用程式」；Windows 執行 setup.exe，按預設選項裝完。
-4. 開啟 BotOffice。如果系統提示「無法驗證開發者」或 SmartScreen 攔截，告訴我該點哪裡，由我自己確認，不要替我修改系統安全設定。
+4. 開啟 BotOffice。macOS 提示「已損毀，無法打開」時：只有第 2 步校驗值對得上，才執行 `xattr -cr /Applications/BotOffice.app` 移除下載隔離標記；只處理 BotOffice，不要關掉系統整體的安全設定。如果提示「無法驗證開發者」或 Windows SmartScreen 攔截，告訴我該點哪裡，由我自己確認。
 5. 開機自啟、對外開放訪問這類設定，先問我再動。
 6. 裝好後告訴我下一步：在辦公室右上角齒輪 → 設定 → 辦公室 → 一鍵匯入。
 ```
@@ -254,7 +272,7 @@ BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot、Codex、Claude 
 
 1. 開啟 [Releases](https://github.com/PandoraReads/botoffice/releases/latest)，下載 `BotOffice-<版本>-mac-arm64.dmg`（Apple 晶片：M1 / M2 / M3 / M4）或 `BotOffice-<版本>-mac-x64.dmg`（Intel 晶片）。不確定是哪種？點螢幕左上角  → 關於本機，看「晶片」那一行。
 2. 雙擊 `.dmg`，把 **BotOffice** 拖進「應用程式」資料夾。
-3. 第一次開啟：在「應用程式」裡**右鍵** BotOffice → 開啟 → 再點「開啟」。如果提示無法開啟，去「系統設定 → 隱私與安全性」，在頁面下方點「仍要開啟」。之後雙擊就能直接開啟。
+3. 第一次開啟：在「應用程式」裡**右鍵** BotOffice → 開啟 → 再點「開啟」。如果提示無法開啟，去「系統設定 → 隱私與安全性」，在頁面下方點「仍要開啟」。之後雙擊就能直接開啟。 **如果提示「已損毀，無法打開」，按上面 ⚠️ 的方法處理。**
 
 **Windows（Windows 10 及以上）**
 
@@ -279,6 +297,7 @@ BotOffice 在你本機執行，**讀取**你電腦上 Grok Bot、Codex、Claude 
 
 ## 常見問題
 
+<details open><summary><b>⚠️ Mac 開啟時提示「已損毀，無法打開」怎麼辦？</b></summary><p><b>👍 推薦讓 Agent 幫你裝</b>：把上面「方式一」的提示詞發給你自己的 Agent（Grok Bot、Hermes、Claude Code、Codex 都行），它會先用 <code>SHA256.txt</code> 核對安裝包，對得上才替你移除 macOS 的下載隔離標記。<br><b>自己裝遇到了？</b>不是檔案壞了，是 macOS 攔下了還沒做 Apple 簽名的 App。先把 BotOffice 拖進「應用程式」，打開「終端機」，貼上 <code>xattr -cr /Applications/BotOffice.app</code> 按 Enter；再在「應用程式」裡右鍵 BotOffice → 打開，點「打開」。還不行就重新下載一次，用 Releases 頁面的 <code>SHA256.txt</code> 核對檔案是否完整。</p></details>
 <details><summary><b>需要會寫程式碼嗎？</b></summary><p>不需要。安裝、匯入、佈置都在介面裡點幾下完成。</p></details>
 <details><summary><b>BotOffice 收費嗎？</b></summary><p>本體免費，預設裝修「辦公室」永久可用。付費的是裝修主題、擴容和會員權益，詳見 <a href="https://botoffice.ai/pricing">會員方案</a>。</p></details>
 <details><summary><b>支援哪些 AI 員工？</b></summary><p>Grok Bot、OpenAI Codex、Claude Code、智譜 ZCode、騰訊 WorkBuddy、Hermes Agent。Codex、Claude Code、ZCode、WorkBuddy 按專案資料夾分員工；Grok Bot 還能看群聊和額度，Hermes 還能看內建的任務看板和 token 用量。不同來源的員工可以坐在同一間辦公室。Claude 桌面版裡的一般聊天和 Cowork 存在雲端，讀不到。</p></details>
