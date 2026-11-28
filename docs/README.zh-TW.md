@@ -15,7 +15,7 @@
   <img src="screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
 </p>
 
-> 🆕 **BotOffice 2.0 已支援接入 6 種 AI 員工**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **智譜 ZCode** · 🐱 **騰訊 WorkBuddy** · 🪽 **Hermes Agent**。
+> 🆕 **BotOffice 2.0 已支援接入 6 種 AI 員工**：<picture><source media="(prefers-color-scheme: dark)" srcset="logos/grok-on-dark.svg"><img src="logos/grok.svg" height="16" alt=""></picture> **Grok Bot** · <img src="logos/codex.svg" height="16" alt=""> **OpenAI Codex** · <img src="logos/claude.svg" height="16" alt=""> **Claude Code** · <img src="logos/zcode.svg" height="16" alt=""> **智譜 ZCode** · 🐱 **騰訊 WorkBuddy** · <img src="logos/hermes.png" height="16" alt=""> **Hermes Agent**。
 > 裝了哪個就接哪個，不同來源的員工可以坐在同一間辦公室，狀態、訊息、任務看板一屏看完。[看看都支援什麼 →](#-支援的-ai-員工6-種來源坐進同一間辦公室)
 
 > [!IMPORTANT]

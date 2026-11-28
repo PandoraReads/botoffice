@@ -15,7 +15,7 @@
   <img src="screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
 </p>
 
-> 🆕 **BotOffice 2.0 ya conecta 6 tipos de empleados de IA**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> 🆕 **BotOffice 2.0 ya conecta 6 tipos de empleados de IA**: <picture><source media="(prefers-color-scheme: dark)" srcset="logos/grok-on-dark.svg"><img src="logos/grok.svg" height="16" alt=""></picture> **Grok Bot** · <img src="logos/codex.svg" height="16" alt=""> **OpenAI Codex** · <img src="logos/claude.svg" height="16" alt=""> **Claude Code** · <img src="logos/zcode.svg" height="16" alt=""> **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · <img src="logos/hermes.png" height="16" alt=""> **Hermes Agent**.
 > Conecta los que uses: empleados de distintas herramientas comparten la misma oficina, con estado, mensajes y tablero de tareas en una sola pantalla. [Ver qué se admite →](#-empleados-de-ia-compatibles-6-fuentes-una-sola-oficina)
 
 > [!IMPORTANT]

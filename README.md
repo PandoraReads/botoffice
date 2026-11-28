@@ -15,7 +15,7 @@
   <img src="docs/screens/office-real.jpg" width="100%" alt="BotOffice 真实办公室：员工各就各位，新消息气泡和历史记录">
 </p>
 
-> 🆕 **BotOffice 2.0 已支持接入 6 种 AI 员工**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **智谱 ZCode** · 🐱 **腾讯 WorkBuddy** · 🪽 **Hermes Agent**。
+> 🆕 **BotOffice 2.0 已支持接入 6 种 AI 员工**：<picture><source media="(prefers-color-scheme: dark)" srcset="docs/logos/grok-on-dark.svg"><img src="docs/logos/grok.svg" height="16" alt=""></picture> **Grok Bot** · <img src="docs/logos/codex.svg" height="16" alt=""> **OpenAI Codex** · <img src="docs/logos/claude.svg" height="16" alt=""> **Claude Code** · <img src="docs/logos/zcode.svg" height="16" alt=""> **智谱 ZCode** · 🐱 **腾讯 WorkBuddy** · <img src="docs/logos/hermes.png" height="16" alt=""> **Hermes Agent**。
 > 装了哪个就接哪个，不同来源的员工可以坐在同一间办公室，状态、消息、任务看板一屏看完。[看看都支持什么 →](#-支持的-ai-员工6-种来源坐进同一间办公室)
 
 > [!IMPORTANT]

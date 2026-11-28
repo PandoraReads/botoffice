@@ -15,7 +15,7 @@
   <img src="screens/office-real.jpg" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
 </p>
 
-> 🆕 **BotOffice 2.0 は 6 種類の AI 社員に対応しました**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**。
+> 🆕 **BotOffice 2.0 は 6 種類の AI 社員に対応しました**：<picture><source media="(prefers-color-scheme: dark)" srcset="logos/grok-on-dark.svg"><img src="logos/grok.svg" height="16" alt=""></picture> **Grok Bot** · <img src="logos/codex.svg" height="16" alt=""> **OpenAI Codex** · <img src="logos/claude.svg" height="16" alt=""> **Claude Code** · <img src="logos/zcode.svg" height="16" alt=""> **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · <img src="logos/hermes.png" height="16" alt=""> **Hermes Agent**。
 > 使っているものをつなぐだけ。違うツールの社員も同じオフィスに座れて、状態・メッセージ・タスクボードがひとつの画面で見られます。[対応内容を見る →](#-対応する-ai-社員6-つの出どころがひとつのオフィスに)
 
 > [!IMPORTANT]

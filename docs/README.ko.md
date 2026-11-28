@@ -15,7 +15,7 @@
   <img src="screens/office-real.jpg" width="100%" alt="실제 BotOffice: 직원들이 각자 자리에, 새 메시지 말풍선과 기록">
 </p>
 
-> 🆕 **BotOffice 2.0은 이제 6종류의 AI 직원을 연결합니다**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> 🆕 **BotOffice 2.0은 이제 6종류의 AI 직원을 연결합니다**: <picture><source media="(prefers-color-scheme: dark)" srcset="logos/grok-on-dark.svg"><img src="logos/grok.svg" height="16" alt=""></picture> **Grok Bot** · <img src="logos/codex.svg" height="16" alt=""> **OpenAI Codex** · <img src="logos/claude.svg" height="16" alt=""> **Claude Code** · <img src="logos/zcode.svg" height="16" alt=""> **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · <img src="logos/hermes.png" height="16" alt=""> **Hermes Agent**.
 > 쓰는 것만 연결하면 됩니다. 출처가 다른 직원도 한 사무실에 앉고, 상태·메시지·작업 보드를 한 화면에서 봅니다. [지원 내용 보기 →](#-지원하는-ai-직원-6가지-출처-한-사무실)
 
 > [!IMPORTANT]

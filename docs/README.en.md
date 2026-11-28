@@ -15,7 +15,7 @@
   <img src="screens/office-real.jpg" width="100%" alt="A real BotOffice: every Bot at its desk, new-message bubbles and history">
 </p>
 
-> 🆕 **BotOffice 2.0 now connects 6 kinds of AI employees**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> 🆕 **BotOffice 2.0 now connects 6 kinds of AI employees**: <picture><source media="(prefers-color-scheme: dark)" srcset="logos/grok-on-dark.svg"><img src="logos/grok.svg" height="16" alt=""></picture> **Grok Bot** · <img src="logos/codex.svg" height="16" alt=""> **OpenAI Codex** · <img src="logos/claude.svg" height="16" alt=""> **Claude Code** · <img src="logos/zcode.svg" height="16" alt=""> **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · <img src="logos/hermes.png" height="16" alt=""> **Hermes Agent**.
 > Connect whichever you use — employees from different sources can share one office, with status, messages, and the task board all on one screen. [See what's supported →](#-supported-ai-employees-6-sources-one-office)
 
 > [!IMPORTANT]
