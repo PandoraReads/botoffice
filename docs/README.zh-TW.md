@@ -15,17 +15,17 @@
   <img src="screens/office-real.jpg" width="100%" alt="BotOffice 真實辦公室：員工各就各位，新訊息氣泡和歷史記錄">
 </p>
 
+> 🆕 **BotOffice 2.0 已支援接入 6 種 AI 員工**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **智譜 ZCode** · 🐱 **騰訊 WorkBuddy** · 🪽 **Hermes Agent**。
+> 裝了哪個就接哪個，不同來源的員工可以坐在同一間辦公室，狀態、訊息、任務看板一屏看完。[看看都支援什麼 →](#-支援的-ai-員工6-種來源坐進同一間辦公室)
+
 > [!IMPORTANT]
-> **BotOffice 不消耗任何 Token。**
+> **BotOffice 不額外消耗任何 Token。**
 >
 > 辦公室裡的 Bot 員工，都是你已經在自己電腦上建立好的 Bot 或 AI 專案（Grok Bot、Codex、Claude Code、ZCode、WorkBuddy、Hermes）。BotOffice 只是把它們請進同一間辦公室，不替你呼叫模型；對話仍然在原來的工具裡進行，用的是你自己的方案。
 >
 > **不註冊 BotOffice 會員也能接入。** 註冊會員可以解鎖更多辦公室裝修主題和 Bot 建立提示詞。
 >
 > 💬 前台小黑貓的聊天是可選功能，用的是你自己填的模型和 API Key。
-
-> 🆕 **BotOffice 2.0 已支援接入 6 種 AI 員工**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **智譜 ZCode** · 🐱 **騰訊 WorkBuddy** · 🪽 **Hermes Agent**。
-> 裝了哪個就接哪個，不同來源的員工可以坐在同一間辦公室，狀態、訊息、任務看板一屏看完。[看看都支援什麼 →](#-支援的-ai-員工6-種來源坐進同一間辦公室)
 
 ---
 

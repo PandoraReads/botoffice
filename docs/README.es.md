@@ -15,17 +15,17 @@
   <img src="screens/office-real.jpg" width="100%" alt="Una BotOffice real: cada Bot en su puesto, avisos de mensajes nuevos e historial">
 </p>
 
+> 🆕 **BotOffice 2.0 ya conecta 6 tipos de empleados de IA**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> Conecta los que uses: empleados de distintas herramientas comparten la misma oficina, con estado, mensajes y tablero de tareas en una sola pantalla. [Ver qué se admite →](#-empleados-de-ia-compatibles-6-fuentes-una-sola-oficina)
+
 > [!IMPORTANT]
-> **BotOffice no gasta ni un solo token.**
+> **BotOffice no gasta ningún token extra.**
 >
 > Los empleados Bot de tu oficina son los Bots y proyectos de IA que ya creaste en tu propio ordenador (Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes). BotOffice solo los reúne en una misma oficina y nunca llama a un modelo por ti; las conversaciones siguen en las herramientas originales, con tus propios planes.
 >
 > **Puedes conectarlos sin ser miembro de BotOffice.** Los miembros desbloquean más temas de oficina y prompts para crear Bots.
 >
 > 💬 Chatear con Xiaohei, la gata de recepción, es opcional y usa tu propio modelo y tu API key.
-
-> 🆕 **BotOffice 2.0 ya conecta 6 tipos de empleados de IA**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
-> Conecta los que uses: empleados de distintas herramientas comparten la misma oficina, con estado, mensajes y tablero de tareas en una sola pantalla. [Ver qué se admite →](#-empleados-de-ia-compatibles-6-fuentes-una-sola-oficina)
 
 <sub>Las capturas muestran la interfaz en chino.</sub>
 

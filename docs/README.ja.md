@@ -15,17 +15,17 @@
   <img src="screens/office-real.jpg" width="100%" alt="実際の BotOffice：社員がそれぞれの席に、新着メッセージと履歴">
 </p>
 
+> 🆕 **BotOffice 2.0 は 6 種類の AI 社員に対応しました**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**。
+> 使っているものをつなぐだけ。違うツールの社員も同じオフィスに座れて、状態・メッセージ・タスクボードがひとつの画面で見られます。[対応内容を見る →](#-対応する-ai-社員6-つの出どころがひとつのオフィスに)
+
 > [!IMPORTANT]
-> **BotOffice は Token を一切消費しません。**
+> **BotOffice が Token を余分に消費することは一切ありません。**
 >
 > オフィスにいる Bot 社員は、あなたが自分のパソコンですでに作った Bot や AI プロジェクト（Grok Bot・Codex・Claude Code・ZCode・WorkBuddy・Hermes）です。BotOffice はそれらを同じオフィスに招き入れるだけで、代わりにモデルを呼び出すことはありません。会話はこれまでどおり元のツールで、あなた自身のプランで行われます。
 >
 > **BotOffice の会員登録をしなくても接続できます。** 会員になると、オフィスのテーマと Bot 作成プロンプトがさらに増えます。
 >
 > 💬 受付の黒猫「小黒」とのチャットは任意の機能で、あなた自身のモデルと API Key を使います。
-
-> 🆕 **BotOffice 2.0 は 6 種類の AI 社員に対応しました**：🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**。
-> 使っているものをつなぐだけ。違うツールの社員も同じオフィスに座れて、状態・メッセージ・タスクボードがひとつの画面で見られます。[対応内容を見る →](#-対応する-ai-社員6-つの出どころがひとつのオフィスに)
 
 <sub>スクリーンショットは中国語版の画面です。</sub>
 

@@ -15,17 +15,17 @@
   <img src="screens/office-real.jpg" width="100%" alt="A real BotOffice: every Bot at its desk, new-message bubbles and history">
 </p>
 
+> 🆕 **BotOffice 2.0 now connects 6 kinds of AI employees**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> Connect whichever you use — employees from different sources can share one office, with status, messages, and the task board all on one screen. [See what's supported →](#-supported-ai-employees-6-sources-one-office)
+
 > [!IMPORTANT]
-> **BotOffice doesn't use a single token.**
+> **BotOffice uses no extra tokens.**
 >
 > The Bot employees in your office are Bots and AI projects you've already created on your own computer (Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes). BotOffice just brings them into one office. It never calls a model for you; conversations still happen in the original tools, on your own plans.
 >
 > **You can connect without a BotOffice membership.** Members unlock more office themes and Bot-creation prompts.
 >
 > 💬 Chatting with Xiaohei, the front-desk cat, is optional and uses your own model and API key.
-
-> 🆕 **BotOffice 2.0 now connects 6 kinds of AI employees**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
-> Connect whichever you use — employees from different sources can share one office, with status, messages, and the task board all on one screen. [See what's supported →](#-supported-ai-employees-6-sources-one-office)
 
 <sub>Screenshots show the Chinese interface.</sub>
 

@@ -15,17 +15,17 @@
   <img src="screens/office-real.jpg" width="100%" alt="실제 BotOffice: 직원들이 각자 자리에, 새 메시지 말풍선과 기록">
 </p>
 
+> 🆕 **BotOffice 2.0은 이제 6종류의 AI 직원을 연결합니다**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
+> 쓰는 것만 연결하면 됩니다. 출처가 다른 직원도 한 사무실에 앉고, 상태·메시지·작업 보드를 한 화면에서 봅니다. [지원 내용 보기 →](#-지원하는-ai-직원-6가지-출처-한-사무실)
+
 > [!IMPORTANT]
-> **BotOffice는 Token을 전혀 쓰지 않습니다.**
+> **BotOffice는 Token을 추가로 전혀 쓰지 않습니다.**
 >
 > 사무실의 Bot 직원은 여러분이 이미 자기 컴퓨터에서 만든 Bot이나 AI 프로젝트(Grok Bot, Codex, Claude Code, ZCode, WorkBuddy, Hermes)입니다. BotOffice는 이들을 한 사무실로 모아 줄 뿐, 대신 모델을 호출하지 않습니다. 대화는 원래 도구에서, 여러분의 요금제로 이루어집니다.
 >
 > **BotOffice 회원 가입 없이도 연결할 수 있습니다.** 회원이 되면 더 많은 사무실 테마와 Bot 생성 프롬프트를 쓸 수 있습니다.
 >
 > <sub>프런트의 검은 고양이 「샤오헤이」와의 채팅은 선택 기능이며, 여러분이 직접 넣은 모델과 API Key를 씁니다.</sub>
-
-> 🆕 **BotOffice 2.0은 이제 6종류의 AI 직원을 연결합니다**: 🤖 **Grok Bot** · `>_` **OpenAI Codex** · 🎓 **Claude Code** · 🕶 **Zhipu ZCode** · 🐱 **Tencent WorkBuddy** · 🪽 **Hermes Agent**.
-> 쓰는 것만 연결하면 됩니다. 출처가 다른 직원도 한 사무실에 앉고, 상태·메시지·작업 보드를 한 화면에서 봅니다. [지원 내용 보기 →](#-지원하는-ai-직원-6가지-출처-한-사무실)
 
 <sub>스크린샷은 중국어 화면입니다.</sub>
 
